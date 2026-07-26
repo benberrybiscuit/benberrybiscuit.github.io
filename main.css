@@ -574,10 +574,7 @@ section.dodge-wave {
   }
 }
 
-ul.services {
-  /* font-size: 0.75em; */
-  /* line-height: 1.75em; */
-}
+
 
 .overlay-icon,
 .overlay-icon p,
@@ -637,9 +634,7 @@ ul.portfolio {
   padding-left: 1em;
 }
 
-ul.portfolio li {
-  /*padding-bottom: 0.25em; */
-}
+
 
 /* || FOOTER */
 .footer-section {

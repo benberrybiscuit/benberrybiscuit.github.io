@@ -14,7 +14,7 @@ Ranade Font Family
 
 @font-face {
   font-family: "Ranade";
-  src: url("/fonts/ranade-light.woff2") format("woff2");
+  src: url("./fonts/ranade-light.woff2") format("woff2");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -22,7 +22,7 @@ Ranade Font Family
 
 @font-face {
   font-family: "Ranade";
-  src: url("/fonts/ranade-regular.woff2") format("woff2");
+  src: url("./fonts/ranade-regular.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -30,7 +30,7 @@ Ranade Font Family
 
 @font-face {
   font-family: "Ranade";
-  src: url("/fonts/ranade-medium.woff2") format("woff2");
+  src: url("./fonts/ranade-medium.woff2") format("woff2");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -38,7 +38,7 @@ Ranade Font Family
 
 @font-face {
   font-family: "Ranade";
-  src: url("/fonts/ranade-bold.woff2") format("woff2");
+  src: url("./fonts/ranade-bold.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -46,8 +46,8 @@ Ranade Font Family
 
 
 /* ============================
-   Excon Font Family
-   ============================ */
+Excon Font Family
+============================ */
 
 /*@font-face {
   font-family: "Excon";
@@ -61,7 +61,7 @@ Ranade Font Family
 
 @font-face {
   font-family: "Excon";
-  src: url("/fonts/excon-thin.woff2") format("woff2");
+  src: url("./fonts/excon-thin.woff2") format("woff2");
   font-weight: 100;
   font-style: normal;
   font-display: swap;
@@ -69,7 +69,7 @@ Ranade Font Family
 
 @font-face {
   font-family: "Excon";
-  src: url("/fonts/excon-light.woff2") format("woff2");
+  src: url("./fonts/excon-light.woff2") format("woff2");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -77,7 +77,7 @@ Ranade Font Family
 
 @font-face {
   font-family: "Excon";
-  src: url("/fonts/excon-regular.woff2") format("woff2");
+  src: url("./fonts/excon-regular.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -85,7 +85,7 @@ Ranade Font Family
 
 @font-face {
   font-family: "Excon";
-  src: url("/fonts/excon-medium.woff2") format("woff2");
+  src: url("./fonts/excon-medium.woff2") format("woff2");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -93,7 +93,7 @@ Ranade Font Family
 
 @font-face {
   font-family: "Excon";
-  src: url("/fonts/excon-bold.woff2") format("woff2");
+  src: url("./fonts/excon-bold.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -101,7 +101,7 @@ Ranade Font Family
 
 @font-face {
   font-family: "Excon";
-  src: url("/fonts/excon-black.woff2") format("woff2");
+  src: url("./fonts/excon-black.woff2") format("woff2");
   font-weight: 900;
   font-style: normal;
   font-display: swap;

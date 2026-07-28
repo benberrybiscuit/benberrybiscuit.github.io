@@ -1,3 +1,112 @@
+/* ============================
+   Ranade Font Family
+   ============================ */
+
+/*@font-face {
+  font-family: "Ranade";
+  src: url("/fonts/ranade-variable.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* If you downloaded individual weights instead of the variable font */
+
+@font-face {
+  font-family: "Ranade";
+  src: url("/fonts/ranade-light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Ranade";
+  src: url("/fonts/ranade-regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Ranade";
+  src: url("/fonts/ranade-medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Ranade";
+  src: url("/fonts/ranade-bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+/* ============================
+   Excon Font Family
+   ============================ */
+
+/*@font-face {
+  font-family: "Excon";
+  src: url("/fonts/excon-variable.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Individual weights if needed */
+
+@font-face {
+  font-family: "Excon";
+  src: url("/fonts/excon-thin.woff2") format("woff2");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Excon";
+  src: url("/fonts/excon-light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Excon";
+  src: url("/fonts/excon-regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Excon";
+  src: url("/fonts/excon-medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Excon";
+  src: url("/fonts/excon-bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Excon";
+  src: url("/fonts/excon-black.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* || GENERAL STYLING */
 body {
   color: #383c47;
@@ -33,8 +142,8 @@ purple      #aa59fb
 }
 
 /* || TYPOGRAPHY */
-h1, 
-h2, 
+h1,
+h2,
 h3,
 h4,
 h5,
@@ -278,6 +387,7 @@ li::marker {
   margin-top: -4em;
   overflow: hidden;
 }
+
 @media (max-width: 575.98px) {
   .hero-container .wave-position {
     margin-left: -0.5em;
@@ -304,6 +414,7 @@ li::marker {
   0% {
     transform: translateX(0);
   }
+
   100% {
     transform: translateX(-100px);
   }
@@ -318,6 +429,7 @@ li::marker {
     0% {
       transform: translateX(0);
     }
+
     100% {
       transform: translateX(-62px);
     }
@@ -540,6 +652,7 @@ section.dodge-wave {
   background-image: url(/images/_stock_mika-baumeister-PtabTe6iJ_8-unsplash_resized.jpg);
   background-color: #0000ff;
 }
+
 @media (max-width: 767.98px) {
   .service-image {
     height: 200px
@@ -550,11 +663,13 @@ section.dodge-wave {
   padding-top: 3em;
   padding-bottom: 2em;
 }
+
 @media (min-width: 768px) {
-  .service-description.order-md-first{
+  .service-description.order-md-first {
     padding-right: 2em;
-}
-  .service-description.order-md-last{
+  }
+
+  .service-description.order-md-last {
     padding-left: 2em;
   }
 }
@@ -567,6 +682,7 @@ section.dodge-wave {
   margin-top: -4em;
   margin-left: -4.5em;
 }
+
 @media (max-width: 767.98px) {
   .service-icon {
     margin-top: -5.5em;

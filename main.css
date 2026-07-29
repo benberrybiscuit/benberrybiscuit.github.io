@@ -205,9 +205,8 @@ p {
   font-size: 1.625em;
   margin-top: 0.5em;
   line-height: 1.375em;
-
-
 }
+
 
 @media (max-width: 575.98px) {
   .p-large {

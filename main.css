@@ -174,14 +174,14 @@ h2 {
   }
 }
 
-h3 {  letter-spacing: 1px;
-
-    text-transform: uppercase;
-
+h3 {
+  font-size: 1.6875em;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 h4 {
-  font-size: 1em;
+  font-size: 1.125em;
   font-weight: 900;
   letter-spacing: 1.5px;
   text-transform: uppercase;
@@ -191,11 +191,13 @@ p {
   font-family: "Ranade", sans-serif;
   font-size: 1em;
   margin-bottom: 0.875em;
+  letter-spacing: -0.25px;
+
 }
 
 .p-small {
   font-size: 0.875em;
-  line-height: 1.375em;
+  line-height: 1.5em;
 }
 
 .p-large {

@@ -107,6 +107,14 @@ Excon Font Family
   font-display: swap;
 }
 
+
+
+
+
+
+
+
+
 /* || GENERAL STYLING */
 body {
   color: #383c47;
@@ -176,8 +184,8 @@ h2 {
 
 h3 {
   font-size: 1.6875em;
-  letter-spacing: 1px;
   text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 h4 {
@@ -190,12 +198,14 @@ h4 {
 p {
   font-family: "Ranade", sans-serif;
   font-size: 1em;
-  margin-bottom: 0.875em;
+  font-weight: 500;
   letter-spacing: -0.25px;
+  margin-bottom: 0.875em;
 
 }
 
 .p-small {
+  font-weight: 400;
   font-size: 0.875em;
   line-height: 1.5em;
 }
@@ -204,7 +214,7 @@ p {
   font-weight: 700;
   font-size: 1.625em;
   margin-top: 0.5em;
-  line-height: 1.375em;
+  line-height: 1.25em;
 }
 
 
@@ -235,6 +245,14 @@ li {
 li::marker {
   color: #ff774e;
 }
+
+
+
+
+
+
+
+
 
 /* || NAVBAR */
 .navbar {
@@ -365,6 +383,14 @@ li::marker {
     color: white;
   }
 }
+
+
+
+
+
+
+
+
 
 /* || HERO IMAGE */
 .hero-container {

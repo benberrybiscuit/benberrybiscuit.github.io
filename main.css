@@ -403,7 +403,8 @@ li::marker {
   overflow: hidden;
 }
 
-/*@media (max-width: 575.98px) {
+/*
+@media (max-width: 575.98px) {
   .hero-container .wave-position {
     margin-left: -0.5em;
     margin-top: -3.75em;
@@ -451,17 +452,6 @@ li::marker {
     }
   }
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -576,7 +566,7 @@ section.dodge-wave {
   /* TESTING was at 100% */
   object-fit: cover;
   -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }

@@ -218,20 +218,12 @@ p {
 }
 
 
-@media (max-width: 575.98px) {
-  .p-large {
-    font-size: 1.5em;
-  }
-}
-
-@media (min-width: 768px) {
-  .paragraphCols {
+.paragraphCols {
     -moz-column-count: 2;
     column-count: 2;
-    -moz-column-gap: 1.75em;
-    column-gap: 1.75em;
+    -moz-column-gap: 0.875em;
+    column-gap: 0.875em;
   }
-}
 
 ul {
   font-family: "Ranade", sans-serif;

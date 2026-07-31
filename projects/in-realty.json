@@ -1,7 +1,7 @@
 {
   "title": "IN Realty",
 
-  "hero": "images/portfolioINRealty_hero.webp",
+  "hero": "../images/portfolioINRealty_hero.webp",
 
   "industry": "Real Estate",
 
@@ -26,7 +26,7 @@
       "heading": "Identity Design",
       "layout": "wide",
       "images": [
-        "./images/portfolioINRealty01.webp"
+        "../images/portfolioINRealty01.webp"
       ],
       "text": [
         "The logotype is built on the foundation of Brandon, introducing subtle customization for a more distinctive presence. A stylized rooftop form with an arched window replaces the “A” in “Realty,” creating a memorable visual cue tied to residential property and reinforcing immediate brand recognition."
@@ -37,8 +37,8 @@
       "heading": "Print & Collateral",
       "layout": "two-tall",
       "images": [
-        "./images/portfolioINRealty02.webp",
-        "./images/portfolioINRealty03.webp"
+        "../images/portfolioINRealty02.webp",
+        "../images/portfolioINRealty03.webp"
       ],
       "text": [
         "A cohesive print system extends the identity across business cards, stationery, and marketing materials. Premium typography, a restrained palette of tonal blues, and editorial-style photography establish trust and refinement, while a custom illustrative pattern introduces energy and movement.",

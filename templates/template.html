@@ -9,7 +9,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <!--My CSS-->
-  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="../main.css">
   <!--Nav Resize On Scroll-->
   <script>
     window.onscroll = function () {
@@ -119,18 +119,15 @@
       <div class="row bleed-container bleed-l">
 
         <div>
-          <img class="gallery-img wide pb-5" src="images/portfolioINRealty_hero.webp">
+          <img class="gallery-img wide pb-5" src="{{hero}}">
         </div>
 
-        <h2>IN&#8239;Realty</h2>
+        <h2>{{title}}</h2>
         <!-- introduction -->
         <div class="col-11 col-sm-7 col-md-8 col-lg-6 col-xl-6 pt-3 pb-3">
-          <p>An independent real estate brokerage serving the Research Triangle region of North Carolina.
-            IN&#8239;Realty delivers a more personal, service-driven approach to buying and selling, supported by a
-            knowledgeable team and in-house expertise across every stage of the process.</p>
+          <p>{{intro}}</p>
           <div class="paragraphCols">
-            <p class="p-small">As a new entrant in a competitive real estate market, IN&#8239;Realty needed a brand that
-              could establish credibility quickly while differentiating itself from larger, more impersonal brokerages.
+            <p class="p-small">{{secondary}}
             </p>
           </div>
         </div>
@@ -140,15 +137,14 @@
           <div class="row ">
             <div class="col pb-4">
               <h4>Industry</h4>
-              <p class="p-small">Real Estate</p>
+              <p class="p-small">{{industry}}</p>
             </div>
 
             <div class="col">
               <h4>Scope</h4>
               <ul class="portfolio">
-                <li>Identity Design</li>
-                <li>Print & Collateral</li>
-                <li>Web Design</li>
+                <li>{{scope}}</li>
+
               </ul>
             </div>
           </div>
@@ -158,16 +154,11 @@
         <div class="row pt-5 ">
           <div class="col-12 col-sm-6 pb-3">
             <h3>Challenge</h3>
-            <p class="p-small">Without an existing brand foundation, the identity needed to do more than look
-              polished—it had to build trust, communicate expertise, and create a distinct presence from day one across
-              both print and digital touchpoints.</p>
+            <p class="p-small">{{challenge}}</p>
           </div>
           <div class="col-12 col-sm-5 pb-3">
             <h3>Approach</h3>
-            <p class="p-small">The goal was to develop a refined, flexible identity system that balances professionalism
-              with personality—positioning IN&#8239;Realty as a modern, boutique alternative while maintaining clarity
-              and
-              consistency across all applications.</p>
+            <p class="p-small">{{approach}}</p>
           </div>
         </div>
 

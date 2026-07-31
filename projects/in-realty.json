@@ -1,0 +1,52 @@
+{
+  "type": "hero",
+  "image": "portfolioINRealty_hero.webp"
+}
+
+
+
+
+{
+  "type": "intro",
+  "title": "IN Realty",
+
+  "intro": "An independent real estate brokerage serving the Research Triangle region of North Carolina. IN Realty delivers a more personal, service-driven approach to buying and selling, supported by a knowledgeable team and in-house expertise across every stage of the process.",
+
+  "secondary": "As a new entrant in a competitive real estate market, IN Realty needed a brand that could establish credibility quickly while differentiating itself from larger, more impersonal brokerages.",
+
+  "industry": "Real Estate",
+
+  "scope": [
+    "Identity Design",
+    "Print & Collateral",
+    "Web Design"
+  ]
+}
+
+
+
+
+{
+  "type": "media",
+
+  "heading": "Identity Design",
+
+  "layout": "wide",
+
+  "side": "right",
+
+  "images": [
+    "portfolioINRealty01.webp"
+  ],
+
+  "text": [
+    "The logotype is built on the foundation of Brandon..."
+  ]
+}
+
+
+{
+  "type": "outcome",
+
+  "text": "The result is a cohesive, elevated brand system..."
+}

@@ -1,100 +1,66 @@
 // hero
 {
-  "type": "hero",
-  "image": "portfolioINRealty_hero.webp"
+    "type": "hero",
+    "image": "portfolioINRealty_hero.webp"
 }
-
-
-
 // intro
 {
-  "type": "intro",
-  "title": "IN Realty",
-
-  "intro": "An independent real estate brokerage serving the Research Triangle region of North Carolina. IN Realty delivers a more personal, service-driven approach to buying and selling, supported by a knowledgeable team and in-house expertise across every stage of the process.",
-
-  "secondary": "As a new entrant in a competitive real estate market, IN Realty needed a brand that could establish credibility quickly while differentiating itself from larger, more impersonal brokerages.",
-
-  "industry": "Real Estate",
-
-  "scope": [
-    "Identity Design",
-    "Print & Collateral",
-    "Web Design"
-  ]
+    "type": "intro",
+    "title": "IN Realty",
+    "intro": "An independent real estate brokerage serving the Research Triangle region of North Carolina. IN Realty delivers a more personal, service-driven approach to buying and selling, supported by a knowledgeable team and in-house expertise across every stage of the process.",
+    "secondary": "As a new entrant in a competitive real estate market, IN Realty needed a brand that could establish credibility quickly while differentiating itself from larger, more impersonal brokerages.",
+    "industry": "Real Estate",
+    "scope": [
+        "Identity Design",
+        "Print & Collateral",
+        "Web Design"
+    ]
 }
-
 // summary
 {
-  "type": "summary",
-
-  "challenge": "Without an existing brand foundation, the identity needed to do more than look polished—it had to build trust...",
-
-  "approach": "The goal was to develop a refined, flexible identity system..."
+    "type": "summary",
+    "challenge": "Without an existing brand foundation, the identity needed to do more than look polished—it had to build trust...",
+    "approach": "The goal was to develop a refined, flexible identity system..."
 }
-
-
 // identity design
 {
-  "type": "media",
-
-  "heading": "Identity Design",
-
-  "layout": "wide",
-
-  "side": "right",
-
-  "images": [
-    "portfolioINRealty01.webp"
-  ],
-
-  "text": [
-    "The logotype is built on the foundation of Brandon..."
-  ]
+    "type": "media",
+    "heading": "Identity Design",
+    "layout": "wide",
+    "side": "right",
+    "images": [
+        "portfolioINRealty01.webp"
+    ],
+    "text": [
+        "The logotype is built on the foundation of Brandon..."
+    ]
 }
-
 // print & collateral
 {
-  "type": "media",
-
-  "heading": "Identity Design",
-
-  "layout": "wide",
-
-  "side": "right",
-
-  "images": [
-    "portfolioINRealty01.webp"
-  ],
-
-  "text": [
-    "The logotype is built on the foundation of Brandon..."
-  ]
+    "type": "media",
+    "heading": "Identity Design",
+    "layout": "wide",
+    "side": "right",
+    "images": [
+        "portfolioINRealty01.webp"
+    ],
+    "text": [
+        "The logotype is built on the foundation of Brandon..."
+    ]
 }
-
 // website
 {
-  "type": "media",
-
-  "heading": "Web Design",
-
-  "layout": "video",
-
-  "side": "right",
-
-  "video": "portfolioINRealty_webscroll.mp4",
-
-  "text": [
-    "The website translates the identity..."
-  ]
+    "type": "media",
+    "heading": "Web Design",
+    "layout": "video",
+    "side": "right",
+    "video": "portfolioINRealty_webscroll.mp4",
+    "text": [
+        "The website translates the identity..."
+    ]
 }
-
-
-
-
 // outcome
 {
-  "type": "outcome",
-
-  "text": "The result is a cohesive, elevated brand system..."
+    "type": "outcome",
+    "text": "The result is a cohesive, elevated brand system..."
 }

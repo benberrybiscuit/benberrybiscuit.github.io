@@ -393,6 +393,14 @@ li::marker {
   overflow: hidden;
 }
 
+.hero-container-sm {
+  background-image: linear-gradient(180deg, #ecf3ff 50%, white 50%);
+  height: clamp(300px, 40vh, 360px);
+  padding-left: 2em;
+  padding-bottom: 4em;
+  overflow: hidden;
+}
+
 /*
 @media (max-width: 575.98px) {
   .hero-container {
@@ -401,6 +409,12 @@ li::marker {
   }
 }
 */
+.hero-container img, 
+.hero-container-sm img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
 .hero-video {
   width: 100%;
@@ -408,14 +422,8 @@ li::marker {
   object-fit: cover;
 }
 
-.hero-container img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
 /* || WAVE PATTERNS */
-.hero-container .wave-position {
+.wave-position {
   margin-left: -1em;
   margin-top: -4em;
   overflow: hidden;

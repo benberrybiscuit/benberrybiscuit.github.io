@@ -446,7 +446,7 @@ li::marker {
 .wave-pattern {
   position: relative;
   height: 120px;
-  background-image: url("waves.svg");
+  background-image: url("images/waves.svg");
   background-size: 100px 120px;
   background-repeat: repeat-x;
   background-position: center;

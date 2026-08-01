@@ -1,7 +1,7 @@
 {
   "title": "IN Realty",
 
-  "hero": "../images/portfolioINRealty_hero.webp",
+  "hero": "./images/portfolioINRealty_hero.webp",
 
   "industry": "Real Estate",
 
@@ -21,8 +21,9 @@
 
   "approach": "The goal was to develop a refined, flexible identity system that balances professionalism with personality—positioning IN Realty as a modern, boutique alternative while maintaining clarity and consistency across all applications.",
 
-  "sections": [
+  "blocks": [
     {
+      "type": "media",
       "heading": "Identity Design",
       "layout": "wide",
       "images": [
@@ -34,6 +35,7 @@
     },
 
     {
+      "type": "media",
       "heading": "Print & Collateral",
       "layout": "two-tall",
       "images": [
@@ -48,6 +50,7 @@
     },
 
     {
+      "type": "media",
       "heading": "Web Design",
       "layout": "video",
       "video": "./images/portfolioINRealty_webscroll.mp4",

@@ -9,7 +9,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <!--My CSS-->
-  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="../main.css">
   <!--Nav Resize On Scroll-->
   <script>
     window.onscroll = function () {
@@ -41,7 +41,7 @@
       <div class="container-fluid">
 
         <!--logo-->
-        <a class="navbar-brand" href="index.html" alt="B-Logo">
+        <a class="navbar-brand" href="../index.html" alt="B-Logo">
           <svg id="Logo" class="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 214 124">
             <path class="logo-btm"
               d="M159.98,39.24c.2,3.89-1.16,7.58-3.83,10.39-2.67,2.81-6.28,4.36-10.15,4.36h-78v16h106c14.89,0,27,12.11,27,27,0,.02,0,.05,0,.07,1.92-3.95,3-8.39,3-13.07,0-16.54-13.46-30-30-30h-1.46c2.51-4.73,3.7-10.06,3.42-15.58-.83-15.93-14.14-28.42-30.31-28.42H8v16h137.65c7.65,0,13.94,5.82,14.33,13.24Z" />
@@ -62,16 +62,16 @@
         <div id="nav-menu" class="collapse navbar-collapse justify-content-end text-center">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
+              <a class="nav-link" href="../index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Work</a>
+              <a class="nav-link" href="../portfolio.html">Work</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="services.html">Services</a>
+              <a class="nav-link" href="../services.html">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
+              <a class="nav-link" href="../contact.html">Contact</a>
             </li>
           </ul>
         </div>
@@ -80,7 +80,10 @@
 
     <!--hero image and wave-->
     <div class="hero-container-sm">
-      <img class="hero-image" src="../images/portfolioINRealty_hero.webp" class="img-fluid">
+      <!--<img src="../images/hero-image.png" class="img-fluid ">-->
+      <img class="hero-image" src="<div>
+    <img class="gallery-img wide pb-5" src="./images/portfolioINRealty_hero.webp">
+</div>" class="img-fluid">
       <div class="wave-position">
         <div class="wave-pattern"></div>
       </div>
@@ -118,30 +121,134 @@
           <div class="container">
             <div class="row bleed-container bleed-l">
 
-              ../images/portfolioINRealty_hero.webp
+              {{hero}}
 
-              {{intro}}
+              <h2>IN Realty</h2>
 
-              {{summary}}
+<div class="col-11 col-sm-7 col-md-8 col-lg-6 col-xl-6 pt-3 pb-3">
 
-              {{sections}}
+    <p>An independent real estate brokerage serving the Research Triangle region of North Carolina. IN Realty delivers a more personal, service-driven approach to buying and selling, supported by a knowledgeable team and in-house expertise across every stage of the process.</p>
 
-              The result is a cohesive, elevated brand system that establishes IN Realty as a credible and differentiated presence from launch—supporting growth across print, digital, and local outreach.
+    <div class="paragraphCols">
+        <p class="p-small">As a new entrant in a competitive real estate market, IN Realty needed a brand that could establish credibility quickly while differentiating itself from larger, more impersonal brokerages.</p>
+    </div>
+
+</div>
+
+<div class="col-11 col-sm-4 col-md-3 col-lg-6 col-xl-6 pt-3 pb-3">
+
+    <div class="row">
+
+        <div class="col pb-4">
+            <h4>Industry</h4>
+            <p class="p-small">Real Estate</p>
+        </div>
+
+        <div class="col">
+            <h4>Scope</h4>
+
+            <ul class="portfolio">
+                <li>Identity Design</li><li>Print & Collateral</li><li>Web Design</li>
+            </ul>
+
+        </div>
+
+    </div>
+
+</div>
+
+              <div class="row pt-5">
+
+    <div class="col-12 col-sm-6 pb-3">
+
+        <h3>Challenge</h3>
+
+        <p class="p-small">
+            Without an existing brand foundation, the identity needed to do more than look polished—it had to build trust, communicate expertise, and create a distinct presence from day one across both print and digital touchpoints.
+        </p>
+
+    </div>
+
+    <div class="col-12 col-sm-5 pb-3">
+
+        <h3>Approach</h3>
+
+        <p class="p-small">
+            The goal was to develop a refined, flexible identity system that balances professionalism with personality—positioning IN Realty as a modern, boutique alternative while maintaining clarity and consistency across all applications.
+        </p>
+
+    </div>
+
+</div>
+
+              <div class="row pe-0 pt-5">
+    <div class="col-12 col-md-7 order-first order-md-last offset-md-1 pe-0">
+        
+        <div class="gallery-grid pb-3"><img class="gallery-img wide" src="../images/portfolioINRealty01.webp"></div>
+    
+    </div>
+    
+    <div class="col-11 col-md-4 order-last order-md-first">
+
+        <h4>Identity Design</h4>
+
+        <p class="p-small">The logotype is built on the foundation of Brandon, introducing subtle customization for a more distinctive presence. A stylized rooftop form with an arched window replaces the “A” in “Realty,” creating a memorable visual cue tied to residential property and reinforcing immediate brand recognition.</p>
+
+    </div>
+
+</div><div class="row pe-0 pt-5">
+    <div class="col-12 col-md-7 order-first order-md-last offset-md-1 pe-0">
+        
+        <div class="gallery-grid pb-3"><img class="gallery-img two-tall" src="../images/portfolioINRealty02.webp"><img class="gallery-img two-tall" src="../images/portfolioINRealty03.webp"></div>
+    
+    </div>
+    
+    <div class="col-11 col-md-4 order-last order-md-first">
+
+        <h4>Print & Collateral</h4>
+
+        <p class="p-small">A cohesive print system extends the identity across business cards, stationery, and marketing materials. Premium typography, a restrained palette of tonal blues, and editorial-style photography establish trust and refinement, while a custom illustrative pattern introduces energy and movement.<br><br>A targeted direct mail campaign was developed to support local outreach, translating the identity into a format designed for visibility and engagement.</p>
+
+    </div>
+
+</div><div class="row pe-0 pt-5">
+    <div class="col-12 col-md-7 order-first order-md-last offset-md-1 pe-0">
+        
+        <div class="gallery-grid pb-3"></div>
+    
+    </div>
+    
+    <div class="col-11 col-md-4 order-last order-md-first">
+
+        <h4>Web Design</h4>
+
+        <p class="p-small">The website translates the identity into a clean, intuitive digital experience. High-fidelity mockups define structure, hierarchy, and tone, with a focus on navigation and footer systems to create a cohesive and user-friendly platform.</p>
+
+    </div>
+
+</div>
+
+              <div class="row pe-0 pt-5">
+    <div class="col-11 col-sm-7 col-md-8 col-lg-6 col-xl-6  pb-3">
+        <h3>Outcome</h3>
+        <p>The result is a cohesive, elevated brand system that establishes IN Realty as a credible and differentiated presence from launch—supporting growth across print, digital, and local outreach.</p>
+    </div>
+</div>
 
             </div>
           </div>
         </div>
         
         <div>
-          <img class="gallery-img wide pb-5" src="../images/portfolioINRealty_hero.webp">
+          <img class="gallery-img wide pb-5" src="{{hero}}">
         </div>
 
-        <h2>IN Realty</h2>
+        <h2>{{title}}</h2>
         <!-- introduction -->
         <div class="col-11 col-sm-7 col-md-8 col-lg-6 col-xl-6 pt-3 pb-3">
-          <p>An independent real estate brokerage serving the Research Triangle region of North Carolina. IN Realty delivers a more personal, service-driven approach to buying and selling, supported by a knowledgeable team and in-house expertise across every stage of the process.</p>
+          <p>{{intro-primary}}</p>
           <div class="paragraphCols">
-            <p class="p-small">As a new entrant in a competitive real estate market, IN Realty needed a brand that could establish credibility quickly while differentiating itself from larger, more impersonal brokerages.
+            <p class="p-small">{{intro-secondary}}
             </p>
           </div>
         </div>
@@ -151,13 +258,13 @@
           <div class="row ">
             <div class="col pb-4">
               <h4>Industry</h4>
-              <p class="p-small">Real Estate</p>
+              <p class="p-small">{{industry}}</p>
             </div>
 
             <div class="col">
               <h4>Scope</h4>
               <ul class="portfolio">
-                <li><li>Identity Design</li><li>Print & Collateral</li><li>Web Design</li></li>
+                <li>{{scope}}</li>
 
               </ul>
             </div>
@@ -168,11 +275,11 @@
         <div class="row pt-5 ">
           <div class="col-12 col-sm-6 pb-3">
             <h3>Challenge</h3>
-            <p class="p-small">Without an existing brand foundation, the identity needed to do more than look polished—it had to build trust, communicate expertise, and create a distinct presence from day one across both print and digital touchpoints.</p>
+            <p class="p-small">{{challenge}}</p>
           </div>
           <div class="col-12 col-sm-5 pb-3">
             <h3>Approach</h3>
-            <p class="p-small">The goal was to develop a refined, flexible identity system that balances professionalism with personality—positioning IN Realty as a modern, boutique alternative while maintaining clarity and consistency across all applications.</p>
+            <p class="p-small">{{approach}}</p>
           </div>
         </div>
 
@@ -233,7 +340,7 @@
         <div class="row pe-0 pt-5">
           <div class="col-11 col-sm-7 col-md-8 col-lg-6 col-xl-6  pb-3">
             <h3>Outcome</h3>
-            <p>The result is a cohesive, elevated brand system that establishes IN Realty as a credible and differentiated presence from launch—supporting growth across print, digital, and local outreach.</p>
+            <p>{{outcome}}</p>
           </div>
         </div>
       </div>
@@ -261,14 +368,14 @@
 
         <div class="col-md-7 footer-col">
           <!-- logo -->
-          <a href="index.html">
+          <a href="../index.html">
             <span class="logo-text-footer">Ben Littleton // Creative Design</span>
           </a>
           <!-- links -->
           <ul class="footer-links">
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="../services.html">Services</a></li>
+            <li><a href="../portfolio.html">Portfolio</a></li>
+            <li><a href="../contact.html">Contact</a></li>
           </ul>
           <!-- contact -->
           <div class="footer-phone">
@@ -286,7 +393,7 @@
           </p>
           <!-- button -->
           <div class="btn-parent-footer">
-            <a class="btn-footer arrow-lg-footer" href="#">
+            <a class="btn-footer arrow-lg-footer" href="../#">
               <div class="btn-link-footer">Meet Up</div>
             </a>
           </div>

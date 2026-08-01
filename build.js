@@ -109,61 +109,36 @@ function renderBlocks(project) {
 
     project.blocks.forEach(block => {
 
-
-        switch (block.type) {
-
-
-            case "media":
-
-                let template = loadTemplate("media");
+        if (block.type !== "media") {
+            return;
+        }
 
 
-                let media = "";
+        switch (block.layout) {
 
-                if (block.layout === "video") {
+            case "wide":
 
-                    media = `
-                    <video class="gallery-img wide" autoplay playsinline muted loop>
-                        <source src="${block.video}" type="video/mp4">
-                    </video>
-                    `;
-
-                } else {
-
-                    media = block.images
-                        ?.map(image =>
-                            `<img class="gallery-img ${block.layout}" src="${image}">`
-                        )
-                        .join("")
-                        || "";
-
-                }
+                output += renderWide(block);
+                break;
 
 
-                output += fill(template, {
+            case "two-tall":
 
-                    heading:
-                        block.heading,
-
-                    media,
-
-                    text:
-                        block.text.join("<br><br>")
-
-                });
+                output += renderTwoTall(block);
+                break;
 
 
+            case "video":
+
+                output += renderVideo(block);
                 break;
 
 
             default:
 
-                console.log(
-                    `Unknown block type: ${block.type}`
-                );
+                console.log(`Unknown layout: ${block.layout}`);
 
         }
-
 
     });
 
@@ -173,9 +148,93 @@ function renderBlocks(project) {
 }
 
 
+
 // ----------------------------
-// Render Outcome
+// Wide image renderer
 // ----------------------------
+function renderWide(block) {
+
+    let template = loadTemplate("media");
+
+
+    const media = `
+    <img class="gallery-img wide" src="${block.images[0]}">
+    `;
+
+
+    return fill(template, {
+
+        heading: block.heading,
+
+        media,
+
+        text: block.text.join("<br><br>")
+
+    });
+
+}
+
+
+
+// ----------------------------
+// Two tall image renderer
+// ----------------------------
+function renderTwoTall(block) {
+
+    let template = loadTemplate("media");
+
+
+    const media = block.images
+        .map(image =>
+            `<img class="gallery-img tall" src="${image}">`
+        )
+        .join("");
+
+
+    return fill(template, {
+
+        heading: block.heading,
+
+        media,
+
+        text: block.text.join("<br><br>")
+
+    });
+
+}
+
+
+
+// ----------------------------
+// Video renderer
+// ----------------------------
+function renderVideo(block) {
+
+    let template = loadTemplate("media");
+
+
+    const media = `
+    <video class="gallery-img wide" autoplay playsinline muted loop>
+      <source src="${block.video}" type="video/mp4">
+    </video>
+  `;
+
+
+    return fill(template, {
+
+        heading: block.heading,
+
+        media,
+
+        text: block.text.join("<br><br>")
+
+    });
+
+}
+
+
+
+
 
 function renderOutcome(project) {
 

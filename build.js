@@ -107,8 +107,6 @@ function renderBlocks(project) {
 
     let output = "";
 
-    console.log(project);
-
     project.blocks.forEach(block => {
 
 

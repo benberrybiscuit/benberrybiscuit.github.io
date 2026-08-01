@@ -120,12 +120,26 @@ function renderBlocks(project) {
                 let template = loadTemplate("media");
 
 
-                const images = block.images
-                    ?.map(image =>
-                        `<img class="gallery-img ${block.layout}" src="${image}">`
-                    )
-                    .join("")
-                    || "";
+                let media = "";
+
+                if (block.layout === "video") {
+
+                    media = `
+                    <video class="gallery-img wide" autoplay playsinline muted loop>
+                        <source src="${block.video}" type="video/mp4">
+                    </video>
+                    `;
+
+                } else {
+
+                    media = block.images
+                        ?.map(image =>
+                            `<img class="gallery-img ${block.layout}" src="${image}">`
+                        )
+                        .join("")
+                        || "";
+
+                }
 
 
                 output += fill(template, {
@@ -133,7 +147,7 @@ function renderBlocks(project) {
                     heading:
                         block.heading,
 
-                    images,
+                    media,
 
                     text:
                         block.text.join("<br><br>")

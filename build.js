@@ -43,7 +43,7 @@ html = html.replace(
 
 // Save output
 fs.writeFileSync(
-    "output/in-realty.html",
+    "portfolio/in-realty.html",
     html
 );
 

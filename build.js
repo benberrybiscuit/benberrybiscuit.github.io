@@ -1,7 +1,7 @@
 const fs = require("fs");
 
 // Load template
-const template = fs.readFileSync("template.html", "utf8");
+const template = fs.readFileSync("page.html", "utf8");
 
 // Load project data
 const project = JSON.parse(

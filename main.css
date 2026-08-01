@@ -219,11 +219,11 @@ p {
 
 
 .paragraphCols {
-    -moz-column-count: 2;
-    column-count: 2;
-    -moz-column-gap: 0.875em;
-    column-gap: 0.875em;
-  }
+  -moz-column-count: 2;
+  column-count: 2;
+  -moz-column-gap: 0.875em;
+  column-gap: 0.875em;
+}
 
 ul {
   font-family: "Ranade", sans-serif;
@@ -409,7 +409,7 @@ li::marker {
   }
 }
 */
-.hero-container img, 
+.hero-container img,
 .hero-container-sm img {
   width: 100%;
   height: 100%;

@@ -41,6 +41,18 @@ html = html.replace(
 );
 
 
+
+
+let sectionsHTML = "";
+project.sections.forEach(section => {
+    // Generate HTML for this section
+});
+
+html = html.replace("{{contentBlocks}}", sectionsHTML);
+
+
+
+
 // Save output
 fs.writeFileSync(
     "portfolio/in-realty.html",

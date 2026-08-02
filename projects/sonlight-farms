@@ -24,19 +24,33 @@
         "The logo combines a custom illustration with a bespoke wordmark lockup to create an identity that is both distinctive and inviting. The illustration reflects the farm's character and seasonal appeal, while the typography complements it with a handcrafted feel that reinforces authenticity and approachability."
       ]
     },
-    {
-      "type": "media",
-      "heading": "Identity Details",
-      "layout": "two-tall",
-      "images": [
-        "../images/portfolioSonlightFarms02.webp",
-        "../images/portfolioSonlightFarms03.webp"
-      ],
-      "text": [
-        "The mark was designed to maintain clarity and recognition across a variety of uses, from roadside signage and apparel to printed materials and digital platforms.",
-        "Together, the illustration and custom wordmark establish a memorable visual identity that reflects the welcoming experience visitors can expect at Sonlight Farms."
-      ]
-    }
+{
+  "type": "media",
+  "heading": "Identity Details",
+  "layout": "two-tall",
+  "images": [
+    "../images/portfolioSonlightFarms02.webp",
+    "../images/portfolioSonlightFarms03.webp"
   ],
+  "text": [
+    "The mark was designed to maintain clarity and recognition across a variety of uses, from roadside signage and apparel to printed materials and digital platforms.",
+    "Together, the illustration and custom wordmark establish a memorable visual identity that reflects the welcoming experience visitors can expect at Sonlight Farms."
+  ]
+},
+{
+  "type": "media",
+  "layout": "wide",
+  "images": [
+    "../images/portfolioSonlightFarms04.webp"
+  ]
+},
+{
+  "type": "media",
+  "layout": "two-tall",
+  "images": [
+    "../images/portfolioSonlightFarms05.webp",
+    "../images/portfolioSonlightFarms06.webp"
+  ]
+}
   "outcome": "The finished identity gives Sonlight Farms a memorable and versatile brand presence that celebrates its unique character while supporting recognition across seasonal promotions, on-site experiences, and future brand applications."
 }

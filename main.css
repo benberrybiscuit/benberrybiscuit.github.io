@@ -195,8 +195,7 @@ h4 {
   text-transform: uppercase;
 }
 
-p,
-a {
+p{
   font-family: "Ranade", sans-serif;
   font-size: 1em;
   font-weight: 500;
@@ -604,7 +603,7 @@ section.dodge-wave {
 }
 
 .feature-item {
-  padding: 0.5em 0em 1em 1em;
+  padding: 1em 0.5em 3em 1em;
   margin-right: 1em;
   /* match feature-image margin */
 }

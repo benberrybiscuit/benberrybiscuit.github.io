@@ -226,13 +226,11 @@ function renderVideo(block) {
 
     return fill(template, {
 
-        heading: block.heading || "",
+        heading: block.heading,
 
         media,
 
         text: (block.text || []).join("<br><br>")
-
-        spacing: block.heading ? "pt-2" : ""
 
     });
 

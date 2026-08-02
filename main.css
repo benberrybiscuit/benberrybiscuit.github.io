@@ -274,15 +274,13 @@ li::marker {
 }
 
 
-
-
-
-
 @media (max-width: 575.98px) {
   .logo-text {
+    font-size: 0.75em;
     display: none;
   }
 }
+  
 
 /* hamburger container */
 .navbar-toggler {
@@ -1115,29 +1113,35 @@ img.tall {
 #Logo {
     overflow: visible;
 }
-.logo {
-    overflow: hidden;
-}
-.logo .b-right {
-  transition: transform 0.2s ease-in-out;
-  transform-box: fill-box;
-  transform-origin: left;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+
+/* Text animation */
+.logo-text {
+    transition: 
+        color transition: transform 0.45s cubic-bezier(.22, 1, .36, 1),
+        letter-spacing transition: transform 0.45s cubic-bezier(.22, 1, .36, 1),
+        padding-left transition: transform 0.45s cubic-bezier(.22, 1, .36, 1);
 }
 
-.navbar-brand:hover {
-  .logo-text {
+/* Hover / tap / page-load state */
+.navbar-brand:hover .logo-text,
+.navbar-brand:active .logo-text,
+.navbar-brand.logo-animate .logo-text {
     color: #aa59fb;
     letter-spacing: .75px;
     padding-left: 0.75em;
-  }
-  /* Moves the group 8 pixels to the right on hover */
-  .logo .b-right {
-    transform: translateX(36px) !important;
-    transform-origin: left;
-  }
+}
 
+
+/* Block animation */
+.logo .b-right {
+    transition: transform 0.45s cubic-bezier(.22, 1, .36, 1);
+    transform-box: fill-box;
+    transform-origin: left center;
+    will-change: transform;
+}
+
+.navbar-brand:hover .logo .b-right,
+.navbar-brand:active .logo .b-right,
+.navbar-brand.logo-animate .logo .b-right {
+    transform: translateX(36px);
 }

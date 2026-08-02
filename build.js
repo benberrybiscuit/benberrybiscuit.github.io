@@ -168,7 +168,7 @@ function renderWide(block) {
 
         media,
 
-        text: (block.text || []).join("<br><br>")
+        text: block.text.join("<br><br>")
 
     });
 
@@ -215,9 +215,9 @@ function renderVideo(block) {
 
     const media = `
     <video class="gallery-img wide" autoplay playsinline muted loop>
-      <source src="${block.video}" type="video/mp4">
+    <source src="${block.video}" type="video/mp4">
     </video>
-  `;
+    `;
 
 
     return fill(template, {

@@ -195,7 +195,7 @@ h4 {
   text-transform: uppercase;
 }
 
-p{
+p {
   font-family: "Ranade", sans-serif;
   font-size: 1em;
   font-weight: 500;
@@ -275,16 +275,20 @@ li::marker {
 }
 
 .navbar-brand:hover {
-  .logo {
+
+  /*  .logo {
     fill: #aa59fb;
     transform: scale(1.1);
   }
-
+*/
   .logo-text {
     color: #aa59fb;
     letter-spacing: 2px;
   }
 }
+
+
+
 
 @media (max-width: 575.98px) {
   .logo-text {
@@ -1016,13 +1020,15 @@ a.btn {
 }
 
 /* || SMALL BUTTON */
-.arrow-sm {  color: #ff774e;
+.arrow-sm {
+  color: #ff774e;
   font-family: "Ranade", sans-serif;
   font-size: 1em;
   font-weight: 700;
   text-decoration: none;
   line-height: 0;
 }
+
 /* small button carrot > */
 .arrow-sm::after {
   font-family: "Excon", sans-serif;
@@ -1110,4 +1116,29 @@ img.tall {
     margin-left: -0.5em;
     margin-top: -3.75em;
   }
+}
+
+
+
+
+
+
+/* Smooth animation configuration */
+.logo .b-right {
+  transition: transform 0.2s ease-in-out;
+  transform-box: fill-box;
+  transform-origin: left;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Moves the group 8 pixels to the right on hover */
+.logo:hover .b-right {
+  transform: translateX(32px) !important;
+}
+
+#Logo{
+  width: 35%;
 }

@@ -26,6 +26,7 @@
     },
     {
       "type": "media",
+      "heading": "Identity Details",
       "layout": "wide",
       "images": [
         "../images/portfolioSonlightFarms02.jpg"
@@ -37,7 +38,6 @@
     },
     {
       "type": "media",
-      "heading": "Identity Details",
       "layout": "two-tall",
       "images": [
         "../images/portfolioSonlightFarms03.jpg",

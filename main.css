@@ -250,8 +250,38 @@ li::marker {
 .navbar {
   /*padding: 1em 0em; /* match growShrinkLogo else */
   background-color: #ecf3ff;
-  transition: all 0.3s ease;
 }
+
+
+
+
+/* Smooth logo hover animation configuration */
+#Logo {
+  overflow: visible;
+}
+/* Hover / tap / page-load state */
+.navbar-brand:hover .logo-text,
+.navbar-brand:active .logo-text,
+.navbar-brand.logo-animate .logo-text {
+  color: #aa59fb;
+  letter-spacing: .75px;
+  padding-left: 0.75em;
+}
+/* Block animation */
+.logo .b-right {
+  transition: transform 0.3s cubic-bezier(.22, 1, .36, 1);
+  transform-box: fill-box;
+  transform-origin: left center;
+  will-change: transform;
+}
+.navbar-brand:hover .logo .b-right,
+.navbar-brand:active .logo .b-right,
+.navbar-brand.logo-animate .logo .b-right {
+  transform: translateX(36px);
+}
+
+
+
 
 .logo {
   fill: #ff774e;
@@ -267,10 +297,7 @@ li::marker {
   font-family: "Ranade", sans-serif;
   font-weight: 700;
   color: #383c47;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.6s cubic-bezier(.22, 1, .36, 1);
 }
 
 
@@ -280,7 +307,7 @@ li::marker {
     display: none;
   }
 }
-  
+
 
 /* hamburger container */
 .navbar-toggler {
@@ -1109,39 +1136,3 @@ img.tall {
 
 
 
-/* Smooth animation configuration */
-#Logo {
-    overflow: visible;
-}
-
-/* Text animation */
-.logo-text {
-    transition: 
-        color transition: transform 0.45s cubic-bezier(.22, 1, .36, 1),
-        letter-spacing transition: transform 0.45s cubic-bezier(.22, 1, .36, 1),
-        padding-left transition: transform 0.45s cubic-bezier(.22, 1, .36, 1);
-}
-
-/* Hover / tap / page-load state */
-.navbar-brand:hover .logo-text,
-.navbar-brand:active .logo-text,
-.navbar-brand.logo-animate .logo-text {
-    color: #aa59fb;
-    letter-spacing: .75px;
-    padding-left: 0.75em;
-}
-
-
-/* Block animation */
-.logo .b-right {
-    transition: transform 0.45s cubic-bezier(.22, 1, .36, 1);
-    transform-box: fill-box;
-    transform-origin: left center;
-    will-change: transform;
-}
-
-.navbar-brand:hover .logo .b-right,
-.navbar-brand:active .logo .b-right,
-.navbar-brand.logo-animate .logo .b-right {
-    transform: translateX(36px);
-}

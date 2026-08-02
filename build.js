@@ -170,7 +170,7 @@ function renderWide(block) {
 
         text: (block.text || []).join("<br><br>"),
 
-        spacing: block.heading ? "pt-5" : "pt-0"
+        spacing: block.heading ? "pt-2" : ""
 
     });
 
@@ -201,7 +201,7 @@ function renderTwoTall(block) {
 
         text: (block.text || []).join("<br><br>"),
 
-        spacing: block.heading ? "pt-5" : "pt-0"
+        spacing: block.heading ? "pt-2" : ""
 
     });
 
@@ -226,11 +226,13 @@ function renderVideo(block) {
 
     return fill(template, {
 
-        heading: block.heading,
+        heading: block.heading || "",
 
         media,
 
         text: (block.text || []).join("<br><br>")
+
+        spacing: block.heading ? "pt-2" : ""
 
     });
 

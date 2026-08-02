@@ -168,7 +168,7 @@ function renderWide(block) {
 
         media,
 
-        text: block.text.join("<br><br>")
+        text: (block.text || []).join("<br><br>")
 
     });
 
@@ -197,7 +197,7 @@ function renderTwoTall(block) {
 
         media,
 
-        text: block.text.join("<br><br>")
+        text: (block.text || []).join("<br><br>")
 
     });
 
@@ -226,7 +226,7 @@ function renderVideo(block) {
 
         media,
 
-        text: block.text.join("<br><br>")
+        text: (block.text || []).join("<br><br>")
 
     });
 

@@ -195,7 +195,8 @@ h4 {
   text-transform: uppercase;
 }
 
-p {
+p,
+a {
   font-family: "Ranade", sans-serif;
   font-size: 1em;
   font-weight: 500;
@@ -608,6 +609,14 @@ section.dodge-wave {
   /* match feature-image margin */
 }
 
+.feature-item a {
+  color: #ff774e;
+  font-weight: 500;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+
 .feature-button-container {
   font-family: "Excon", sans-serif;
   position: relative;
@@ -1008,20 +1017,18 @@ a.btn {
 }
 
 /* || SMALL BUTTON */
-/* small button text */
-.arrow-sm a {
-  color: #ff774e;
+.arrow-sm {  color: #ff774e;
   font-family: "Ranade", sans-serif;
   font-size: 1em;
   font-weight: 700;
   text-decoration: none;
   line-height: 0;
 }
-
 /* small button carrot > */
 .arrow-sm::after {
   font-family: "Excon", sans-serif;
   font-weight: 700;
+  font-size: 0.75em;
   padding: 0px 4px;
   /* match .arrow .btn-link padding */
   content: ">";

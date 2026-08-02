@@ -168,7 +168,7 @@ function renderWide(block) {
 
         media,
 
-        text: block.text.join("<br><br>")
+        text: (block.text || []).join("<br><br>")
 
     });
 

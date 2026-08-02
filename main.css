@@ -258,7 +258,7 @@ li::marker {
   height: 48px;
   /* match growShrinkLogo else */
   -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
@@ -267,25 +267,13 @@ li::marker {
   font-family: "Ranade", sans-serif;
   font-weight: 700;
   color: #383c47;
-  padding-left: 0.5em;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 
-.navbar-brand:hover {
 
-  /*  .logo {
-    fill: #aa59fb;
-    transform: scale(1.1);
-  }
-*/
-  .logo-text {
-    color: #aa59fb;
-    letter-spacing: 2px;
-  }
-}
 
 
 
@@ -1124,6 +1112,12 @@ img.tall {
 
 
 /* Smooth animation configuration */
+#Logo {
+    overflow: visible;
+}
+.logo {
+    overflow: hidden;
+}
 .logo .b-right {
   transition: transform 0.2s ease-in-out;
   transform-box: fill-box;
@@ -1134,11 +1128,16 @@ img.tall {
   transition: all 0.3s ease-in-out;
 }
 
-/* Moves the group 8 pixels to the right on hover */
-.logo:hover .b-right {
-  transform: translateX(32px) !important;
-}
+.navbar-brand:hover {
+  .logo-text {
+    color: #aa59fb;
+    letter-spacing: .75px;
+    padding-left: 0.75em;
+  }
+  /* Moves the group 8 pixels to the right on hover */
+  .logo .b-right {
+    transform: translateX(36px) !important;
+    transform-origin: left;
+  }
 
-#Logo{
-  width: 35%;
 }

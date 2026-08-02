@@ -30,7 +30,10 @@
       "images": [
         "../images/portfolioSonlightFarms02.jpg"
       ],
-      "text": []
+      "text": [
+        "The mark was designed to maintain clarity and recognition across a variety of uses, from roadside signage and apparel to printed materials and digital platforms.",
+        "Together, the illustration and custom wordmark establish a memorable visual identity that reflects the welcoming experience visitors can expect at Sonlight Farms."
+      ]
     },
     {
       "type": "media",
@@ -40,10 +43,7 @@
         "../images/portfolioSonlightFarms03.jpg",
         "../images/portfolioSonlightFarms04.jpg"
       ],
-      "text": [
-        "The mark was designed to maintain clarity and recognition across a variety of uses, from roadside signage and apparel to printed materials and digital platforms.",
-        "Together, the illustration and custom wordmark establish a memorable visual identity that reflects the welcoming experience visitors can expect at Sonlight Farms."
-      ]
+      "text": []
     },
     {
       "type": "media",

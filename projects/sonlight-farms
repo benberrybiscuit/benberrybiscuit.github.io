@@ -1,53 +1,42 @@
 {
-  "slug": "in-realty",
-  "title": "IN Realty",
-  "hero": "../images/portfolioINRealty_hero.webp",
-  "industry": "Real Estate",
+  "slug": "sonlight-farms",
+  "title": "Sonlight Farms",
+  "hero": "../images/portfolioSonlightFarms_hero.webp",
+  "industry": "Agritourism",
   "scope": [
-    "Identity Design",
-    "Print & Collateral",
-    "Web Design"
+    "Logo Design"
   ],
   "intro": {
-    "primary": "An independent real estate brokerage serving the Research Triangle region of North Carolina. IN Realty delivers a more personal, service-driven approach to buying and selling, supported by a knowledgeable team and in-house expertise across every stage of the process.",
-    "secondary": "As a new entrant in a competitive real estate market, IN Realty needed a brand that could establish credibility quickly while differentiating itself from larger, more impersonal brokerages."
+    "primary": "Sonlight Farms is an agritourism destination in Kenly, North Carolina, offering seasonal attractions, fresh produce, and family-friendly experiences that bring the local community together throughout the year.",
+    "secondary": "To support its growing presence, Sonlight Farms needed a distinctive identity that reflected its welcoming personality while remaining flexible across signage, merchandise, and marketing materials."
   },
-  "challenge": "Without an existing brand foundation, the identity needed to do more than look polished—it had to build trust, communicate expertise, and create a distinct presence from day one across both print and digital touchpoints.",
-  "approach": "The goal was to develop a refined, flexible identity system that balances professionalism with personality—positioning IN Realty as a modern, boutique alternative while maintaining clarity and consistency across all applications.",
+  "challenge": "The identity needed to capture the warmth and authenticity of the farm while standing out in a competitive agritourism market. It had to appeal to families and seasonal visitors while remaining recognizable across both large-scale applications and smaller branded materials.",
+  "approach": "The solution centered around a custom illustrated mark paired with a handcrafted wordmark lockup. Together, they create a memorable identity that feels approachable, timeless, and rooted in the character of the farm, while providing the flexibility needed for a wide range of applications.",
   "blocks": [
     {
       "type": "media",
-      "heading": "Identity Design",
+      "heading": "Logo Design",
       "layout": "wide",
       "images": [
-        "../images/portfolioINRealty01.webp"
+        "../images/portfolioSonlightFarms01.webp"
       ],
       "text": [
-        "The logotype is built on the foundation of Brandon, introducing subtle customization for a more distinctive presence. A stylized rooftop form with an arched window replaces the “A” in “Realty,” creating a memorable visual cue tied to residential property and reinforcing immediate brand recognition."
+        "The logo combines a custom illustration with a bespoke wordmark lockup to create an identity that is both distinctive and inviting. The illustration reflects the farm's character and seasonal appeal, while the typography complements it with a handcrafted feel that reinforces authenticity and approachability."
       ]
     },
     {
       "type": "media",
-      "heading": "Print & Collateral",
+      "heading": "Identity Details",
       "layout": "two-tall",
       "images": [
-        "../images/portfolioINRealty02.webp",
-        "../images/portfolioINRealty03.webp"
+        "../images/portfolioSonlightFarms02.webp",
+        "../images/portfolioSonlightFarms03.webp"
       ],
       "text": [
-        "A cohesive print system extends the identity across business cards, stationery, and marketing materials. Premium typography, a restrained palette of tonal blues, and editorial-style photography establish trust and refinement, while a custom illustrative pattern introduces energy and movement.",
-        "A targeted direct mail campaign was developed to support local outreach, translating the identity into a format designed for visibility and engagement."
-      ]
-    },
-    {
-      "type": "media",
-      "heading": "Web Design",
-      "layout": "video",
-      "video": "../images/portfolioINRealty_webscroll.mp4",
-      "text": [
-        "The website translates the identity into a clean, intuitive digital experience."
+        "The mark was designed to maintain clarity and recognition across a variety of uses, from roadside signage and apparel to printed materials and digital platforms.",
+        "Together, the illustration and custom wordmark establish a memorable visual identity that reflects the welcoming experience visitors can expect at Sonlight Farms."
       ]
     }
   ],
-  "outcome": "The result is a cohesive, elevated brand system that establishes IN Realty as a credible and differentiated presence from launch—supporting growth across print, digital, and local outreach."
+  "outcome": "The finished identity gives Sonlight Farms a memorable and versatile brand presence that celebrates its unique character while supporting recognition across seasonal promotions, on-site experiences, and future brand applications."
 }

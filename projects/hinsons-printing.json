@@ -1,7 +1,7 @@
 {
   "slug": "hinsons-printing",
   "title": "Hinson's Printing",
-  "hero": "../images/portfolioHinsonsPrinting_hero.webp",
+  "hero": "../images/portfolioHinsonsPrinting_hero.jpg",
   "industry": "Print & Production",
   "scope": [
     "Identity Refresh",
@@ -20,7 +20,7 @@
       "heading": "Identity Refresh",
       "layout": "wide",
       "images": [
-        "../images/portfolioHinsonsPrinting01.webp"
+        "../images/portfolioHinsonsPrinting01.jpg"
       ],
       "text": [
         "The refreshed identity introduces a more contemporary, versatile mark designed for clarity and flexibility across formats. Simplified forms and balanced proportions ensure the logo performs consistently, from business cards to large-scale applications."
@@ -31,8 +31,8 @@
       "heading": "Print & Promotional System",
       "layout": "two-tall",
       "images": [
-        "../images/portfolioHinsonsPrinting02.webp",
-        "../images/portfolioHinsonsPrinting03.webp"
+        "../images/portfolioHinsonsPrinting02.jpg",
+        "../images/portfolioHinsonsPrinting03.jpg"
       ],
       "text": [
         "A cohesive suite of business cards and promotional materials extends the refreshed identity across print, ensuring consistency and clarity at every touchpoint."
@@ -43,7 +43,7 @@
       "heading": "Environmental Application",
       "layout": "wide",
       "images": [
-        "../images/portfolioHinsonsPrinting04.webp"
+        "../images/portfolioHinsonsPrinting04.jpg"
       ],
       "text": [
         "A scalable vehicle wrap system carries the refreshed identity into the physical environment—transforming fleet vehicles into bold, mobile brand assets while maintaining clarity and legibility in motion."
@@ -53,8 +53,8 @@
       "type": "media",
       "layout": "two-tall",
       "images": [
-        "../images/portfolioHinsonsPrinting05.webp",
-        "../images/portfolioHinsonsPrinting06.webp"
+        "../images/portfolioHinsonsPrinting05.jpg",
+        "../images/portfolioHinsonsPrinting06.jpg"
       ]
     }
   ],

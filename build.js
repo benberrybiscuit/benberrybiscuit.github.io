@@ -164,11 +164,13 @@ function renderWide(block) {
 
     return fill(template, {
 
-        heading: block.heading,
+        heading: block.heading || "",
 
         media,
 
-        text: (block.text || []).join("<br><br>")
+        text: (block.text || []).join("<br><br>"),
+
+        spacing: block.heading ? "pt-5" : "pt-0"
 
     });
 
@@ -193,11 +195,13 @@ function renderTwoTall(block) {
 
     return fill(template, {
 
-        heading: block.heading,
+        heading: block.heading || "",
 
         media,
 
-        text: (block.text || []).join("<br><br>")
+        text: (block.text || []).join("<br><br>"),
+
+        spacing: block.heading ? "pt-5" : "pt-0"
 
     });
 

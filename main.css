@@ -280,7 +280,7 @@ LOGO + BRAND
   display: flex;
   flex-direction: column;
   justify-content: center;
-  line-height: 1;
+  line-height: 1.1;
   transform: translateX(0);
   transform-origin: left center;
   transition: all .45s cubic-bezier(.22, 1, .36, 1);
@@ -421,11 +421,20 @@ SCROLL STATE
 ========================= */
 
 .navbar.scrolled #Logo {
-  height: 42px;
+  height: 36px;
 }
 
 .navbar.scrolled .logo-info {
   translate: 0 2px;
+  line-height: .9;
+}
+
+.navbar.scrolled .logo-name {
+  font-size: .875em;
+}
+
+.navbar.scrolled .logo-title {
+  font-size: .72em;
 }
 
 /* =========================

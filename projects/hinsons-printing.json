@@ -14,47 +14,59 @@
   },
   "challenge": "The existing identity lacked the flexibility and clarity needed to represent the breadth of Hinson's services. It felt dated, limiting how the brand could show up across print, promotional materials, and real-world applications.",
   "approach": "The goal was to create a refined, adaptable identity system that could scale across a wide range of outputs—from small-format print to large environmental applications—while maintaining clarity and consistency.",
-  "blocks": [
+  "sections": [
     {
-      "type": "media",
       "heading": "Identity Refresh",
-      "layout": "wide",
-      "images": [
-        "../images/portfolioHinsonsPrinting01.jpg"
-      ],
       "text": [
         "The refreshed identity introduces a more contemporary, versatile mark designed for clarity and flexibility across formats. Simplified forms and balanced proportions ensure the logo performs consistently, from business cards to large-scale applications."
+      ],
+      "blocks": [
+        {
+          "type": "media",
+          "layout": "wide",
+          "images": [
+            "../images/portfolioHinsonsPrinting01.jpg"
+          ]
+        }
       ]
     },
     {
-      "type": "media",
       "heading": "Print & Promotional System",
-      "layout": "two-tall",
-      "images": [
-        "../images/portfolioHinsonsPrinting02.jpg",
-        "../images/portfolioHinsonsPrinting03.jpg"
-      ],
       "text": [
         "A cohesive suite of business cards and promotional materials extends the refreshed identity across print, ensuring consistency and clarity at every touchpoint."
+      ],
+      "blocks": [
+        {
+          "type": "media",
+          "layout": "two-tall",
+          "images": [
+            "../images/portfolioHinsonsPrinting02.jpg",
+            "../images/portfolioHinsonsPrinting03.jpg"
+          ]
+        }
       ]
     },
     {
-      "type": "media",
       "heading": "Environmental Application",
-      "layout": "wide",
-      "images": [
-        "../images/portfolioHinsonsPrinting04.jpg"
-      ],
       "text": [
         "A scalable vehicle wrap system carries the refreshed identity into the physical environment—transforming fleet vehicles into bold, mobile brand assets while maintaining clarity and legibility in motion."
-      ]
-    },
-    {
-      "type": "media",
-      "layout": "two-tall",
-      "images": [
-        "../images/portfolioHinsonsPrinting05.jpg",
-        "../images/portfolioHinsonsPrinting06.jpg"
+      ],
+      "blocks": [
+        {
+          "type": "media",
+          "layout": "wide",
+          "images": [
+            "../images/portfolioHinsonsPrinting04.jpg"
+          ]
+        },
+        {
+          "type": "media",
+          "layout": "two-tall",
+          "images": [
+            "../images/portfolioHinsonsPrinting05.jpg",
+            "../images/portfolioHinsonsPrinting06.jpg"
+          ]
+        }
       ]
     }
   ],

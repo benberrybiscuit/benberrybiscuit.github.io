@@ -12,55 +12,60 @@
   },
   "challenge": "The identity needed to capture the warmth and authenticity of the farm while standing out in a competitive agritourism market. It had to appeal to families and seasonal visitors while remaining recognizable across both large-scale applications and smaller branded materials.",
   "approach": "The solution centered around a custom illustrated mark paired with a handcrafted wordmark lockup. Together, they create a memorable identity that feels approachable, timeless, and rooted in the character of the farm, while providing the flexibility needed for a wide range of applications.",
-  "blocks": [
+  "sections": [
     {
-      "type": "media",
       "heading": "Logo Design",
-      "layout": "wide",
-      "images": [
-        "../images/portfolioSonlightFarms01.jpg"
-      ],
       "text": [
         "The logo combines a custom illustration with a bespoke wordmark lockup to create an identity that is both distinctive and inviting. The illustration reflects the farm's character and seasonal appeal, while the typography complements it with a handcrafted feel that reinforces authenticity and approachability."
+      ],
+      "blocks": [
+        {
+          "type": "media",
+          "layout": "wide",
+          "images": [
+            "../images/portfolioSonlightFarms01.jpg"
+          ]
+        }
       ]
     },
     {
-      "type": "media",
       "heading": "Identity Details",
-      "layout": "wide",
-      "images": [
-        "../images/portfolioSonlightFarms02.jpg"
-      ],
       "text": [
         "The mark was designed to maintain clarity and recognition across a variety of uses, from roadside signage and apparel to printed materials and digital platforms.",
         "Together, the illustration and custom wordmark establish a memorable visual identity that reflects the welcoming experience visitors can expect at Sonlight Farms."
+      ],
+      "blocks": [
+        {
+          "type": "media",
+          "layout": "wide",
+          "images": [
+            "../images/portfolioSonlightFarms02.jpg"
+          ]
+        },
+        {
+          "type": "media",
+          "layout": "two-tall",
+          "images": [
+            "../images/portfolioSonlightFarms03.jpg",
+            "../images/portfolioSonlightFarms04.jpg"
+          ]
+        },
+        {
+          "type": "media",
+          "layout": "wide",
+          "images": [
+            "../images/portfolioSonlightFarms05.jpg"
+          ]
+        },
+        {
+          "type": "media",
+          "layout": "two-tall",
+          "images": [
+            "../images/portfolioSonlightFarms06.jpg",
+            "../images/portfolioSonlightFarms07.jpg"
+          ]
+        }
       ]
-    },
-    {
-      "type": "media",
-      "layout": "two-tall",
-      "images": [
-        "../images/portfolioSonlightFarms03.jpg",
-        "../images/portfolioSonlightFarms04.jpg"
-      ],
-      "text": []
-    },
-    {
-      "type": "media",
-      "layout": "wide",
-      "images": [
-        "../images/portfolioSonlightFarms05.jpg"
-      ],
-      "text": []
-    },
-    {
-      "type": "media",
-      "layout": "two-tall",
-      "images": [
-        "../images/portfolioSonlightFarms06.jpg",
-        "../images/portfolioSonlightFarms07.jpg"
-      ],
-      "text": []
     }
   ],
   "outcome": "The finished identity gives Sonlight Farms a memorable and versatile brand presence that celebrates its unique character while supporting recognition across seasonal promotions, on-site experiences, and future brand applications."

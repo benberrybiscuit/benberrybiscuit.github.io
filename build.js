@@ -100,45 +100,34 @@ function renderSummary(project) {
 
 
 // ----------------------------
-// Render Blocks
+// Render Sections
 // ----------------------------
 
-function renderBlocks(project) {
+function renderSections(project) {
 
     let output = "";
 
-    project.blocks.forEach(block => {
+    project.sections.forEach(section => {
 
-        if (block.type !== "media") {
-            return;
-        }
-
-
-        switch (block.layout) {
-
-            case "wide":
-
-                output += renderWide(block);
-                break;
+        const media = section.blocks
+            .map(renderBlock)
+            .join("");
 
 
-            case "two-tall":
-
-                output += renderTwoTall(block);
-                break;
+        let template = loadTemplate("media");
 
 
-            case "video":
+        output += fill(template, {
 
-                output += renderVideo(block);
-                break;
+            heading: section.heading || "",
 
+            text: (section.text || []).join("<br><br>"),
 
-            default:
+            media,
 
-                console.log(`Unknown layout: ${block.layout}`);
+            spacing: "pt-2"
 
-        }
+        });
 
     });
 
@@ -148,31 +137,42 @@ function renderBlocks(project) {
 }
 
 
+// ----------------------------
+// Render Individual Media Blocks
+// ----------------------------
+
+function renderBlock(block) {
+
+    switch (block.layout) {
+
+        case "wide":
+            return renderWide(block);
+
+        case "two-tall":
+            return renderTwoTall(block);
+
+        case "video":
+            return renderVideo(block);
+
+        default:
+            console.log(`Unknown layout: ${block.layout}`);
+            return "";
+
+    }
+
+}
+
+
 
 // ----------------------------
 // Wide image renderer
 // ----------------------------
+
 function renderWide(block) {
 
-    let template = loadTemplate("media");
-
-
-    const media = `
+    return `
     <img class="gallery-img wide" src="${block.images[0]}">
     `;
-
-
-    return fill(template, {
-
-        heading: block.heading || "",
-
-        media,
-
-        text: (block.text || []).join("<br><br>"),
-
-        spacing: block.heading ? "pt-2" : ""
-
-    });
 
 }
 
@@ -181,29 +181,14 @@ function renderWide(block) {
 // ----------------------------
 // Two tall image renderer
 // ----------------------------
+
 function renderTwoTall(block) {
 
-    let template = loadTemplate("media");
-
-
-    const media = block.images
+    return block.images
         .map(image =>
             `<img class="gallery-img tall" src="${image}">`
         )
         .join("");
-
-
-    return fill(template, {
-
-        heading: block.heading || "",
-
-        media,
-
-        text: (block.text || []).join("<br><br>"),
-
-        spacing: block.heading ? "pt-2" : ""
-
-    });
 
 }
 
@@ -212,27 +197,14 @@ function renderTwoTall(block) {
 // ----------------------------
 // Video renderer
 // ----------------------------
+
 function renderVideo(block) {
 
-    let template = loadTemplate("media");
-
-
-    const media = `
+    return `
     <video class="gallery-img wide" autoplay playsinline muted loop>
-    <source src="${block.video}" type="video/mp4">
+        <source src="${block.video}" type="video/mp4">
     </video>
     `;
-
-
-    return fill(template, {
-
-        heading: block.heading,
-
-        media,
-
-        text: (block.text || []).join("<br><br>")
-
-    });
 
 }
 
@@ -240,6 +212,13 @@ function renderVideo(block) {
 
 
 
+
+
+
+
+// ----------------------------
+// Render Outcome
+// ----------------------------
 function renderOutcome(project) {
 
     let template = loadTemplate("outcome");
@@ -294,10 +273,10 @@ function buildProject(file) {
     );
 
 
-    page = page.replace(
-        "{{blocks}}",
-        renderBlocks(project)
-    );
+page = page.replace(
+    "{{blocks}}",
+    renderSections(project)
+);
 
 
     page = page.replace(

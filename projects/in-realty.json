@@ -14,38 +14,50 @@
   },
   "challenge": "Without an existing brand foundation, the identity needed to do more than look polished—it had to build trust, communicate expertise, and create a distinct presence from day one across both print and digital touchpoints.",
   "approach": "The goal was to develop a refined, flexible identity system that balances professionalism with personality—positioning IN Realty as a modern, boutique alternative while maintaining clarity and consistency across all applications.",
-  "blocks": [
+  "sections": [
     {
-      "type": "media",
       "heading": "Identity Design",
-      "layout": "wide",
-      "images": [
-        "../images/portfolioINRealty01.webp"
-      ],
       "text": [
         "The logotype is built on the foundation of Brandon, introducing subtle customization for a more distinctive presence. A stylized rooftop form with an arched window replaces the “A” in “Realty,” creating a memorable visual cue tied to residential property and reinforcing immediate brand recognition."
+      ],
+      "blocks": [
+        {
+          "type": "media",
+          "layout": "wide",
+          "images": [
+            "../images/portfolioINRealty01.webp"
+          ]
+        }
       ]
     },
     {
-      "type": "media",
       "heading": "Print & Collateral",
-      "layout": "two-tall",
-      "images": [
-        "../images/portfolioINRealty02.webp",
-        "../images/portfolioINRealty03.webp"
-      ],
       "text": [
         "A cohesive print system extends the identity across business cards, stationery, and marketing materials. Premium typography, a restrained palette of tonal blues, and editorial-style photography establish trust and refinement, while a custom illustrative pattern introduces energy and movement.",
         "A targeted direct mail campaign was developed to support local outreach, translating the identity into a format designed for visibility and engagement."
+      ],
+      "blocks": [
+        {
+          "type": "media",
+          "layout": "two-tall",
+          "images": [
+            "../images/portfolioINRealty02.webp",
+            "../images/portfolioINRealty03.webp"
+          ]
+        }
       ]
     },
     {
-      "type": "media",
       "heading": "Web Design",
-      "layout": "video",
-      "video": "../images/portfolioINRealty_webscroll.mp4",
       "text": [
         "The website translates the identity into a clean, intuitive digital experience."
+      ],
+      "blocks": [
+        {
+          "type": "media",
+          "layout": "video",
+          "video": "../images/portfolioINRealty_webscroll.mp4"
+        }
       ]
     }
   ],

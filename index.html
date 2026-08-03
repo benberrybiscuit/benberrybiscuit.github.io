@@ -25,19 +25,18 @@
         logo.classList.remove("logo-animate");
       }, 800);
     });
-    
+
     // logo resize after scroll
     window.onscroll = function () {
       growShrinkLogo()
     };
     function growShrinkLogo() {
-      var Logo = document.getElementById("Logo")
+      var NavBar = document.getElementById("NavBar");
+
       if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-        Logo.style.height = '36px';
-        NavBar.style.boxShadow = '0px 1px 8px rgb(178 207 255 / 0.63)';
+        NavBar.classList.add("scrolled");
       } else {
-        Logo.style.height = '48px';
-        NavBar.style.boxShadow = 'none';
+        NavBar.classList.remove("scrolled");
       }
     }
   </script>
@@ -79,7 +78,11 @@
             <rect class="st1" x="60" y="44" width="16" height="16" />
           </svg>
 
-          <span class="logo-text">// Ben Littleton</span>
+          <!--<span class="logo-text">// Ben Littleton</span>-->
+          <div class="logo-info">
+            <span class="logo-name">Ben Littleton</span>
+            <span class="logo-title">Visual Designer</span>
+          </div>
         </a>
 
         <!--hamburger menu-->

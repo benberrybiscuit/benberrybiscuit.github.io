@@ -283,7 +283,7 @@ LOGO + BRAND
   line-height: 1;
   transform: translateX(0);
   transform-origin: left center;
-  transition: all .5s cubic-bezier(.22, 1, .36, 1);
+  transition: all .45s cubic-bezier(.22, 1, .36, 1);
 }
 
 .logo-name {
@@ -291,7 +291,7 @@ LOGO + BRAND
   font-weight: 700;
   font-size: 1em;
   color: #383c47;
-  transition: all .5s cubic-bezier(.22, 1, .36, 1);
+  transition: all .45s cubic-bezier(.22, 1, .36, 1);
 }
 
 .logo-title {
@@ -300,7 +300,7 @@ LOGO + BRAND
   font-size: .825em;
   color: #383c47;
   margin-top: .15em;
-  transition: all .5s cubic-bezier(.22, 1, .36, 1);
+  transition: all .45s cubic-bezier(.22, 1, .36, 1);
 }
 
 /* =========================
@@ -396,7 +396,7 @@ SVG BLOCK ANIMATION
   transform: translateX(0);
   transform-box: view-box;
   transform-origin: center;
-  transition: all .4s cubic-bezier(.22, 1, .36, 1);
+  transition: all .45s cubic-bezier(.22, 1, .36, 1);
   will-change: transform;
 }
 
@@ -434,10 +434,10 @@ MOBILE
 /*
 @media (max-width: 575.98px) {
   .logo-name {
-    font-size: .875rem;
+    font-size: .875em;
   }
   .logo-title {
-    font-size: .625rem;
+    font-size: .625em;
   }
 }
 */

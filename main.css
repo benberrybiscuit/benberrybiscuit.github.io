@@ -426,7 +426,7 @@ SCROLL STATE
 
 .navbar.scrolled .logo-info {
   translate: 0 2px;
-  line-height: .9;
+  line-height: 1;
 }
 
 .navbar.scrolled .logo-name {

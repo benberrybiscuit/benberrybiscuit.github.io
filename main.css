@@ -259,7 +259,7 @@ LOGO + BRAND
 .navbar-brand {
   display: flex;
   align-items: center;
-  gap: 0rem;
+  gap: 0.25rem;
 }
 
 /* SVG logo */
@@ -268,34 +268,22 @@ LOGO + BRAND
   height: 48px;
   display: block;
   flex-shrink: 0;
-  transition: height .45s cubic-bezier(.22, 1, .36, 1);
+  transition: all .45s cubic-bezier(.22, 1, .36, 1);
 }
 
 .logo {
   fill: #ff774e;
 }
 
-/* Logo divider // lines  */
-.logo-divider {
-  font-family: "Ranade", sans-serif;
-  font-weight: 400;
-  color: #383c47;
-  font-size: .9rem;
-  margin-left: .1rem;
-  margin-right: -.45rem;
-  transition: color .5s cubic-bezier(.22,1,.36,1);
-}
-
-
 /* Text stack */
 .logo-info {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  line-height: 1.1;
+  line-height: 1;
   transform: translateX(0);
   transform-origin: left center;
-  transition: transform .45s cubic-bezier(.22,1,.36,1);
+  transition: all .5s cubic-bezier(.22, 1, .36, 1);
 }
 
 .logo-name {
@@ -305,6 +293,7 @@ LOGO + BRAND
   color: #383c47;
   transition: all .5s cubic-bezier(.22, 1, .36, 1);
 }
+
 .logo-title {
   font-family: "Ranade", sans-serif;
   font-weight: 400;
@@ -381,6 +370,7 @@ NAV MENU STYLING
   }
 
 }
+
 /* Custom hamburger icon */
 .custom-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(56, 60, 71, 1)' stroke-width='3' stroke-linecap='square' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
@@ -406,26 +396,19 @@ SVG BLOCK ANIMATION
   transform: translateX(0);
   transform-box: view-box;
   transform-origin: center;
-  transition: transform .3s cubic-bezier(.22, 1, .36, 1);
+  transition: all .4s cubic-bezier(.22, 1, .36, 1);
   will-change: transform;
 }
 
 /* =========================
 HOVER STATE
 ========================= */
-.navbar-brand {
-  display: flex;
-  align-items: center;
-  gap: 0;
-}
-
 /* Name hover */
 .navbar-brand:hover .logo-info,
 .navbar-brand:active .logo-info,
 .navbar-brand.logo-animate .logo-info {
   transform: translateX(.75em);
 }
-
 
 .navbar-brand:hover .logo .b-right,
 .navbar-brand:active .logo .b-right,
@@ -442,23 +425,22 @@ SCROLL STATE
 }
 
 .navbar.scrolled .logo-info {
-  translate: 0 -1px;
+  translate: 0 2px;
 }
 
 /* =========================
 MOBILE
 ========================= */
-
+/*
 @media (max-width: 575.98px) {
   .logo-name {
-    font-size: .8rem;
+    font-size: .875rem;
   }
-
   .logo-title {
-    font-size: .65rem;
+    font-size: .625rem;
   }
 }
-
+*/
 
 
 

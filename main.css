@@ -247,6 +247,8 @@ li::marker {
 
 
 /* || NAVBAR */
+
+
 .navbar {
   /*padding: 1em 0em; /* match growShrinkLogo else */
   background-color: #ecf3ff;
@@ -258,16 +260,37 @@ li::marker {
 /* Smooth logo hover animation configuration */
 #Logo {
   overflow: visible;
+  height: 48px;
+  transition: height 0.45s cubic-bezier(.22, 1, .36, 1);
 }
+
 .logo {
   fill: #ff774e;
-  height: 48px;
-  /* match growShrinkLogo else */
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
 }
+
+/* Hover / tap / page-load state */
+.navbar-brand:hover .logo-text,
+.navbar-brand:active .logo-text,
+.navbar-brand.logo-animate .logo-text {
+  color: #aa59fb;
+  letter-spacing: .75px;
+  padding-left: 0.75em;
+}
+/* Block animation */
+.logo .b-right {
+  transition: transform 0.3s cubic-bezier(.22, 1, .36, 1);
+  transform-box: fill-box;
+  transform-origin: left center;
+  will-change: transform;
+}
+.navbar-brand:hover .logo .b-right,
+.navbar-brand:active .logo .b-right,
+.navbar-brand.logo-animate .logo .b-right {
+  transform: translateX(36px);
+}
+
+
+
 
 .logo-text {
   font-family: "Ranade", sans-serif;
@@ -276,13 +299,14 @@ li::marker {
   transition: all 0.6s cubic-bezier(.22, 1, .36, 1);
 }
 
-/*@media (max-width: 575.98px) {
+
+@media (max-width: 575.98px) {
   .logo-text {
     font-size: 0.75em;
     display: none;
   }
 }
-*/
+
 
 /* hamburger container */
 .navbar-toggler {

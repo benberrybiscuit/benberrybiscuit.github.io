@@ -289,7 +289,7 @@ LOGO + BRAND
 .logo-name {
   font-family: "Ranade", sans-serif;
   font-weight: 700;
-  font-size: 1rem;
+  font-size: 1em;
   color: #383c47;
   transition: all .5s cubic-bezier(.22, 1, .36, 1);
 }
@@ -297,9 +297,9 @@ LOGO + BRAND
 .logo-title {
   font-family: "Ranade", sans-serif;
   font-weight: 400;
-  font-size: .825rem;
+  font-size: .825em;
   color: #383c47;
-  margin-top: .15rem;
+  margin-top: .15em;
   transition: all .5s cubic-bezier(.22, 1, .36, 1);
 }
 
@@ -421,7 +421,7 @@ SCROLL STATE
 ========================= */
 
 .navbar.scrolled #Logo {
-  height: 36px;
+  height: 42px;
 }
 
 .navbar.scrolled .logo-info {

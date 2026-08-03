@@ -276,6 +276,7 @@ li::marker {
   letter-spacing: .75px;
   padding-left: 0.75em;
 }
+
 /* Block animation */
 .logo .b-right {
   transition: transform 0.3s cubic-bezier(.22, 1, .36, 1);
@@ -283,14 +284,12 @@ li::marker {
   transform-origin: left center;
   will-change: transform;
 }
+
 .navbar-brand:hover .logo .b-right,
 .navbar-brand:active .logo .b-right,
 .navbar-brand.logo-animate .logo .b-right {
   transform: translateX(36px);
 }
-
-
-
 
 .logo-text {
   font-family: "Ranade", sans-serif;
@@ -303,7 +302,7 @@ li::marker {
 @media (max-width: 575.98px) {
   .logo-text {
     font-size: 0.75em;
-    display: none;
+    /*display: none;*/
   }
 }
 
@@ -403,7 +402,7 @@ li::marker {
 /* || HERO IMAGE */
 .hero-container {
   background-image: linear-gradient(180deg, #ecf3ff 50%, white 50%);
-  height: clamp(420px, 60vh, 720px);
+  height: clamp(420px, 50vh, 640px);
   padding-left: 2em;
   padding-bottom: 4em;
   overflow: hidden;
@@ -411,7 +410,7 @@ li::marker {
 
 .hero-container-sm {
   background-image: linear-gradient(180deg, #ecf3ff 50%, white 50%);
-  height: clamp(420px, 40vh, 720px);
+  height: clamp(300px, 38vh, 500px);
   padding-left: 2em;
   padding-bottom: 4em;
   overflow: hidden;
@@ -1129,9 +1128,3 @@ img.tall {
     margin-top: -3.75em;
   }
 }
-
-
-
-
-
-

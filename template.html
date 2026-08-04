@@ -111,38 +111,33 @@
       </div>
     </nav>
 
-    
-    {{hero}}
-  
-  
+    <!--hero image and wave-->
+    <div class="hero-container-sm">
+      <!--<img src="../images/hero-image.png" class="img-fluid ">-->
+      <img class="hero-image" src="{{hero}}" class="img-fluid">
+      <div class="wave-position">
+        <div class="wave-pattern"></div>
+      </div>
+    </div>
   </header>
   
-  
-  
-  
   <!-------------------------------------------------------
-  ---------------------------------------------------------
-  TEMPLATE
-  ---------------------------------------------------------
-  -------------------------------------------------------->
-  
+        ---------------------------------------------------------
+        TEMPLATE
+        ---------------------------------------------------------
+        -------------------------------------------------------->
+
   <!-- TOP SECTION -->
   <section class="dodge-wave">
     <div class="container">
       <div class="row">
-        <!--
         <div class="col-sm-9 col-md-7">
           <h1 class="headline">The work<span class="orange">.</span></h1>
           <p class="p-large">Turn heads, change minds.</p>
           <p class="pt-3">Any marketing agency can make tactics that dazzle. FVM builds carefully targeted brands and
             campaigns that command attention and compel decision makers to act.</p>
+          <!--button-->
         </div>
-        -->
-        
-        
-        {{intro}}
-      
-      
       </div>
     </div>
   </section>
@@ -152,26 +147,52 @@
   <div class="portfolio-section">
     <div class="container">
       <div class="row bleed-container bleed-l">
-        
-        <div class="portfolio-section">
-          <div class="container">
-            <div class="row bleed-container bleed-l">
 
-              {{summary}}
+        <div>
+          <img class="gallery-img wide pb-5" src="{{hero}}">
+        </div>
 
-              {{blocks}}
+        <h2>{{title}}</h2>
+        <!-- introduction -->
+        <div class="col-11 col-sm-7 col-md-8 col-lg-6 col-xl-6 pt-3 pb-3">
+          <p>{{intro-primary}}</p>
+          <div class="paragraphCols">
+            <p class="p-small">{{intro-secondary}}
+            </p>
+          </div>
+        </div>
 
-              {{outcome}}
+        <!-- industry / services list -->
+        <div class="col-11 col-sm-4 col-md-3 col-lg-6 col-xl-6 pt-3 pb-3">
+          <div class="row ">
+            <div class="col pb-4">
+              <h4>Industry</h4>
+              <p class="p-small">{{industry}}</p>
+            </div>
 
+            <div class="col">
+              <h4>Scope</h4>
+              <ul class="portfolio">
+                <li>{{scope}}</li>
+
+              </ul>
             </div>
           </div>
         </div>
-        
-        
-        
-        
-        
-        <!-- identity design 
+
+        <!-- summary -->
+        <div class="row pt-5 ">
+          <div class="col-12 col-sm-6 pb-3">
+            <h3>Challenge</h3>
+            <p class="p-small">{{challenge}}</p>
+          </div>
+          <div class="col-12 col-sm-5 pb-3">
+            <h3>Approach</h3>
+            <p class="p-small">{{approach}}</p>
+          </div>
+        </div>
+
+        <!-- identity design -->
         <div class="row pe-0 pt-5">
           <div class="col-12 col-md-7 order-first order-md-last offset-md-1 pe-0">
             <div class="gallery-grid pb-3">
@@ -187,7 +208,7 @@
           </div>
         </div>
 
-        stationery and collateral 
+        <!-- stationery and collateral -->
         <div class="row pe-0 pt-5">
           <div class="col-12 col-md-7 order-first order-md-last offset-md-1 pe-0">
             <div class="gallery-grid pb-3">
@@ -207,7 +228,7 @@
           </div>
         </div>
 
-        web design 
+        <!-- web design -->
         <div class="row pe-0 pt-5">
           <div class="col-12 col-md-7 order-first order-md-last offset-md-1 pe-0">
             <div class="gallery-grid pb-3">
@@ -223,32 +244,32 @@
               to create a cohesive and user-friendly platform.</p>
           </div>
         </div>
-        
-        outcome 
+
+        <!-- outcome -->
         <div class="row pe-0 pt-5">
           <div class="col-11 col-sm-7 col-md-8 col-lg-6 col-xl-6  pb-3">
             <h3>Outcome</h3>
             <p>{{outcome}}</p>
           </div>
-        </div>-->
+        </div>
       </div>
     </div>
   </div>
-
+  
   <!-------------------------------------------------------
-        ---------------------------------------------------------
+  ---------------------------------------------------------
         FOOTER
         ---------------------------------------------------------
         -------------------------------------------------------->
   <!-- Footer SECTION OLD -->
   <section class="footer-section">
 
-    <!--footer wave
+    <!--footer wave-->
     <div class="footer-container">
       <div class="wave-position">
         <div class="wave-pattern"></div>
       </div>
-    </div>-->
+    </div>
 
     <!--content-->
     <div class="container">
@@ -256,14 +277,14 @@
 
         <div class="col-md-7 footer-col">
           <!-- logo -->
-          <a href="./index.html">
+          <a href="index.html">
             <span class="logo-text-footer">Ben Littleton // Creative Design</span>
           </a>
           <!-- links -->
           <ul class="footer-links">
-            <li><a href="./services.html">Services</a></li>
-            <li><a href="./portfolio.html">Portfolio</a></li>
-            <li><a href="./contact.html">Contact</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
           </ul>
           <!-- contact -->
           <div class="footer-phone">
@@ -281,7 +302,7 @@
           </p>
           <!-- button -->
           <div class="btn-parent-footer">
-            <a class="btn-footer arrow-lg-footer" href="./#">
+            <a class="btn-footer arrow-lg-footer" href="#">
               <div class="btn-link-footer">Meet Up</div>
             </a>
           </div>

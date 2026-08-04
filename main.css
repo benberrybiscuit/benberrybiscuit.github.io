@@ -387,7 +387,6 @@ NAV MENU STYLING
 }
 
 
-
 /* =========================
 SVG BLOCK ANIMATION
 ========================= */
@@ -400,6 +399,7 @@ SVG BLOCK ANIMATION
   will-change: transform;
 }
 
+
 /* =========================
 HOVER STATE
 ========================= */
@@ -407,7 +407,7 @@ HOVER STATE
 .navbar-brand:hover .logo-info,
 .navbar-brand:active .logo-info,
 .navbar-brand.logo-animate .logo-info {
-  transform: translateX(.75em);
+  transform: translateX(3.75em);
 }
 
 .navbar-brand:hover .logo .b-right,
@@ -415,6 +415,7 @@ HOVER STATE
 .navbar-brand.logo-animate .logo .b-right {
   transform: translateX(36px);
 }
+
 
 /* =========================
 SCROLL STATE

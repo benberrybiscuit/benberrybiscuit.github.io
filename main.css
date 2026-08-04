@@ -246,6 +246,12 @@ li::marker {
 
 
 
+
+
+
+
+
+
 /* || NAVBAR */
 
 .navbar {
@@ -303,6 +309,86 @@ LOGO + BRAND
   margin-top: .15em;
   transition: all .4s cubic-bezier(.22, 1, .46, 1);
 }
+/* =========================
+SVG BLOCK ANIMATION
+========================= */
+
+.logo .b-right {
+  transform: translateX(0);
+  transform-box: fill-box;
+  transform-origin: left center;
+  transition: transform .4s cubic-bezier(.22, 1, .36, 1);
+  will-change: transform;
+}
+
+
+/* =========================
+HOVER STATE
+========================= */
+/* Name hover */
+.navbar-brand:hover .logo-info,
+.navbar-brand:active .logo-info,
+.navbar-brand.logo-animate .logo-info {
+  transform: translateX(.75em);
+  padding-left: 0.5em;
+  letter-spacing: 0.75px;
+}
+
+.navbar-brand:hover .logo .b-right,
+.navbar-brand:active .logo .b-right,
+.navbar-brand.logo-animate .logo .b-right {
+  transform: translateX(16px);
+}
+
+
+/* =========================
+SCROLL STATE
+========================= */
+
+.navbar.scrolled #Logo {
+  height: 36px;
+}
+
+.navbar.scrolled .logo-info {
+  translate: 0 2px;
+  line-height: 1;
+}
+
+.navbar.scrolled .logo-name {
+  font-size: .875em;
+}
+
+.navbar.scrolled .logo-title {
+  font-size: .72em;
+}
+
+/* =========================
+MOBILE
+========================= */
+/*
+@media (max-width: 575.98px) {
+  .logo-name {
+    font-size: .875em;
+  }
+  .logo-title {
+    font-size: .625em;
+  }
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* =========================
 NAV MENU STYLING
@@ -386,74 +472,6 @@ NAV MENU STYLING
 .navbar-toggler:focus {
   box-shadow: none;
 }
-
-
-/* =========================
-SVG BLOCK ANIMATION
-========================= */
-
-.logo .b-right {
-  transform: translateX(0);
-  transform-box: view-box;
-  transform-origin: center;
-  transition: all .4s cubic-bezier(.22, 1, .46, 1);
-  will-change: transform;
-}
-
-
-/* =========================
-HOVER STATE
-========================= */
-/* Name hover */
-.navbar-brand:hover .logo-info,
-.navbar-brand:active .logo-info,
-.navbar-brand.logo-animate .logo-info {
-  transform: translateX(.75em);
-  padding-left: 0.5em;
-  letter-spacing: 0.75px;
-}
-
-.navbar-brand:hover .logo .b-right,
-.navbar-brand:active .logo .b-right,
-.navbar-brand.logo-animate .logo .b-right {
-  transform: translateX(16px);
-}
-
-
-/* =========================
-SCROLL STATE
-========================= */
-
-.navbar.scrolled #Logo {
-  height: 36px;
-}
-
-.navbar.scrolled .logo-info {
-  translate: 0 2px;
-  line-height: 1;
-}
-
-.navbar.scrolled .logo-name {
-  font-size: .875em;
-}
-
-.navbar.scrolled .logo-title {
-  font-size: .72em;
-}
-
-/* =========================
-MOBILE
-========================= */
-/*
-@media (max-width: 575.98px) {
-  .logo-name {
-    font-size: .875em;
-  }
-  .logo-title {
-    font-size: .625em;
-  }
-}
-*/
 
 
 

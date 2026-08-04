@@ -73,7 +73,6 @@ function renderIntro(project) {
         scope
 
     });
-
 }
 
 
@@ -159,7 +158,6 @@ function renderBlock(block) {
             return "";
 
     }
-
 }
 
 
@@ -173,7 +171,6 @@ function renderWide(block) {
     return `
     <img class="gallery-img wide" src="${block.images[0]}">
     `;
-
 }
 
 
@@ -189,7 +186,6 @@ function renderTwoTall(block) {
             `<img class="gallery-img tall" src="${image}">`
         )
         .join("");
-
 }
 
 
@@ -205,7 +201,6 @@ function renderVideo(block) {
         <source src="${block.video}" type="video/mp4">
     </video>
     `;
-
 }
 
 
@@ -223,37 +218,33 @@ function renderOutcome(project) {
 
     let template = loadTemplate("outcome");
 
-
     return fill(template, {
 
         outcome:
             project.outcome
 
     });
-
 }
 
 
 
 
 // ----------------------------
-// Render Portfolio Index
+// Render Portfolio Cards
 // ----------------------------
 
 function renderPortfolio(projects) {
 
     let template = loadTemplate("project-card");
 
-
     return projects
         .map(project => {
-
             return fill(template, {
 
                 slug: project.slug,
 
                 thumbnail:
-                    project.thumbnail || project.hero,
+                    (project.thumbnail || project.hero).replace("../", ""),
 
                 title:
                     project.title,
@@ -262,9 +253,49 @@ function renderPortfolio(projects) {
                     project.industry
 
             });
-
         })
         .join("");
+}
+
+
+
+
+
+
+
+// ----------------------------
+// Render Project Navigation
+// ----------------------------
+
+function renderProjectNav(project, projects) {
+
+    const currentIndex = projects
+        .sort((a, b) => a.order - b.order)
+        .findIndex(item => item.slug === project.slug);
+
+
+    const previous = projects[currentIndex - 1];
+    const next = projects[currentIndex + 1];
+
+
+    let template = loadTemplate("project-nav");
+
+
+    return fill(template, {
+
+        "previous-link":
+            previous ? `${previous.slug}.html` : "#",
+
+        "previous-title":
+            previous ? previous.title : "",
+
+        "next-link":
+            next ? `${next.slug}.html` : "#",
+
+        "next-title":
+            next ? next.title : ""
+
+    });
 
 }
 
@@ -285,36 +316,30 @@ function buildProject(file) {
         )
     );
 
-
     let page = fs.readFileSync(
         "page.html",
         "utf8"
     );
-
 
     page = page.replace(
         "{{hero}}",
         renderHero(project)
     );
 
-
     page = page.replace(
         "{{intro}}",
         renderIntro(project)
     );
-
 
     page = page.replace(
         "{{summary}}",
         renderSummary(project)
     );
 
-
     page = page.replace(
         "{{blocks}}",
         renderSections(project)
     );
-
 
     page = page.replace(
         "{{outcome}}",
@@ -322,17 +347,27 @@ function buildProject(file) {
     );
 
 
+
+
+    page = page.replace(
+        "{{project-nav}}",
+        renderProjectNav(project, projects)
+    );
+
+
+
+
+
+
     const outputPath = path.join(
         "portfolio",
         `${project.slug}.html`
     );
 
-
     fs.writeFileSync(
         outputPath,
         page
     );
-
 
     console.log(
         `Built: ${project.slug}.html`
@@ -349,27 +384,24 @@ function buildProject(file) {
 // Build Portfolio Index
 // ----------------------------
 
-function buildIndex() {
+function buildPortfolioPage() {
 
     let page = fs.readFileSync(
-        "index.html",
+        "portfolio.html",
         "utf8"
     );
-
 
     page = page.replace(
         "{{portfolio}}",
         renderPortfolio(projects)
     );
 
-
     fs.writeFileSync(
-        "index.html",
+        "portfolio.html",
         page
     );
 
-
-    console.log("Built: index.html");
+    console.log("Built: portfolio.html");
 
 }
 
@@ -395,15 +427,12 @@ const projects = projectFiles.map(file =>
     )
 );
 
-
 // Build portfolio index
 
-buildIndex();
-
+buildPortfolioPage();
 
 // Build project pages
 
 projectFiles.forEach(buildProject);
-
 
 console.log("Portfolio build complete!");

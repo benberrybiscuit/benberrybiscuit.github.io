@@ -111,7 +111,7 @@
       </div>
     </nav>
 
-    
+
     <div class="hero-container-sm">
     <!--<img src="./images/hero-image.png" class="img-fluid ">-->
     <img class="hero-image" src="../images/portfolioSonlightFarms01.jpg" class="img-fluid">
@@ -119,33 +119,25 @@
         <div class="wave-pattern"></div>
     </div>
 </div>
-  
-  
+
+
   </header>
-  
-  
-  
-  
+
+
+
+
   <!-------------------------------------------------------
   ---------------------------------------------------------
   TEMPLATE
   ---------------------------------------------------------
   -------------------------------------------------------->
-  
+
   <!-- TOP SECTION -->
   <section class="dodge-wave">
     <div class="container">
       <div class="row">
-        <!--
-        <div class="col-sm-9 col-md-7">
-          <h1 class="headline">The work<span class="orange">.</span></h1>
-          <p class="p-large">Turn heads, change minds.</p>
-          <p class="pt-3">Any marketing agency can make tactics that dazzle. FVM builds carefully targeted brands and
-            campaigns that command attention and compel decision makers to act.</p>
-        </div>
-        -->
-        
-        
+
+
         <h2>Sonlight Farms</h2>
 
 <div class="col-11 col-sm-7 col-md-8 col-lg-6 col-xl-6 pt-3 pb-3">
@@ -179,8 +171,8 @@
     </div>
 
 </div>
-      
-      
+
+
       </div>
     </div>
   </section>
@@ -190,7 +182,6 @@
   <div class="portfolio-section">
     <div class="container">
       <div class="row bleed-container bleed-l">
-        
         <div class="portfolio-section">
           <div class="container">
             <div class="row bleed-container bleed-l">
@@ -259,74 +250,47 @@
             </div>
           </div>
         </div>
-        
-        
-        
-        
-        
-        <!-- identity design 
-        <div class="row pe-0 pt-5">
-          <div class="col-12 col-md-7 order-first order-md-last offset-md-1 pe-0">
-            <div class="gallery-grid pb-3">
-              <img class="gallery-img wide" src="../images/portfolioINRealty01.webp">
-            </div>
-          </div>
-          <div class="col-11 col-md-4 order-last order-md-first pb-3">
-            <h4>Identity Design</h4>
-            <p class="p-small">The logotype is built on the foundation of Brandon, introducing subtle customization for
-              a more distinctive presence. A stylized rooftop form with an arched window replaces the “A” in “Realty,”
-              creating a memorable visual cue tied to residential property and reinforcing immediate brand recognition.
-            </p>
-          </div>
-        </div>
-
-        stationery and collateral 
-        <div class="row pe-0 pt-5">
-          <div class="col-12 col-md-7 order-first order-md-last offset-md-1 pe-0">
-            <div class="gallery-grid pb-3">
-              <img class="gallery-img tall" src="../images/portfolioINRealty02.webp">
-              <img class="gallery-img tall" src="../images/portfolioINRealty03.webp">
-            </div>
-          </div>
-          <div class="col-11 col-md-4 order-last order-md-first">
-            <h4>Print & Collateral</h4>
-            <p class="p-small">A cohesive print system extends the identity across business cards, stationery, and
-              marketing materials. Premium typography, a restrained palette of tonal blues, and editorial-style
-              photography establish trust and refinement, while a custom illustrative pattern introduces energy and
-              movement.</p>
-            <p class="p-small">A targeted direct mail campaign was developed to support local outreach, translating the
-              identity into a format designed for visibility and engagement. Clear messaging and consistent visuals help
-              establish recognition within the community.</p>
-          </div>
-        </div>
-
-        web design 
-        <div class="row pe-0 pt-5">
-          <div class="col-12 col-md-7 order-first order-md-last offset-md-1 pe-0">
-            <div class="gallery-grid pb-3">
-              <video class="gallery-img wide" autoplay playsinline muted loop>
-                <source src="../images/portfolioINRealty_webscroll.mp4" type="video/mp4" />
-              </video>
-            </div>
-          </div>
-          <div class="col-11 col-md-4 order-last order-md-first">
-            <h4>Web Design</h4>
-            <p class="p-small">The website translates the identity into a clean, intuitive digital experience.
-              High-fidelity mockups define structure, hierarchy, and tone, with a focus on navigation and footer systems
-              to create a cohesive and user-friendly platform.</p>
-          </div>
-        </div>
-        
-        outcome 
-        <div class="row pe-0 pt-5">
-          <div class="col-11 col-sm-7 col-md-8 col-lg-6 col-xl-6  pb-3">
-            <h3>Outcome</h3>
-            <p>{{outcome}}</p>
-          </div>
-        </div>-->
       </div>
+
+
+      {{project-nav}}
+
+
     </div>
   </div>
+
+
+
+
+
+
+
+
+
+
+  <section class="brands-section">
+    <div class="container">
+      <div class="row">
+        <div class="brands-container col-9 col-lg-4 pt-5">
+
+          <a class="portfolio-card" href="portfolio/{{slug}}.html">
+
+            <img class="gallery-img" src="{{thumbnail}}" alt="{{title}}">
+
+            <h3>{{title}}</h3>
+
+            <p class="p-small">
+              {{industry}}
+            </p>
+
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
 
   <!-------------------------------------------------------
         ---------------------------------------------------------

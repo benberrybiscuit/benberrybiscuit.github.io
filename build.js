@@ -234,6 +234,43 @@ function renderOutcome(project) {
 }
 
 
+
+
+// ----------------------------
+// Render Portfolio Index
+// ----------------------------
+
+function renderPortfolio(projects) {
+
+    let template = loadTemplate("project-card");
+
+
+    return projects
+        .map(project => {
+
+            return fill(template, {
+
+                slug: project.slug,
+
+                thumbnail:
+                    project.thumbnail || project.hero,
+
+                title:
+                    project.title,
+
+                industry:
+                    project.industry
+
+            });
+
+        })
+        .join("");
+
+}
+
+
+
+
 // ----------------------------
 // Build Project
 // ----------------------------
@@ -273,10 +310,10 @@ function buildProject(file) {
     );
 
 
-page = page.replace(
-    "{{blocks}}",
-    renderSections(project)
-);
+    page = page.replace(
+        "{{blocks}}",
+        renderSections(project)
+    );
 
 
     page = page.replace(
@@ -304,18 +341,69 @@ page = page.replace(
 }
 
 
+
+
+
+
+// ----------------------------
+// Build Portfolio Index
+// ----------------------------
+
+function buildIndex() {
+
+    let page = fs.readFileSync(
+        "index.html",
+        "utf8"
+    );
+
+
+    page = page.replace(
+        "{{portfolio}}",
+        renderPortfolio(projects)
+    );
+
+
+    fs.writeFileSync(
+        "index.html",
+        page
+    );
+
+
+    console.log("Built: index.html");
+
+}
+
+
+
 // ----------------------------
 // Build All Projects
 // ----------------------------
 
-const projects = fs
+const projectFiles = fs
     .readdirSync("projects")
     .filter(file =>
         file.endsWith(".json")
     );
 
 
-projects.forEach(buildProject);
+const projects = projectFiles.map(file =>
+    JSON.parse(
+        fs.readFileSync(
+            path.join("projects", file),
+            "utf8"
+        )
+    )
+);
+
+
+// Build portfolio index
+
+buildIndex();
+
+
+// Build project pages
+
+projectFiles.forEach(buildProject);
 
 
 console.log("Portfolio build complete!");

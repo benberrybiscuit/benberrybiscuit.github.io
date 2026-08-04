@@ -268,7 +268,7 @@ LOGO + BRAND
   height: 48px;
   display: block;
   flex-shrink: 0;
-  transition: all .45s cubic-bezier(.22, 1, .36, 1);
+  transition: all .4s cubic-bezier(.22, 1, .46, 1);
 }
 
 .logo {
@@ -281,9 +281,10 @@ LOGO + BRAND
   flex-direction: column;
   justify-content: center;
   line-height: 1.1;
+  padding-left: 0.475em;
   transform: translateX(0);
   transform-origin: left center;
-  transition: all .45s cubic-bezier(.22, 1, .36, 1);
+  transition: all .8s cubic-bezier(.22, 1, .46, 1);
 }
 
 .logo-name {
@@ -291,7 +292,7 @@ LOGO + BRAND
   font-weight: 700;
   font-size: 1em;
   color: #383c47;
-  transition: all .45s cubic-bezier(.22, 1, .36, 1);
+  transition: all .4s cubic-bezier(.22, 1, .46, 1);
 }
 
 .logo-title {
@@ -300,7 +301,7 @@ LOGO + BRAND
   font-size: .825em;
   color: #383c47;
   margin-top: .15em;
-  transition: all .45s cubic-bezier(.22, 1, .36, 1);
+  transition: all .4s cubic-bezier(.22, 1, .46, 1);
 }
 
 /* =========================
@@ -315,7 +316,7 @@ NAV MENU STYLING
   width: 0;
   background: transparent;
   border-top: solid 3px #ff774e;
-  transition: all .3s ease, background-color .3s ease;
+  transition: all .4s ease, background-color .4s ease;
 }
 
 #nav-menu li:hover:before {
@@ -395,7 +396,7 @@ SVG BLOCK ANIMATION
   transform: translateX(0);
   transform-box: view-box;
   transform-origin: center;
-  transition: all .45s cubic-bezier(.22, 1, .36, 1);
+  transition: all .4s cubic-bezier(.22, 1, .46, 1);
   will-change: transform;
 }
 
@@ -407,13 +408,15 @@ HOVER STATE
 .navbar-brand:hover .logo-info,
 .navbar-brand:active .logo-info,
 .navbar-brand.logo-animate .logo-info {
-  transform: translateX(3.75em);
+  transform: translateX(.75em);
+  padding-left: 0.5em;
+  letter-spacing: 0.75px;
 }
 
 .navbar-brand:hover .logo .b-right,
 .navbar-brand:active .logo .b-right,
 .navbar-brand.logo-animate .logo .b-right {
-  transform: translateX(36px);
+  transform: translateX(16px);
 }
 
 
@@ -666,10 +669,10 @@ section.dodge-wave {
   height: 100%;
   /* TESTING was at 100% */
   object-fit: cover;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 .feature-image:hover img {
@@ -739,10 +742,10 @@ section.dodge-wave {
   padding: 6px 16px;
   top: 8px;
   left: 8px;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 .link-box a:hover::after {
@@ -893,10 +896,10 @@ ul.portfolio {
   font-weight: 700;
   font-size: 1em;
   color: white;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 .logo-text-footer:hover {
   letter-spacing: 0.2px;
@@ -917,10 +920,10 @@ ul.portfolio {
 .footer-links li a {
   color: #ff774e;
   text-decoration: none;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 .footer-links li a:hover {
@@ -953,10 +956,10 @@ a.btn-footer {
 .arrow-lg-footer:hover .btn-link-footer {
   color: #aa59fb;
   border-color: #aa59fb;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 /* large button carrot > */
@@ -977,10 +980,10 @@ a.btn-footer {
   display: inline-block;
   border: 2px solid #ff774e;
   border-left: 0;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 .arrow-lg-footer:hover::after {
@@ -1017,10 +1020,10 @@ a.btn {
 .arrow-lg:hover .btn-link {
   color: #ff774e;
   border-color: #ff774e;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 /* large button carrot */
@@ -1041,10 +1044,10 @@ a.btn {
   display: inline-block;
   border: 2px solid #383c47;
   border-left: 0;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 .arrow-lg:hover::after {
@@ -1078,10 +1081,10 @@ a.btn {
   color: #383c47;
   border: 2px solid #383c47;
   position: relative;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
   left: 8px;
 }
 
@@ -1112,10 +1115,10 @@ a.btn {
   color: #383c47;
   border: 2px solid #383c47;
   position: relative;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
   left: 8px;
 }
 

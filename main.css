@@ -605,6 +605,16 @@ section.dodge-wave {
   }
 }
 
+
+
+
+
+
+
+
+
+
+
 /* || BRANDS SECTION */
 .brands-section {
   overflow: hidden;
@@ -704,13 +714,6 @@ section.dodge-wave {
   margin-right: 1em;
   /* match feature-image margin */
 }
-
-.feature-item a {
-  color: #ff774e;
-  font-weight: 500;
-  font-weight: 700;
-}
-
 
 .feature-button-container {
   font-family: "Excon", sans-serif;
@@ -1161,8 +1164,9 @@ img.tall {
   gap: 8px;
   font-family: "Ranade", sans-serif;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 700;
   padding-bottom: 2px;
+  text-align: left;
   transition: letter-spacing var(--btn-dur) var(--btn-ease);
 
 }
@@ -1170,16 +1174,22 @@ img.tall {
 .btn-text-arrow {
   display: inline-flex;
   transition: transform var(--btn-dur) var(--btn-ease);
+  color: #ff774e;  /* overrides root btn-hover color*/
+
+
 }
 
 .btn-text:hover
 {  letter-spacing: 0.5px;
+  
 }
 
 .btn-text:hover .btn-text-arrow {
   transform: translateX(4px);
+  
 }
 
 .btn-text.btn-left:hover .btn-text-arrow {
   transform: translateX(-4px);
+  
 }

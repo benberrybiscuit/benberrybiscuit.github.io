@@ -4,23 +4,24 @@
   "title": "Ready Rack",
   "hero": "../images/portfolioReadyRack_hero.webp",
   "thumbnail": "../images/portfolioReadyRack_hero.webp",
-  "industry": "Industry",
+  "industry": "Fire & Safety Equipment",
   "scope": [
-    "Ad Campaign",
-    "Web Banners",
-    "E-blasts"
+    "Advertising Campaign",
+    "Print & Digital",
+    "Trade Show Design",
+    "Social Media"
   ],
   "intro": {
-    "primary": "An independent real estate brokerage serving the Research Triangle region of North Carolina. IN Realty delivers a more personal, service-driven approach to buying and selling, supported by a knowledgeable team and in-house expertise across every stage of the process.",
-    "secondary": "As a new entrant in a competitive real estate market, IN Realty needed a brand that could establish credibility quickly while differentiating itself from larger, more impersonal brokerages."
+    "primary": "Ready Rack by Groves is the industry-standard open-air storage and maintenance system for firefighter PPE. Developed by Groves Incorporated, the original Ready Rack was created in 1984 to improve firefighter health, safety, and response times. Today, the brand has expanded into a comprehensive line of heavy-duty station equipment.",
+    "secondary": "As the Ready Rack product line continued to grow, the brand needed an advertising system capable of supporting an increasingly diverse range of products while maintaining a consistent and recognizable presence across channels."
   },
-  "challenge": "Without an existing brand foundation, the identity needed to do more than look polished—it had to build trust, communicate expertise, and create a distinct presence from day one across both print and digital touchpoints.",
-  "approach": "The goal was to develop a refined, flexible identity system that balances professionalism with personality—positioning IN Realty as a modern, boutique alternative while maintaining clarity and consistency across all applications.",
+  "challenge": "The challenge was creating a campaign system flexible enough to accommodate an ever-changing product line without becoming visually inconsistent. With products ranging from PPE storage systems to heavy-duty station equipment, the campaign needed to communicate a wide variety of solutions while maintaining a clear, unified brand presence.",
+  "approach": "The campaign was developed as a flexible visual system rather than a collection of one-off advertisements. Consistent typography, composition, messaging, and product presentation provide a recognizable foundation, while modular layouts allow the system to adapt across different products, formats, and applications.",
   "sections": [
     {
-      "heading": "Print Ads",
+      "heading": "Campaign Development",
       "text": [
-        "The logotype is built on the foundation of Brandon, introducing subtle customization for a more distinctive presence. A stylized rooftop form with an arched window replaces the “A” in “Realty,” creating a memorable visual cue tied to residential property and reinforcing immediate brand recognition."
+        "The campaign establishes a cohesive visual language for presenting Ready Rack's expanding product line. Modular layouts and consistent messaging create continuity across individual advertisements while allowing each product and application to remain the focus."
       ],
       "blocks": [
         {
@@ -30,7 +31,7 @@
             "../images/portfolioReadyRack01.webp"
           ]
         },
-                {
+        {
           "type": "media",
           "layout": "wide",
           "images": [
@@ -40,10 +41,9 @@
       ]
     },
     {
-      "heading": "Print & Collateral",
+      "heading": "Print & Digital",
       "text": [
-        "A cohesive print system extends the identity across business cards, stationery, and marketing materials. Premium typography, a restrained palette of tonal blues, and editorial-style photography establish trust and refinement, while a custom illustrative pattern introduces energy and movement.",
-        "A targeted direct mail campaign was developed to support local outreach, translating the identity into a format designed for visibility and engagement."
+        "The campaign was translated across print advertisements, digital ads, and web banners, creating a unified presence across both traditional and digital channels. Each format was designed to communicate product benefits quickly while maintaining consistency with the broader campaign system."
       ],
       "blocks": [
         {
@@ -57,9 +57,9 @@
       ]
     },
     {
-      "heading": "Web Design",
+      "heading": "Trade Show & Social",
       "text": [
-        "The website translates the identity into a clean, intuitive digital experience."
+        "The campaign extended beyond advertising into physical and social environments, including trade show graphics and social media content. The same flexible system allowed the brand to maintain a consistent presence across large-format displays and smaller, fast-moving digital communications."
       ],
       "blocks": [
         {
@@ -70,5 +70,5 @@
       ]
     }
   ],
-  "outcome": "The result is a cohesive, elevated brand system that establishes IN Realty as a credible and differentiated presence from launch—supporting growth across print, digital, and local outreach."
+  "outcome": "The result is a flexible advertising system that gives Ready Rack a consistent presence across an expanding product catalog and a wide range of marketing channels—allowing new products and campaigns to be introduced without losing visual continuity."
 }

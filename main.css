@@ -309,6 +309,7 @@ LOGO + BRAND
   margin-top: .15em;
   transition: all .4s cubic-bezier(.22, 1, .46, 1);
 }
+
 /* =========================
 SVG BLOCK ANIMATION
 ========================= */
@@ -707,7 +708,6 @@ section.dodge-wave {
 .feature-item a {
   color: #ff774e;
   font-weight: 500;
-  text-decoration: none;
   font-weight: 700;
 }
 
@@ -1031,19 +1031,20 @@ img.tall {
   --btn-border-w: 2px;
   --btn-dur: .4s;
   --btn-ease: cubic-bezier(.22, 1, .46, 1);
-  
+
 }
 
 /* || BASE — change 2: shared by .btn (bordered) and .btn-text */
 .btn {
   display: inline-flex;
-  align-items: stretch; /* keeps btn-link / btn-arrow the same height */
+  align-items: stretch;
+  /* keeps btn-link / btn-arrow the same height */
   margin-top: 1.62em;
   font-family: "Excon", sans-serif;
   color: var(--btn-color);
-  text-decoration: none;
   transition: color var(--btn-dur) var(--btn-ease);
 }
+
 .btn:hover {
   color: var(--btn-color-hover);
 }
@@ -1056,6 +1057,7 @@ img.tall {
   height: 2px;
   background: currentColor;
 }
+
 .arrow::after {
   content: "";
   position: absolute;
@@ -1064,19 +1066,23 @@ img.tall {
   height: 7px;
   border-top: var(--btn-border-w) solid currentColor;
 }
+
 .arrow-right::after {
   right: 0;
   border-right: var(--btn-border-w) solid currentColor;
   transform: translateY(-50%) rotate(45deg);
 }
+
 .arrow-left::after {
   left: 0;
   border-left: var(--btn-border-w) solid currentColor;
   transform: translateY(-50%) rotate(-45deg);
 }
+
 .arrow-sm {
   width: 13px;
 }
+
 .arrow-sm::after {
   width: 6px;
   height: 6px;
@@ -1086,6 +1092,7 @@ img.tall {
 .btn:not(.btn-text) {
   letter-spacing: 2px;
 }
+
 .btn .btn-link {
   display: inline-flex;
   align-items: center;
@@ -1094,7 +1101,10 @@ img.tall {
   font-weight: 900;
   color: inherit;
   text-transform: uppercase;
+  text-decoration: none;
+
 }
+
 .btn .btn-arrow {
   display: inline-flex;
   align-items: center;
@@ -1104,13 +1114,16 @@ img.tall {
   border: var(--btn-border-w) solid currentColor;
   transition: transform var(--btn-dur) var(--btn-ease);
 }
+
 .btn:hover .btn-arrow {
   transform: translateX(18px);
 }
+
 .btn-left .btn-arrow {
   margin-left: 0;
   margin-right: calc(-1 * var(--btn-border-w));
 }
+
 .btn-left:hover .btn-arrow {
   transform: translateX(-18px);
 }
@@ -1119,46 +1132,54 @@ img.tall {
 .btn-lg {
   font-size: 16px;
 }
+
 .btn-sm {
   font-size: 13px;
   letter-spacing: 1px;
 }
+
 .btn-sm .btn-link {
   padding: 6px 16px;
 }
+
 .btn-sm .btn-arrow {
   padding: 6px 12px;
 }
+
 .btn-sm:hover .btn-arrow {
   transform: translateX(14px);
 }
+
 .btn-sm.btn-left:hover .btn-arrow {
   transform: translateX(-14px);
 }
 
 /* || TEXT BUTTON (no border, no uppercase) */
 .btn-text {
-  align-items: center; /* overrides base stretch — no boxes to match here */
+  align-items: center;
+  /* overrides base stretch — no boxes to match here */
   gap: 8px;
-    
-  
-  
-
-  
-  
-  
+  font-family: "Ranade", sans-serif;
   font-size: 16px;
   font-weight: 500;
-  letter-spacing: 0.5px;
   padding-bottom: 2px;
+  transition: letter-spacing var(--btn-dur) var(--btn-ease);
+
 }
+
 .btn-text-arrow {
   display: inline-flex;
   transition: transform var(--btn-dur) var(--btn-ease);
 }
+
+.btn-text:hover
+{  letter-spacing: 0.5px;
+}
+
 .btn-text:hover .btn-text-arrow {
   transform: translateX(4px);
 }
+
 .btn-text.btn-left:hover .btn-text-arrow {
   transform: translateX(-4px);
 }

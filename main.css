@@ -499,7 +499,8 @@ NAV MENU STYLING
 }
 
 @media (max-width: 575.98px) {
-  .hero-container, .hero-container-sm {
+  .hero-container, 
+  .hero-container-sm {
     height: 320px;
     padding-left: 1.625em;
   }
@@ -525,15 +526,6 @@ NAV MENU STYLING
   margin-top: -4em;
   overflow: hidden;
 }
-
-/*
-@media (max-width: 575.98px) {
-  .hero-container .wave-position {
-    margin-left: -0.5em;
-    margin-top: -3.75em;
-  }
-}
-*/
 
 /* wave sizing for svg visibility */
 .wave-pattern {
@@ -571,6 +563,20 @@ NAV MENU STYLING
     }
   }
 }
+
+  .wave-pattern-sm {
+    background-size: 62px 75px;
+  }
+
+  @keyframes wave {
+    0% {
+      transform: translateX(0);
+    }
+
+    100% {
+      transform: translateX(-62px);
+    }
+  }
 
 
 

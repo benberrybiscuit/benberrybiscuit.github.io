@@ -589,18 +589,7 @@ section {
     padding: 3em 1em 6em 1em;
   }
 }
-/*
-section.dodge-wave {
-  padding: 3em 0em 6em 0em;
-}
 
-
-@media (max-width: 575.98px) {
-  section.dodge-wave {
-    padding: 2em 0em 6em 0em;
-  }
-}
-*/
 
 
 /* || BRANDS SECTION */
@@ -881,6 +870,18 @@ ul.portfolio {
 
 
 
+/* || PROJECT SECTION */
+.project-intro {
+  padding: 1em 1em 3em 1em;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -1087,22 +1088,23 @@ img.tall {
 .btn-text-arrow {
   display: inline-flex;
   transition: transform var(--btn-dur) var(--btn-ease);
-  color: #ff774e;  /* overrides root btn-hover color*/
+  color: #ff774e;
+  /* overrides root btn-hover color*/
 
 
 }
 
-.btn-text:hover
-{  letter-spacing: 0.5px;
-  
+.btn-text:hover {
+  letter-spacing: 0.5px;
+
 }
 
 .btn-text:hover .btn-text-arrow {
   transform: translateX(4px);
-  
+
 }
 
 .btn-text.btn-left:hover .btn-text-arrow {
   transform: translateX(-4px);
-  
+
 }

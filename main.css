@@ -564,19 +564,6 @@ NAV MENU STYLING
   }
 }
 
-  .wave-pattern-sm {
-    background-size: 62px 75px;
-  }
-
-  @keyframes wave {
-    0% {
-      transform: translateX(0);
-    }
-
-    100% {
-      transform: translateX(-62px);
-    }
-  }
 
 
 

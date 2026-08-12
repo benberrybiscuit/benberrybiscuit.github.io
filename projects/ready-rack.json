@@ -33,15 +33,9 @@
         },
         {
           "type": "media",
-          "layout": "tall",
+          "layout": "two-tall",
           "images": [
-            "../images/portfolioReadyRack02.webp"
-          ]
-        },
-        {
-          "type": "media",
-          "layout": "tall",
-          "images": [
+            "../images/portfolioReadyRack02.webp",
             "../images/portfolioReadyRack03.webp"
           ]
         }

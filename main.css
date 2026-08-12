@@ -498,14 +498,13 @@ NAV MENU STYLING
   overflow: hidden;
 }
 
-/*
 @media (max-width: 575.98px) {
-  .hero-container {
+  .hero-container, .hero-container-sm {
     height: 320px;
-    padding-left: 1em;
+    padding-left: 1.625em;
   }
 }
-*/
+
 .hero-container img,
 .hero-container-sm img {
   width: 100%;

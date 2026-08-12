@@ -832,7 +832,7 @@ h6 {
 
 @media (max-width: 575.98px) {
   .bleed-container {
-    padding: 2.5em 0 2em 0;
+    padding: 2em 1em 3em 1em;
   }
 }
 
@@ -856,11 +856,7 @@ h6 {
   background-color: #ecf3ff;
 }
 
-@media (max-width: 575.98px) {
-  .bleed-l:before {
-    right: 2em;
-  }
-}
+
 
 ul.portfolio {
   /* font-size: 0.75em; */

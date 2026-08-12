@@ -860,10 +860,14 @@ ul.portfolio {
 
 /* || PROJECT SECTION */
 .project-intro {
-  padding: 1em 1em 3em 1em;
+  padding: 4em 1em 3em 1em;
 }
 
-
+@media (max-width: 575.98px) {
+  .project-intro {
+    padding: 1em 1em 2em 1em;
+  }
+}
 
 
 

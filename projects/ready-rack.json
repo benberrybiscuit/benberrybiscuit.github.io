@@ -49,10 +49,17 @@
       "blocks": [
         {
           "type": "media",
+          "layout": "wide",
+          "images": [
+            "../images/portfolioReadyRack01.webp"
+          ]
+        },
+        {
+          "type": "media",
           "layout": "two-tall",
           "images": [
-            "../images/portfolioINRealty02.webp",
-            "../images/portfolioINRealty03.webp"
+            "../images/portfolioReadyRack05.webp",
+            "../images/portfolioReadyRack06.webp"
           ]
         }
       ]
@@ -65,8 +72,10 @@
       "blocks": [
         {
           "type": "media",
-          "layout": "video",
-          "video": "../images/portfolioINRealty_webscroll.mp4"
+          "layout": "wide",
+          "images": [
+            "../images/portfolioReadyRack07.webp"
+          ]
         }
       ]
     }

@@ -76,6 +76,14 @@
           "images": [
             "../images/portfolioReadyRack07.webp"
           ]
+        },
+        {
+          "type": "media",
+          "layout": "two-tall",
+          "images": [
+            "../images/portfolioReadyRack08.webp",
+            "../images/portfolioReadyRack09.webp"
+          ]
         }
       ]
     }

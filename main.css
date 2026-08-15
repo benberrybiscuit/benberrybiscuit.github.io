@@ -402,7 +402,7 @@ NAV MENU STYLING
   margin: auto;
   width: 0;
   background: transparent;
-  border-top: solid 3px #ff774e;
+  border-top: solid 4px #ff774e;
   transition: all .4s ease, background-color .4s ease;
 }
 
@@ -639,7 +639,7 @@ section {
 
 /* || FEATURED PROJECTS */
 .feature-container {
-  border-bottom: 3px solid #383c47;
+  border-bottom: 2px solid #383c47;
   padding: 0;
 }
 
@@ -693,8 +693,8 @@ section {
 
 .link-box {
   height: 100%;
-  border-left: 3px solid #383c47;
-  border-bottom: 3px solid #383c47;
+  border-left: 2px solid #383c47;
+  border-bottom: 2px solid #383c47;
 }
 
 @media (max-width: 767.98px) {
@@ -722,7 +722,7 @@ section {
   }
 }
 
-/* featured button carrot > */
+/* featured button carrot > 
 .link-box a::after {
   content: ">";
   color: #383c47;
@@ -744,7 +744,7 @@ section {
   color: #ff774e;
   border-color: #ff774e;
 }
-
+*/
 
 
 /* || SERVICES SECTION */

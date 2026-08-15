@@ -948,7 +948,6 @@ img.tall {
   display: inline-flex;
   align-items: stretch;
   /* keeps btn-link / btn-arrow the same height */
-  margin-top: 1.62em;
   font-family: "Excon", sans-serif;
   color: var(--btn-color);
   transition: color var(--btn-dur) var(--btn-ease);
@@ -1040,6 +1039,7 @@ img.tall {
 /* || LARGE / SMALL SIZE MODIFIERS (bordered only) */
 .btn-lg {
   font-size: 16px;
+  padding: 1em 0;
 }
 
 .btn-sm {

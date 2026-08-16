@@ -1018,22 +1018,19 @@ img.tall {
   padding: 1em 0;
 }
 
-.btn-feature {
-  font-size: 16px;
-  padding: 1em 0;
-}
+
 
 .btn-sm {
-  font-size: 13px;
-  letter-spacing: 1px;
+  font-size: 14px;
+  line-height: 1.3em;
+  text-align: left;
   padding: 0;
+  margin-right: 1em;
+
 }
 
-
-
-
 .btn-sm .btn-link {
-  padding: 6px 16px;
+  padding: 6px 12px;
 }
 
 .btn-sm .btn-arrow {

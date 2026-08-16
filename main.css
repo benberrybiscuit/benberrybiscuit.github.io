@@ -689,6 +689,7 @@ section {
 
 .feature-button-container {
   position: relative;
+  padding-right: 0;
 }
 
 .link-box {
@@ -1017,10 +1018,19 @@ img.tall {
   padding: 1em 0;
 }
 
+.btn-feature {
+  font-size: 16px;
+  padding: 1em 0;
+}
+
 .btn-sm {
   font-size: 13px;
   letter-spacing: 1px;
+  padding: 0;
 }
+
+
+
 
 .btn-sm .btn-link {
   padding: 6px 16px;
@@ -1031,12 +1041,18 @@ img.tall {
 }
 
 .btn-sm:hover .btn-arrow {
-  transform: translateX(14px);
+  transform: translateX(12px);
 }
 
 .btn-sm.btn-left:hover .btn-arrow {
-  transform: translateX(-14px);
+  transform: translateX(-12px);
 }
+
+
+
+
+
+
 
 /* || TEXT BUTTON (no border, no uppercase) */
 .btn-text {

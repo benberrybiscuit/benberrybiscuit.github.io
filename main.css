@@ -145,10 +145,6 @@ purple      #aa59fb
   color: white;
 }
 
-.bg-lightgray {
-  background-color: #ecf3ff;
-}
-
 /* || TYPOGRAPHY */
 h1,
 h2,
@@ -639,6 +635,17 @@ section {
 
 
 /* || FEATURED PROJECTS */
+.feature-section {
+  background-color: #ecf3ff;
+  padding: 3em 0em 6em 0em;
+
+}
+
+.feature-gallery{
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .feature-container {
   border-bottom: 2px solid #383c47;
   padding: 0;

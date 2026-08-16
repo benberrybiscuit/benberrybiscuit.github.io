@@ -399,7 +399,8 @@ NAV MENU STYLING
   width: 0;
   background: transparent;
   border-top: solid 4px #ff774e;
-  transition: all .4s ease, background-color .4s ease;
+  transition: all .4s cubic-bezier(.22, 1, .46, 1);
+
 }
 
 #nav-menu li:hover:before {
@@ -671,10 +672,8 @@ section {
   height: 100%;
   /* TESTING was at 100% */
   object-fit: cover;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+  transition: all .4s cubic-bezier(.22, 1, .46, 1);
+
 }
 
 .feature-image:hover img {
@@ -712,7 +711,7 @@ section {
 }
 
 @media (max-width: 767.98px) {
-  .link-box a .btn-link{
+  .link-box a .btn-link {
     padding: 8px 8px 8px 0px;
   }
 }

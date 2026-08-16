@@ -1094,8 +1094,9 @@ img.tall {
 
 /* =========================
 PORTFOLIO GALLERY
-========================= */.portfolio-section {
-  padding: 3em 0em 6em 0em;
+========================= */
+.portfolio-section {
+  padding: 6em 0em 6em 0em;
 }
 
 .portfolio-card-container {
@@ -1103,16 +1104,13 @@ PORTFOLIO GALLERY
   border-bottom: 2px solid #383c47;
   */
   padding: 0 0.5em;
-  gap: 1em;
 }
 
 .portfolio-card-image {
   background-size: cover;
   background-position: 50% 10%;
   background-repeat: no-repeat;
-  /*
   height: 300px;
-  */
   overflow: hidden;
 }
 

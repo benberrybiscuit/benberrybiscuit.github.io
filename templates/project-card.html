@@ -1,10 +1,7 @@
+<!--
 <a class="portfolio-card" href="portfolio/{{slug}}.html">
 
-    <img 
-        class="gallery-img"
-        src="{{thumbnail}}"
-        alt="{{title}}"
-    >
+    <img class="gallery-img" src="{{thumbnail}}" alt="{{title}}">
 
     <h3>{{title}}</h3>
 
@@ -13,3 +10,23 @@
     </p>
 
 </a>
+-->
+
+
+
+
+
+<div class="portfolio-card-image">
+    <img src="{{thumbnail}}" alt="{{title}}" />
+</div>
+<div class="portfolio-card-item">
+    <a class="btn btn-text" href="./portfolio/sonlight-farms.html">
+        <span>{{title}}</span>
+        <span class="btn-text-arrow">
+            <span class="arrow arrow-right arrow-sm"></span>
+        </span>
+        <p class="p-small">
+            {{industry}}
+        </p>
+    </a>
+</div>

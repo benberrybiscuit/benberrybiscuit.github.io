@@ -499,7 +499,8 @@ NAV MENU STYLING
 }
 
 @media (max-width: 575.98px) {
-  .hero-container, 
+
+  .hero-container,
   .hero-container-sm {
     height: 320px;
     padding-left: 1.625em;
@@ -668,10 +669,10 @@ section {
   height: 100%;
   /* TESTING was at 100% */
   object-fit: cover;
-  -webkit-transition: all 0.4s ease-in-out;
-  -moz-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .feature-image:hover img {
@@ -680,21 +681,20 @@ section {
 }
 
 .feature-item {
-  padding: 1em 0.5em 3em 1em;
+  padding: 1em 0em 3em 1em;
   margin-right: 1em;
   /* match feature-image margin */
 }
 
 .feature-button-container {
-  font-family: "Excon", sans-serif;
   position: relative;
-  padding: 0em 0em 0em 1.5em;
 }
 
 .link-box {
   height: 100%;
   border-left: 2px solid #383c47;
   border-bottom: 2px solid #383c47;
+
 }
 
 @media (max-width: 767.98px) {
@@ -704,47 +704,21 @@ section {
 }
 
 .link-box a {
-  color: #ff774e;
-  font-weight: 900;
-  text-transform: uppercase;
-  text-decoration: none;
-  letter-spacing: 1px;
   position: absolute;
   bottom: 0;
-  padding-left: 1em;
-  padding-bottom: 1em;
-  max-width: 190px;
+  /* max-width: 190px; */
 }
 
 @media (max-width: 767.98px) {
-  .link-box a {
-    padding: 0;
+  .link-box a .btn-link{
+    padding: 8px 8px 8px 0px;
   }
 }
 
-/* featured button carrot > 
-.link-box a::after {
-  content: ">";
-  color: #383c47;
-  font-weight: 700;
-  text-transform: uppercase;
-  border: 3px solid #000;
-  position: relative;
-  padding: 6px 16px;
-  top: 8px;
-  left: 8px;
-  -webkit-transition: all 0.4s ease-in-out;
-  -moz-transition: all0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
-}
 
-.link-box a:hover::after {
-  left: 24px;
-  color: #ff774e;
-  border-color: #ff774e;
-}
-*/
+
+
+
 
 
 /* || SERVICES SECTION */

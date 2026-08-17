@@ -387,7 +387,7 @@ function buildProject(file) {
 function buildPortfolioPage() {
 
     let page = fs.readFileSync(
-        "portfolio.html",
+        path.join("templates", "portfolio.html"),
         "utf8"
     );
 

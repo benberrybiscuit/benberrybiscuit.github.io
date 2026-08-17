@@ -1,32 +1,25 @@
-<!--
-<a class="portfolio-card" href="portfolio/{{slug}}.html">
+<div class="portfolio-card-container col-6 col-md-3">
 
-    <img class="gallery-img" src="{{thumbnail}}" alt="{{title}}">
+    <div class="portfolio-card-image">
+        <img src="{{thumbnail}}" alt="{{title}}">
+    </div>
 
-    <h3>{{title}}</h3>
+    <div class="portfolio-card-item">
 
-    <p class="p-small">
-        {{industry}}
-    </p>
+        <a class="btn btn-text" href="./portfolio/{{slug}}.html">
 
-</a>
--->
+            <span>{{title}}</span>
 
+            <span class="btn-text-arrow">
+                <span class="arrow arrow-right arrow-sm"></span>
+            </span>
 
+        </a>
 
+    </div>
 
-
-<div class="portfolio-card-image">
-    <img src="{{thumbnail}}" alt="{{title}}" />
 </div>
-<div class="portfolio-card-item">
-    <a class="btn btn-text" href="./portfolio/sonlight-farms.html">
-        <span>{{title}}</span>
-        <span class="btn-text-arrow">
-            <span class="arrow arrow-right arrow-sm"></span>
-        </span>
-        <p class="p-small">
-            {{industry}}
-        </p>
-    </a>
-</div>
+
+
+
+

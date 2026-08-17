@@ -2,449 +2,394 @@
 <html lang="en">
 
 <head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <!--My CSS-->
-  <link rel="stylesheet" href="./main.css">
-  <!--Nav Resize On Scroll-->
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--My CSS-->
+    <link rel="stylesheet" href="./main.css">
+    <!--Nav Resize On Scroll-->
 
 
 
-  <script>
-    // logo expansion
-    window.addEventListener("DOMContentLoaded", () => {
-      const logo = document.querySelector(".navbar-brand");
+    <script>
+        // logo expansion
+        window.addEventListener("DOMContentLoaded", () => {
+            const logo = document.querySelector(".navbar-brand");
 
-      logo.classList.add("logo-animate");
+            logo.classList.add("logo-animate");
 
-      setTimeout(() => {
-        logo.classList.remove("logo-animate");
-      }, 800);
-    });
+            setTimeout(() => {
+                logo.classList.remove("logo-animate");
+            }, 800);
+        });
 
-    // logo resize after scroll
-    window.onscroll = function () {
-      growShrinkLogo()
-    };
-    function growShrinkLogo() {
-      var NavBar = document.getElementById("NavBar");
+        // logo resize after scroll
+        window.onscroll = function () {
+            growShrinkLogo()
+        };
+        function growShrinkLogo() {
+            var NavBar = document.getElementById("NavBar");
 
-      if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-        NavBar.classList.add("scrolled");
-      } else {
-        NavBar.classList.remove("scrolled");
-      }
-    }
-  </script>
-
-
+            if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+                NavBar.classList.add("scrolled");
+            } else {
+                NavBar.classList.remove("scrolled");
+            }
+        }
+    </script>
 
 
-  <title>B | design</title>
+
+
+    <title>B | design</title>
 </head>
 
 <body>
-  <!-------------------------------------------------------
+    <!-------------------------------------------------------
           ---------------------------------------------------------
           NAVIGATION
           ---------------------------------------------------------
           -------------------------------------------------------->
-  <header>
-    <!--navbar test-->
-    <nav id="NavBar" class="navbar navbar-expand-sm navbar-light fixed-top">
+    <header>
+        <!--navbar test-->
+        <nav id="NavBar" class="navbar navbar-expand-sm navbar-light fixed-top">
 
-      <div class="container-fluid">
-        <!--logo-->
-        <a class="navbar-brand" href="./index.html" aria-label="Ben Littleton home">
-          <svg id="Logo" class="logo" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 90.5 48">
-            <g class="b-extensions">
-              <path class="st1" d="M63.52,0H0v7.38h63.52V0Z" />
-              <path class="st1" d="M63.52,20.31H27.69v7.38h35.84v-7.38Z" />
-              <path class="st1" d="M63.52,40.62H0v7.38h63.52v-7.38Z" />
-              <polygon class="st1"
-                points="76.09 40.62 23.07 40.62 23.07 11.08 15.69 11.08 15.69 40.62 0 40.62 0 48 76.09 48 76.09 40.62" />
-            </g>
-            <g class="b-right">
-              <path class="st0"
-                d="M82.92,35.52c-.63,2.91-3.22,5.1-6.31,5.1H0v7.38h76.61c4.32,0,7.85-3.52,7.85-7.85,0-1.74-.57-3.34-1.53-4.64Z" />
-              <path class="st0"
-                d="M90.45,34.15c0-7.63-6.21-13.84-13.84-13.84h-.67c1.16-2.18,1.71-4.64,1.58-7.19-.38-7.35-6.53-13.12-13.99-13.12H0v7.38h63.52c3.53,0,6.43,2.69,6.61,6.11h0c.09,1.8-.54,3.5-1.77,4.8-1.23,1.3-2.9,2.01-4.68,2.01H27.69v7.38h48.92c6.87,0,12.46,5.59,12.46,12.46v.03c.89-1.82,1.38-3.87,1.38-6.03Z" />
-            </g>
-          </svg>
+            <div class="container-fluid">
+                <!--logo-->
+                <a class="navbar-brand" href="./index.html" aria-label="Ben Littleton home">
+                    <svg id="Logo" class="logo" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 90.5 48">
+                        <g class="b-extensions">
+                            <path class="st1" d="M63.52,0H0v7.38h63.52V0Z" />
+                            <path class="st1" d="M63.52,20.31H27.69v7.38h35.84v-7.38Z" />
+                            <path class="st1" d="M63.52,40.62H0v7.38h63.52v-7.38Z" />
+                            <polygon class="st1"
+                                points="76.09 40.62 23.07 40.62 23.07 11.08 15.69 11.08 15.69 40.62 0 40.62 0 48 76.09 48 76.09 40.62" />
+                        </g>
+                        <g class="b-right">
+                            <path class="st0"
+                                d="M82.92,35.52c-.63,2.91-3.22,5.1-6.31,5.1H0v7.38h76.61c4.32,0,7.85-3.52,7.85-7.85,0-1.74-.57-3.34-1.53-4.64Z" />
+                            <path class="st0"
+                                d="M90.45,34.15c0-7.63-6.21-13.84-13.84-13.84h-.67c1.16-2.18,1.71-4.64,1.58-7.19-.38-7.35-6.53-13.12-13.99-13.12H0v7.38h63.52c3.53,0,6.43,2.69,6.61,6.11h0c.09,1.8-.54,3.5-1.77,4.8-1.23,1.3-2.9,2.01-4.68,2.01H27.69v7.38h48.92c6.87,0,12.46,5.59,12.46,12.46v.03c.89-1.82,1.38-3.87,1.38-6.03Z" />
+                        </g>
+                    </svg>
 
-          <!--<span class="logo-text">// Ben Littleton</span>-->
-          <div class="logo-info">
-            <span class="logo-name">Ben Littleton</span>
-            <span class="logo-title">Visual Designer</span>
-          </div>
-        </a>
+                    <!--<span class="logo-text">// Ben Littleton</span>-->
+                    <div class="logo-info">
+                        <span class="logo-name">Ben Littleton</span>
+                        <span class="logo-title">Visual Designer</span>
+                    </div>
+                </a>
 
-        <!--hamburger menu-->
-        <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-menu"
-          aria-controls="nav-menu" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon align-middle"></span>
-          <!--<span class="button-label align-middle">Main Menu</span>-->
-        </button>
+                <!--hamburger menu-->
+                <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#nav-menu" aria-controls="nav-menu" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon align-middle"></span>
+                    <!--<span class="button-label align-middle">Main Menu</span>-->
+                </button>
 
-        <!--nav links-->
-        <div id="nav-menu" class="collapse navbar-collapse justify-content-end text-center">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="./index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./portfolio.html">Work</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./services.html">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./contact.html">Contact</a>
-            </li>
-          </ul>
+                <!--nav links-->
+                <div id="nav-menu" class="collapse navbar-collapse justify-content-end text-center">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./portfolio.html">Work</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./services.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!--hero image and wave-->
+        <div class="hero-container-sm">
+            <!--<img src="./images/hero-image.png" class="img-fluid ">-->
+            <img class="hero-image" src="images/hero-image.png" class="img-fluid">
+            <div class="wave-position">
+                <div class="wave-pattern"></div>
+            </div>
         </div>
-      </div>
-    </nav>
+    </header>
 
-    <!--hero image and wave-->
-    <div class="hero-container-sm">
-      <!--<img src="./images/hero-image.png" class="img-fluid ">-->
-      <img class="hero-image" src="images/hero-image.png" class="img-fluid">
-      <div class="wave-position">
-        <div class="wave-pattern"></div>
-      </div>
-    </div>
-  </header>
-
-  <!-------------------------------------------------------
+    <!-------------------------------------------------------
   ---------------------------------------------------------
-  PORTFOLIO SECTION
+  PORTFOLIO
   ---------------------------------------------------------
   -------------------------------------------------------->
+    <section class="portfolio-section">
 
+        <div class="container ps-2 pe-2">
+            <div class="col-md-7">
+                <h1 class="headline">The work<span class="orange">.</span></h1>
+                <p class="p-large">Turn heads, change minds.</p>
+                <p class="pt-3">Any marketing agency can make tactics that dazzle. FVM builds carefully targeted brands
+                    and
+                    campaigns that command attention and compel decision makers to act.</p>
+                <h3 class="pt-5">Portfolio</h3>
+            </div>
+        </div>
 
+        <div class="container">
+            <div class="row">
+                <div class="portfolio-card-container col-6 col-md-3">
 
-<!--
-<a class="portfolio-card" href="portfolio/hinsons-printing.html">
-
-    <img class="gallery-img" src="images/portfolioHinsonsPrinting01.jpg" alt="Hinson's Printing">
-
-    <h3>Hinson's Printing</h3>
-
-    <p class="p-small">
-        Print & Production
-    </p>
-
-</a>
--->
-
-
-
-
-
-<div class="portfolio-card-image">
-    <img src="images/portfolioHinsonsPrinting01.jpg" alt="Hinson's Printing" />
-</div>
-<div class="portfolio-card-item">
-    <a class="btn btn-text" href="./portfolio/sonlight-farms.html">
-        <span>Hinson's Printing</span>
-        <span class="btn-text-arrow">
-            <span class="arrow arrow-right arrow-sm"></span>
-        </span>
-        <p class="p-small">
-            Print & Production
-        </p>
-    </a>
-</div><!--
-<a class="portfolio-card" href="portfolio/in-realty.html">
-
-    <img class="gallery-img" src="images/portfolioINRealty_hero.webp" alt="IN Realty">
-
-    <h3>IN Realty</h3>
-
-    <p class="p-small">
-        Real Estate
-    </p>
-
-</a>
--->
-
-
-
-
-
-<div class="portfolio-card-image">
-    <img src="images/portfolioINRealty_hero.webp" alt="IN Realty" />
-</div>
-<div class="portfolio-card-item">
-    <a class="btn btn-text" href="./portfolio/sonlight-farms.html">
-        <span>IN Realty</span>
-        <span class="btn-text-arrow">
-            <span class="arrow arrow-right arrow-sm"></span>
-        </span>
-        <p class="p-small">
-            Real Estate
-        </p>
-    </a>
-</div><!--
-<a class="portfolio-card" href="portfolio/ready-rack.html">
-
-    <img class="gallery-img" src="images/portfolioReadyRack_hero.webp" alt="Ready Rack">
-
-    <h3>Ready Rack</h3>
-
-    <p class="p-small">
-        Fire & Safety Equipment
-    </p>
-
-</a>
--->
-
-
-
-
-
-<div class="portfolio-card-image">
-    <img src="images/portfolioReadyRack_hero.webp" alt="Ready Rack" />
-</div>
-<div class="portfolio-card-item">
-    <a class="btn btn-text" href="./portfolio/sonlight-farms.html">
-        <span>Ready Rack</span>
-        <span class="btn-text-arrow">
-            <span class="arrow arrow-right arrow-sm"></span>
-        </span>
-        <p class="p-small">
-            Fire & Safety Equipment
-        </p>
-    </a>
-</div><!--
-<a class="portfolio-card" href="portfolio/sonlight-farms.html">
-
-    <img class="gallery-img" src="images/portfolioSonlightFarms01.jpg" alt="Sonlight Farms">
-
-    <h3>Sonlight Farms</h3>
-
-    <p class="p-small">
-        Agritourism
-    </p>
-
-</a>
--->
-
-
-
-
-
-<div class="portfolio-card-image">
-    <img src="images/portfolioSonlightFarms01.jpg" alt="Sonlight Farms" />
-</div>
-<div class="portfolio-card-item">
-    <a class="btn btn-text" href="./portfolio/sonlight-farms.html">
-        <span>Sonlight Farms</span>
-        <span class="btn-text-arrow">
-            <span class="arrow arrow-right arrow-sm"></span>
-        </span>
-        <p class="p-small">
-            Agritourism
-        </p>
-    </a>
-</div>
-
-
-
-
-
-
-  <section class="portfolio-section">
-
-    <div class="container ps-2 pe-2">
-      <div class="col-md-7">
-        <h1 class="headline">The work<span class="orange">.</span></h1>
-        <p class="p-large">Turn heads, change minds.</p>
-        <p class="pt-3">Any marketing agency can make tactics that dazzle. FVM builds carefully targeted brands and
-          campaigns that command attention and compel decision makers to act.</p>
-        <h3 class="pt-5">Portfolio</h3>
-      </div>
+    <div class="portfolio-card-image">
+        <img src="images/portfolioHinsonsPrinting01.jpg" alt="Hinson's Printing">
     </div>
 
-    <div class="container">
-      <div class="row">
+    <div class="portfolio-card-item">
 
-        <div class="portfolio-card-container col-6 col-md-3">
-          <div class="portfolio-card-image">
-            <img src="images/portfolioSonlightFarms07.jpg" />
-          </div>
-          <div class="portfolio-card-item">
-            <a class="btn btn-text" href="./portfolio/sonlight-farms.html">
-              <span>Logo Design</span>
-              <span class="btn-text-arrow">
+        <a class="btn btn-text" href="./portfolio/hinsons-printing.html">
+
+            <span>Hinson's Printing</span>
+
+            <span class="btn-text-arrow">
                 <span class="arrow arrow-right arrow-sm"></span>
-              </span>
-            </a>
-          </div>
-        </div>
+            </span>
 
-        <div class="portfolio-card-container col-6 col-md-3">
-          <div class="portfolio-card-image">
-            <img src="images/portfolioINRealty01.webp" />
-          </div>
-          <div class="portfolio-card-item">
-            <a class="btn btn-text" href="./portfolio/sonlight-farms.html">
-              <span>Logo Design</span>
-              <span class="btn-text-arrow">
-                <span class="arrow arrow-right arrow-sm"></span>
-              </span>
-            </a>
-          </div>
-        </div>
+        </a>
 
-        <div class="portfolio-card-container col-6 col-md-3">
-          <div class="portfolio-card-image">
-            <img src="images/portfolioHinsonsPrinting05.jpg" />
-          </div>
-          <div class="portfolio-card-item">
-            <a class="btn btn-text" href="./portfolio/hinsons-printing.html">
-              <span>Brand Refresh</span>
-              <span class="btn-text-arrow">
-                <span class="arrow arrow-right arrow-sm"></span>
-              </span>
-            </a>
-          </div>
-        </div>
-
-        <div class="portfolio-card-container col-6 col-md-3">
-          <div class="portfolio-card-image">
-            <img src="images/portfolioHinsonsPrinting05.jpg" />
-          </div>
-          <div class="portfolio-card-item">
-            <a class="btn btn-text" href="./portfolio/hinsons-printing.html">
-              <span>Brand Refresh</span>
-              <span class="btn-text-arrow">
-                <span class="arrow arrow-right arrow-sm"></span>
-              </span>
-            </a>
-          </div>
-        </div>
-
-      </div>
     </div>
-  </section>
-  
-  
-  
-  <!---------------------------------------------
+
+</div>
+
+
+
+
+<div class="portfolio-card-container col-6 col-md-3">
+
+    <div class="portfolio-card-image">
+        <img src="images/portfolioINRealty_hero.webp" alt="IN Realty">
+    </div>
+
+    <div class="portfolio-card-item">
+
+        <a class="btn btn-text" href="./portfolio/in-realty.html">
+
+            <span>IN Realty</span>
+
+            <span class="btn-text-arrow">
+                <span class="arrow arrow-right arrow-sm"></span>
+            </span>
+
+        </a>
+
+    </div>
+
+</div>
+
+
+
+
+<div class="portfolio-card-container col-6 col-md-3">
+
+    <div class="portfolio-card-image">
+        <img src="images/portfolioReadyRack_hero.webp" alt="Ready Rack">
+    </div>
+
+    <div class="portfolio-card-item">
+
+        <a class="btn btn-text" href="./portfolio/ready-rack.html">
+
+            <span>Ready Rack</span>
+
+            <span class="btn-text-arrow">
+                <span class="arrow arrow-right arrow-sm"></span>
+            </span>
+
+        </a>
+
+    </div>
+
+</div>
+
+
+
+
+<div class="portfolio-card-container col-6 col-md-3">
+
+    <div class="portfolio-card-image">
+        <img src="images/portfolioSonlightFarms01.jpg" alt="Sonlight Farms">
+    </div>
+
+    <div class="portfolio-card-item">
+
+        <a class="btn btn-text" href="./portfolio/sonlight-farms.html">
+
+            <span>Sonlight Farms</span>
+
+            <span class="btn-text-arrow">
+                <span class="arrow arrow-right arrow-sm"></span>
+            </span>
+
+        </a>
+
+    </div>
+
+</div>
+
+
+
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!---------------------------------------------
   PGI
     --------------------------------------------->
-  <div class="portfolio-section">
-    <div class="container">
-      <div class="row bleed-container bleed-l">
 
-        <div>
-          <img class="gallery-img wide pb-5" src="images/portfolioPGI_hero2.webp">
-        </div>
 
-        <h2>PGI <span class="orange">//</span> BarriAire</h2>
-        <!-- introduction -->
-        <div class="col-11 col-sm-7 col-md-8 col-lg-6 col-xl-6  pb-3">
-          <p class="pt-3">An independent real estate brokerage serving the Research Triangle region of North Carolina.
-            IN&#8239;Realty delivers a more personal, service-driven approach to buying and selling, supported by a
-            knowledgeable team and in-house expertise across every stage of the process.
-          </p>
-          <div class="paragraphCols">
-            <p class="p-small">As a new entrant in a competitive real estate market, IN&#8239;Realty needed a brand that
-              could establish credibility quickly while differentiating itself from larger, more impersonal brokerages.
-            </p>
-          </div>
-        </div>
 
-        <!-- industry / services list -->
-        <div class="col-11 col-sm-4 col-md-3 col-lg-6 col-xl-6 pb-3">
-          <div class="row ">
-            <div class="col pb-4">
-              <h4>Industry</h4>
-              <p class="p-small">Real Estate</p>
+    <div class="portfolio-section">
+        <div class="container">
+            <div class="row bleed-container bleed-l">
+
+                <div>
+                    <img class="gallery-img wide pb-5" src="images/portfolioPGI_hero2.webp">
+                </div>
+
+                <h2>PGI <span class="orange">//</span> BarriAire</h2>
+                <!-- introduction -->
+                <div class="col-11 col-sm-7 col-md-8 col-lg-6 col-xl-6  pb-3">
+                    <p class="pt-3">An independent real estate brokerage serving the Research Triangle
+                        region of North
+                        Carolina.
+                        IN&#8239;Realty delivers a more personal, service-driven approach to buying and
+                        selling,
+                        supported by a
+                        knowledgeable team and in-house expertise across every stage of the process.
+                    </p>
+                    <div class="paragraphCols">
+                        <p class="p-small">As a new entrant in a competitive real estate market,
+                            IN&#8239;Realty needed
+                            a brand that
+                            could establish credibility quickly while differentiating itself from larger,
+                            more
+                            impersonal brokerages.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- industry / services list -->
+                <div class="col-11 col-sm-4 col-md-3 col-lg-6 col-xl-6 pb-3">
+                    <div class="row ">
+                        <div class="col pb-4">
+                            <h4>Industry</h4>
+                            <p class="p-small">Real Estate</p>
+                        </div>
+
+                        <div class="col">
+                            <h4>Scope</h4>
+                            <ul class="portfolio">
+                                <li>Identity Design</li>
+                                <li>Print & Collateral</li>
+                                <li>Web Design</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- summary -->
+                <div class="row pe-0 pt-5">
+                    <div class="col-12 col-sm-6">
+                        <h3>Challenge</h3>
+                        <p class="p-small">Without an existing brand foundation, the identity needed to do
+                            more than
+                            look
+                            polished—it had to build trust, communicate expertise, and create a distinct
+                            presence from
+                            day one across
+                            both print and digital touchpoints.</p>
+                    </div>
+                    <div class="col-12 col-sm-5">
+                        <h3>Approach</h3>
+                        <p class="p-small">The goal was to develop a refined, flexible identity system that
+                            balances
+                            professionalism
+                            with personality—positioning IN&#8239;Realty as a modern, boutique alternative
+                            while
+                            maintaining clarity
+                            and
+                            consistency across all applications.</p>
+                    </div>
+                </div>
+
+                <!-- print advertising -->
+                <div class="row pe-0 pt-5">
+                    <div class="col-12 col-md-7 order-first order-md-last offset-md-1 pe-0">
+                        <div class="gallery-grid pb-3">
+                            <img class="gallery-img wide" src="images/portfolioPGI01.jpg">
+                            <img class="gallery-img tall" src="images/portfolioPGI02.jpg">
+                            <img class="gallery-img tall" src="images/portfolioPGI03.jpg">
+                            <img class="gallery-img tall" src="images/portfolioPGI04.jpg">
+                            <img class="gallery-img tall" src="images/portfolioPGI05.jpg">
+                        </div>
+                    </div>
+                    <div class="col-11 col-md-4 order-last order-md-first">
+                        <h4>Print Advertising Campaign</h4>
+                        <p class="p-small">The logotype is built on the foundation of Brandon, introducing
+                            subtle
+                            customization for
+                            a more distinctive presence. A stylized rooftop form with an arched window
+                            replaces the “A”
+                            in “Realty,”
+                            creating a memorable visual cue tied to residential property and reinforcing
+                            immediate brand
+                            recognition.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- web design -->
+                <div class="row pe-0 pt-5">
+                    <div class="col-12 col-md-7 order-first order-md-last offset-md-1 pe-0">
+                        <div class="gallery-grid pb-3">
+                            <img class="gallery-img wide" src="images/portfolioPGI_hero2.webp">
+                        </div>
+                    </div>
+                    <div class="col-11 col-md-4 order-last order-md-first">
+                        <h4>Web Design</h4>
+                        <p class="p-small">The website translates the identity into a clean, intuitive
+                            digital
+                            experience.
+                            High-fidelity mockups define structure, hierarchy, and tone, with a focus on
+                            navigation and
+                            footer systems
+                            to create a cohesive and user-friendly platform.</p>
+                    </div>
+                </div>
+
+                <!-- outcome -->
+                <div class="row pe-0 pt-5">
+                    <div class="col-11 col-sm-7 col-md-8 col-lg-6 col-xl-6  pb-3">
+                        <h3>Outcome</h3>
+                        <p class="p-small">The result is a cohesive, elevated brand system that establishes
+                            IN&#8239;Realty as a
+                            credible
+                            and differentiated presence from launch—supporting growth across print, digital,
+                            and local
+                            outreach.</p>
+                    </div>
+                </div>
             </div>
-
-            <div class="col">
-              <h4>Scope</h4>
-              <ul class="portfolio">
-                <li>Identity Design</li>
-                <li>Print & Collateral</li>
-                <li>Web Design</li>
-              </ul>
-            </div>
-          </div>
         </div>
-
-        <!-- summary -->
-        <div class="row pe-0 pt-5">
-          <div class="col-12 col-sm-6">
-            <h3>Challenge</h3>
-            <p class="p-small">Without an existing brand foundation, the identity needed to do more than look
-              polished—it had to build trust, communicate expertise, and create a distinct presence from day one across
-              both print and digital touchpoints.</p>
-          </div>
-          <div class="col-12 col-sm-5">
-            <h3>Approach</h3>
-            <p class="p-small">The goal was to develop a refined, flexible identity system that balances professionalism
-              with personality—positioning IN&#8239;Realty as a modern, boutique alternative while maintaining clarity
-              and
-              consistency across all applications.</p>
-          </div>
-        </div>
-
-        <!-- print advertising -->
-        <div class="row pe-0 pt-5">
-          <div class="col-12 col-md-7 order-first order-md-last offset-md-1 pe-0">
-            <div class="gallery-grid pb-3">
-              <img class="gallery-img wide" src="images/portfolioPGI01.jpg">
-              <img class="gallery-img tall" src="images/portfolioPGI02.jpg">
-              <img class="gallery-img tall" src="images/portfolioPGI03.jpg">
-              <img class="gallery-img tall" src="images/portfolioPGI04.jpg">
-              <img class="gallery-img tall" src="images/portfolioPGI05.jpg">
-            </div>
-          </div>
-          <div class="col-11 col-md-4 order-last order-md-first">
-            <h4>Print Advertising Campaign</h4>
-            <p class="p-small">The logotype is built on the foundation of Brandon, introducing subtle customization for
-              a more distinctive presence. A stylized rooftop form with an arched window replaces the “A” in “Realty,”
-              creating a memorable visual cue tied to residential property and reinforcing immediate brand recognition.
-            </p>
-          </div>
-        </div>
-
-        <!-- web design -->
-        <div class="row pe-0 pt-5">
-          <div class="col-12 col-md-7 order-first order-md-last offset-md-1 pe-0">
-            <div class="gallery-grid pb-3">
-              <img class="gallery-img wide" src="images/portfolioPGI_hero2.webp">
-            </div>
-          </div>
-          <div class="col-11 col-md-4 order-last order-md-first">
-            <h4>Web Design</h4>
-            <p class="p-small">The website translates the identity into a clean, intuitive digital experience.
-              High-fidelity mockups define structure, hierarchy, and tone, with a focus on navigation and footer systems
-              to create a cohesive and user-friendly platform.</p>
-          </div>
-        </div>
-
-        <!-- outcome -->
-        <div class="row pe-0 pt-5">
-          <div class="col-11 col-sm-7 col-md-8 col-lg-6 col-xl-6  pb-3">
-            <h3>Outcome</h3>
-            <p class="p-small">The result is a cohesive, elevated brand system that establishes IN&#8239;Realty as a
-              credible
-              and differentiated presence from launch—supporting growth across print, digital, and local outreach.</p>
-          </div>
-        </div>
-      </div>
     </div>
-  </div>
 
 
 
@@ -454,210 +399,219 @@
 
 
 
-  <!---------------------------------------------
+    <!---------------------------------------------
         College Golf Network
         --------------------------------------------->
-  <div class="portfolio-section">
-    <div class="container">
-      <div class="row bleed-container bleed-l">
+    <div class="portfolio-section">
+        <div class="container">
+            <div class="row bleed-container bleed-l">
 
-        <h2>College Golf Network</h2>
-        <!-- introduction -->
-        <div class="col-11 col-sm-7 col-md-8 col-lg-6 col-xl-6  pb-3">
-          <p class="pt-3">A live golf broadcasting experience showcasing college and amateur events throughout the US,
-            Canada and Mexico.</p>
-          <div class="paragraphCols">
-            <p class="p-small">A key focus of CGN is to give exposure to college and amateur golfers, elevating their
-              platforms and providing opportunities for recognition on a global stage. Additionally, CGN endeavors to
-              partner and collaborate with host tournaments by marketing and selling corporate sponsorship
-              opportunities, with the objective of generating additional revenue for all event stakeholders.</p>
-          </div>
-        </div>
+                <h2>College Golf Network</h2>
+                <!-- introduction -->
+                <div class="col-11 col-sm-7 col-md-8 col-lg-6 col-xl-6  pb-3">
+                    <p class="pt-3">A live golf broadcasting experience showcasing college and amateur
+                        events throughout
+                        the US,
+                        Canada and Mexico.</p>
+                    <div class="paragraphCols">
+                        <p class="p-small">A key focus of CGN is to give exposure to college and amateur
+                            golfers,
+                            elevating their
+                            platforms and providing opportunities for recognition on a global stage.
+                            Additionally, CGN
+                            endeavors to
+                            partner and collaborate with host tournaments by marketing and selling corporate
+                            sponsorship
+                            opportunities, with the objective of generating additional revenue for all event
+                            stakeholders.</p>
+                    </div>
+                </div>
 
-        <!-- industry / services list-->
-        <div class="col-11 col-sm-4 col-md-3 col-lg-6 col-xl-6 pb-3">
-          <div class="row">
-            <div class="col-5 col-sm-11 col-md-11 col-lg-3 col-xl-3">
-              <h4>Industry</h4>
-              <p class="p-small">Sports Media</p>
+                <!-- industry / services list-->
+                <div class="col-11 col-sm-4 col-md-3 col-lg-6 col-xl-6 pb-3">
+                    <div class="row">
+                        <div class="col-5 col-sm-11 col-md-11 col-lg-3 col-xl-3">
+                            <h4>Industry</h4>
+                            <p class="p-small">Sports Media</p>
+                        </div>
+
+                        <div class="col-6 col-sm-11 col-md-12 col-lg-3 col-xl-3">
+                            <h4>Services</h4>
+                            <ul class="portfolio">
+                                <li>Logo & Identity</li>
+                                <li>Stationery & Collateral</li>
+                                <li>Broadcast Overlays</li>
+                                <li>Motion Graphics</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 1 -->
+                <div class="row pe-0 pt-5">
+                    <div class="col-11 col-md-5 pt-3 ">
+                        <h4>Logo Design</h4>
+                        <p class="p-small">Description</p>
+                    </div>
+                    <div class="col-12 col-md-7 pe-0">
+                        <div class="gallery-grid">
+                            <img class="gallery-img wide" src="images/portfolioCollegeGolfNetwork01.jpg" />
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2 -->
+                <div class="row pe-0 pt-5">
+                    <div class="col-11 col-md-5 pt-3 ">
+                        <h4>Business Collateral</h4>
+                        <p class="p-small">Description</p>
+                    </div>
+                    <div class="col-12 col-md-7 pe-0">
+                        <div class="gallery-grid">
+                            <img class="gallery-img tall" src="images/portfolioCollegeGolfNetwork02.jpg" />
+                            <img class="gallery-img tall" src="images/portfolioCollegeGolfNetwork03.jpg" />
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3 -->
+                <div class="row pe-0 pt-5">
+                    <div class="col-11 col-md-5 pt-3 ">
+                        <h4>Motion Graphics</h4>
+                        <p class="p-small">Description</p>
+                    </div>
+                    <div class="col-12 col-md-7 pe-0">
+                        <div class="gallery-grid">
+                            <video class="gallery-img wide" muted autoplay loop>
+                                <source src="/images/portfolioCollegeGolfNetwork_webscroll.mp4" type="video/mp4" />
+                            </video>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-
-            <div class="col-6 col-sm-11 col-md-12 col-lg-3 col-xl-3">
-              <h4>Services</h4>
-              <ul class="portfolio">
-                <li>Logo & Identity</li>
-                <li>Stationery & Collateral</li>
-                <li>Broadcast Overlays</li>
-                <li>Motion Graphics</li>
-              </ul>
-            </div>
-          </div>
         </div>
-
-        <!-- 1 -->
-        <div class="row pe-0 pt-5">
-          <div class="col-11 col-md-5 pt-3 ">
-            <h4>Logo Design</h4>
-            <p class="p-small">Description</p>
-          </div>
-          <div class="col-12 col-md-7 pe-0">
-            <div class="gallery-grid">
-              <img class="gallery-img wide" src="images/portfolioCollegeGolfNetwork01.jpg" />
-            </div>
-          </div>
-        </div>
-
-        <!-- 2 -->
-        <div class="row pe-0 pt-5">
-          <div class="col-11 col-md-5 pt-3 ">
-            <h4>Business Collateral</h4>
-            <p class="p-small">Description</p>
-          </div>
-          <div class="col-12 col-md-7 pe-0">
-            <div class="gallery-grid">
-              <img class="gallery-img tall" src="images/portfolioCollegeGolfNetwork02.jpg" />
-              <img class="gallery-img tall" src="images/portfolioCollegeGolfNetwork03.jpg" />
-
-            </div>
-          </div>
-        </div>
-
-        <!-- 3 -->
-        <div class="row pe-0 pt-5">
-          <div class="col-11 col-md-5 pt-3 ">
-            <h4>Motion Graphics</h4>
-            <p class="p-small">Description</p>
-          </div>
-          <div class="col-12 col-md-7 pe-0">
-            <div class="gallery-grid">
-              <video class="gallery-img wide" muted autoplay loop>
-                <source src="/images/portfolioCollegeGolfNetwork_webscroll.mp4" type="video/mp4" />
-              </video>
-            </div>
-          </div>
-        </div>
-
-      </div>
     </div>
-  </div>
 
-  <!---------------------------------------------
+    <!---------------------------------------------
         Princeton Church
         --------------------------------------------->
-  <div class="portfolio-section">
-    <div class="container">
-      <div class="row bleed-container bleed-l">
+    <div class="portfolio-section">
+        <div class="container">
+            <div class="row bleed-container bleed-l">
 
-        <h2>Princeton Church</h2>
-        <!-- introduction -->
-        <div class="col-11 col-sm-7 col-md-8 col-lg-6 col-xl-6  pb-3">
-          <p class="pt-3">Introduction Sentence.</p>
-          <div class="paragraphCols">
-            <p class="p-small">Introduction long description.</p>
-          </div>
-        </div>
+                <h2>Princeton Church</h2>
+                <!-- introduction -->
+                <div class="col-11 col-sm-7 col-md-8 col-lg-6 col-xl-6  pb-3">
+                    <p class="pt-3">Introduction Sentence.</p>
+                    <div class="paragraphCols">
+                        <p class="p-small">Introduction long description.</p>
+                    </div>
+                </div>
 
-        <!-- industry / services list-->
-        <div class="col-11 col-sm-4 col-md-3 col-lg-6 col-xl-6 pb-3">
-          <div class="row">
-            <div class="col-5 col-sm-11 col-md-11 col-lg-3 col-xl-3">
-              <h4>Industry</h4>
-              <p class="p-small">Religious Organization</p>
+                <!-- industry / services list-->
+                <div class="col-11 col-sm-4 col-md-3 col-lg-6 col-xl-6 pb-3">
+                    <div class="row">
+                        <div class="col-5 col-sm-11 col-md-11 col-lg-3 col-xl-3">
+                            <h4>Industry</h4>
+                            <p class="p-small">Religious Organization</p>
+                        </div>
+
+                        <div class="col-6 col-sm-11 col-md-12 col-lg-3 col-xl-3">
+                            <h4>Services</h4>
+                            <ul class="portfolio">
+                                <li>Editorial Design</li>
+                                <li>Typesetting</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 1 -->
+                <div class="row pe-0 pt-5">
+                    <div class="col-11 col-md-5 pt-3 ">
+                        <h4>Workbook</h4>
+                        <p class="p-small">Description</p>
+                    </div>
+                    <div class="col-12 col-md-7 pe-0">
+                        <div class="gallery-grid">
+                            <img class="gallery-img wide" src="images/portfolioPrincetonChurchWorkbook02.jpg">
+                        </div>
+                    </div>
+                </div>
+
             </div>
-
-            <div class="col-6 col-sm-11 col-md-12 col-lg-3 col-xl-3">
-              <h4>Services</h4>
-              <ul class="portfolio">
-                <li>Editorial Design</li>
-                <li>Typesetting</li>
-              </ul>
-            </div>
-          </div>
         </div>
-
-        <!-- 1 -->
-        <div class="row pe-0 pt-5">
-          <div class="col-11 col-md-5 pt-3 ">
-            <h4>Workbook</h4>
-            <p class="p-small">Description</p>
-          </div>
-          <div class="col-12 col-md-7 pe-0">
-            <div class="gallery-grid">
-              <img class="gallery-img wide" src="images/portfolioPrincetonChurchWorkbook02.jpg">
-            </div>
-          </div>
-        </div>
-
-      </div>
     </div>
-  </div>
 
 
 
-  <!-------------------------------------------------------
+    <!-------------------------------------------------------
         ---------------------------------------------------------
         FOOTER
         ---------------------------------------------------------
         -------------------------------------------------------->
-  <!-- Footer SECTION OLD -->
-  <section class="footer-section">
+    <!-- Footer SECTION OLD -->
+    <section class="footer-section">
 
-    <!--footer wave
+        <!--footer wave
     <div class="footer-container">
       <div class="wave-position">
         <div class="wave-pattern"></div>
       </div>
     </div>-->
 
-    <!--content-->
-    <div class="container">
-      <div class="row">
+        <!--content-->
+        <div class="container">
+            <div class="row">
 
-        <div class="col-md-7 footer-col">
-          <!-- logo -->
-          <a href="#">
-            <span class="logo-text-footer">Ben Littleton // Creative Design</span>
-          </a>
-          <!-- links -->
-          <ul class="footer-links">
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-          <!-- contact -->
-          <div class="footer-phone">
-            <a href="tel:5555555555">555-555-5555</a>
-          </div>
-          <div class="footer-email">
-            <a
-              href="mailto:example@example.com?subject=Hello%20there&body=This%20is%20a%20pRedefined%20email%20body.">inquire@email.com</a>
-          </div>
+                <div class="col-md-7 footer-col">
+                    <!-- logo -->
+                    <a href="#">
+                        <span class="logo-text-footer">Ben Littleton // Creative Design</span>
+                    </a>
+                    <!-- links -->
+                    <ul class="footer-links">
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                    <!-- contact -->
+                    <div class="footer-phone">
+                        <a href="tel:5555555555">555-555-5555</a>
+                    </div>
+                    <div class="footer-email">
+                        <a
+                            href="mailto:example@example.com?subject=Hello%20there&body=This%20is%20a%20pRedefined%20email%20body.">inquire@email.com</a>
+                    </div>
+                </div>
+
+                <!-- cta -->
+                <div class="col-md-5 footer-col">
+                    <p class="white">Ready to develop a comprehensive strategy that will enhance your
+                        marketing efforts?
+                    </p>
+                    <!-- button -->
+                    <div class="btn-parent-footer">
+                        <a class="btn-footer arrow-lg-footer" href="#">
+                            <div class="btn-link-footer">Meet Up</div>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
         </div>
+    </section>
+    <!-- Footer -->
 
-        <!-- cta -->
-        <div class="col-md-5 footer-col">
-          <p class="white">Ready to develop a comprehensive strategy that will enhance your marketing efforts?
-          </p>
-          <!-- button -->
-          <div class="btn-parent-footer">
-            <a class="btn-footer arrow-lg-footer" href="#">
-              <div class="btn-link-footer">Meet Up</div>
-            </a>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-  <!-- Footer -->
-
-  <!-- Optional JavaScript; choose one of the two! -->
-  <!-- Option 1: Bootstrap Bundle with Popper -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
-  <!-- Option 2: Separate Popper and Bootstrap JS -->
-  <!--<script src = "https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script> 
+    <!-- Optional JavaScript; choose one of the two! -->
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--<script src = "https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script> 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cV-KIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
         -->
 

@@ -1,15 +1,20 @@
-<div class="portfolio-card-container col-6 col-md-3">
-    <div class="portfolio-card-image" href="./portfolio/{{slug}}.html">
-        <img src="{{thumbnail}}" alt="{{title}}">
-    </div>
 
-    <div class="portfolio-card-item">
-        <a class="btn btn-text" href="./portfolio/{{slug}}.html">
-            <span>{{title}}</span>
-            <span class="btn-text-arrow">
+<div class="col-6 col-md-3">
+    <div class="card portfolio-card">
+
+        <div class="portfolio-card-image">
+            <img src="{{thumbnail}}" class="card-img-top" alt="{{title}}">
+        </div>
+
+        <div class="card-body px-0">
+            <a class="btn btn-text stretched-link" href="./portfolio/{{slug}}.html"">
+        <span>{{title}}</span>
+        <span class=" btn-text-arrow">
                 <span class="arrow arrow-right arrow-sm"></span>
-            </span>
-        </a>
-        <p class="p-small ps-3">{{industry}}</p>
+                </span>
+            </a>
+            <p class="p-small ps-3">{{industry}}</p>
+        </div>
+
     </div>
 </div>

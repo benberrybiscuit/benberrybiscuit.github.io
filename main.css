@@ -1092,6 +1092,16 @@ img.tall {
 
 
 
+
+/* || TEXT BUTTON, TIGHT (for stacking inside cards) */
+.btn-text-tight {
+  display: flex;      /* was inline-flex via .btn — block removes it from the inline/line-box formatting context */
+  margin-top: 0;
+  padding: 0;
+}
+
+
+
 /* =========================
 PORTFOLIO GALLERY
 ========================= 

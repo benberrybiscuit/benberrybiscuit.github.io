@@ -2,14 +2,14 @@
   "slug": "pgi",
   "order": 3,
   "title": "PGI",
-  "hero": "../images/portfolioPGI_hero.webp",
+  "hero": "../images/portfolioPGI_hero2.webp",
   "thumbnail": "../images/portfolioReadyRack_hero.webp",
   "industry": "Fire & Safety Equipment",
   "scope": [
-    "Advertising Campaign",
-    "Print & Digital",
-    "Trade Show Design",
-    "Social Media"
+    "Marketing Campaign",
+    "Product & Sales Materials",
+    "Website Design",
+    "Photo Retouching"
   ],
   "intro": {
     "primary": "PGI, Inc. develops specialized protective apparel and equipment for professionals working in demanding environments. Across brands including BarriAire and FireLine MultiMission, its product portfolio combines advanced protective technologies with purpose-built solutions for fire service and industrial applications.",
@@ -28,16 +28,16 @@
           "type": "media",
           "layout": "two-tall",
           "images": [
-            "../images/portfolioPGI01.webp",
-            "../images/portfolioPGI02.webp"
+            "../images/portfolioPGI01.jpg",
+            "../images/portfolioPGI02.jpg"
           ]
         },
         {
           "type": "media",
           "layout": "two-tall",
           "images": [
-            "../images/portfolioPGI03.webp",
-            "../images/portfolioPGI04.webp"
+            "../images/portfolioPGI03.jpg",
+            "../images/portfolioPGI04.jpg"
           ]
         }
       ]
@@ -52,8 +52,8 @@
           "type": "media",
           "layout": "two-tall",
           "images": [
-            "../images/portfolioPGI05.webp",
-            "../images/portfolioPGI06.webp"
+            "../images/portfolioPGI05.jpg",
+            "../images/portfolioPGI06.jpg"
           ]
         }
       ]
@@ -68,23 +68,23 @@
           "type": "media",
           "layout": "wide",
           "images": [
-            "../images/portfolioPGI07.webp"
+            "../images/portfolioPGI07.jpg"
           ]
         },
         {
           "type": "media",
           "layout": "two-tall",
           "images": [
-            "../images/portfolioPGI08.webp",
-            "../images/portfolioPGI09.webp"
+            "../images/portfolioPGI08.jpg",
+            "../images/portfolioPGI09.jpg"
           ]
         },
         {
           "type": "media",
           "layout": "two-tall",
           "images": [
-            "../images/portfolioPGI10.webp",
-            "../images/portfolioPGI11.webp"
+            "../images/portfolioPGI10.jpg",
+            "../images/portfolioPGI11.jpg"
           ]
         }
       ]
@@ -99,23 +99,23 @@
           "type": "media",
           "layout": "wide",
           "images": [
-            "../images/portfolioPGI07.webp"
+            "../images/portfolioPGI07.jpg"
           ]
         },
         {
           "type": "media",
           "layout": "two-tall",
           "images": [
-            "../images/portfolioPGI08.webp",
-            "../images/portfolioPGI09.webp"
+            "../images/portfolioPGI08.jpg",
+            "../images/portfolioPGI09.jpg"
           ]
         },
         {
           "type": "media",
           "layout": "two-tall",
           "images": [
-            "../images/portfolioPGI10.webp",
-            "../images/portfolioPGI11.webp"
+            "../images/portfolioPGI10.jpg",
+            "../images/portfolioPGI11.jpg"
           ]
         }
       ]
@@ -130,23 +130,23 @@
           "type": "media",
           "layout": "wide",
           "images": [
-            "../images/portfolioPGI07.webp"
+            "../images/portfolioPGI07.jpg"
           ]
         },
         {
           "type": "media",
           "layout": "two-tall",
           "images": [
-            "../images/portfolioPGI08.webp",
-            "../images/portfolioPGI09.webp"
+            "../images/portfolioPGI08.jpg",
+            "../images/portfolioPGI09.jpg"
           ]
         },
         {
           "type": "media",
           "layout": "two-tall",
           "images": [
-            "../images/portfolioPGI10.webp",
-            "../images/portfolioPGI11.webp"
+            "../images/portfolioPGI10.jpg",
+            "../images/portfolioPGI11.jpg"
           ]
         }
       ]

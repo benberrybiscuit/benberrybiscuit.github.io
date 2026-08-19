@@ -1,0 +1,156 @@
+{
+  "slug": "pgi",
+  "order": 3,
+  "title": "PGI",
+  "hero": "../images/portfolioPGI_hero.webp",
+  "thumbnail": "../images/portfolioReadyRack_hero.webp",
+  "industry": "Fire & Safety Equipment",
+  "scope": [
+    "Advertising Campaign",
+    "Print & Digital",
+    "Trade Show Design",
+    "Social Media"
+  ],
+  "intro": {
+    "primary": "PGI, Inc. develops specialized protective apparel and equipment for professionals working in demanding environments. Across brands including BarriAire and FireLine MultiMission, its product portfolio combines advanced protective technologies with purpose-built solutions for fire service and industrial applications.",
+    "secondary": "As PGI’s product portfolio continued to evolve, its marketing materials had developed across a wide range of formats and applications. The challenge was to refine the existing visual language and establish a cohesive system that could create consistency across brands while allowing each product line to maintain its own identity."
+  },
+  "challenge": "PGI’s established brands had strong visual foundations, but their marketing materials lacked a consistent approach across advertising, digital, sales materials, and product presentation. The challenge was to create a flexible visual system that could work across BarriAire and FireLine MultiMission while accommodating different products, audiences, and communication needs.",
+  "approach": "The existing visual language was refined and expanded into a more cohesive marketing system. Consistent typography, composition, color, imagery, and product presentation established a recognizable foundation across applications, while flexible layouts allowed each brand and product line to retain its own character. The system was carried through advertising, web design, sales and specification materials, and product photography.",
+  "sections": [
+    {
+      "heading": "Visual Identity",
+      "text": [
+        "Refinement of the existing BarriAire visual language and establishment of a more consistent foundation for future marketing."
+      ],
+      "blocks": [
+        {
+          "type": "media",
+          "layout": "two-tall",
+          "images": [
+            "../images/portfolioPGI01.webp",
+            "../images/portfolioPGI02.webp"
+          ]
+        },
+        {
+          "type": "media",
+          "layout": "two-tall",
+          "images": [
+            "../images/portfolioPGI03.webp",
+            "../images/portfolioPGI04.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Marketing Campaign",
+      "text": [
+        "Advertising and promotional materials built around the refined system."
+            ],
+      "blocks": [
+        {
+          "type": "media",
+          "layout": "two-tall",
+          "images": [
+            "../images/portfolioPGI05.webp",
+            "../images/portfolioPGI06.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Product & Sales Materials",
+      "text": [
+        "Sales sheets and spec materials balancing product presentation with technical information."
+            ],
+      "blocks": [
+        {
+          "type": "media",
+          "layout": "wide",
+          "images": [
+            "../images/portfolioPGI07.webp"
+          ]
+        },
+        {
+          "type": "media",
+          "layout": "two-tall",
+          "images": [
+            "../images/portfolioPGI08.webp",
+            "../images/portfolioPGI09.webp"
+          ]
+        },
+        {
+          "type": "media",
+          "layout": "two-tall",
+          "images": [
+            "../images/portfolioPGI10.webp",
+            "../images/portfolioPGI11.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Website",
+      "text": [
+        "Translating the system into a cohesive digital experience."
+            ],
+      "blocks": [
+        {
+          "type": "media",
+          "layout": "wide",
+          "images": [
+            "../images/portfolioPGI07.webp"
+          ]
+        },
+        {
+          "type": "media",
+          "layout": "two-tall",
+          "images": [
+            "../images/portfolioPGI08.webp",
+            "../images/portfolioPGI09.webp"
+          ]
+        },
+        {
+          "type": "media",
+          "layout": "two-tall",
+          "images": [
+            "../images/portfolioPGI10.webp",
+            "../images/portfolioPGI11.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Product Photography",
+      "text": [
+        "Retouching and standardizing product photography to create a consistent visual presentation across applications."
+                  ],
+      "blocks": [
+        {
+          "type": "media",
+          "layout": "wide",
+          "images": [
+            "../images/portfolioPGI07.webp"
+          ]
+        },
+        {
+          "type": "media",
+          "layout": "two-tall",
+          "images": [
+            "../images/portfolioPGI08.webp",
+            "../images/portfolioPGI09.webp"
+          ]
+        },
+        {
+          "type": "media",
+          "layout": "two-tall",
+          "images": [
+            "../images/portfolioPGI10.webp",
+            "../images/portfolioPGI11.webp"
+          ]
+        }
+      ]
+    }
+  ],
+  "outcome": "The result is a more cohesive visual presence across PGI’s product portfolio, giving BarriAire and FireLine MultiMission a consistent foundation for marketing while preserving the distinction between each brand. The system provides greater flexibility for introducing products and creating new communications across print, digital, and sales channels."
+}

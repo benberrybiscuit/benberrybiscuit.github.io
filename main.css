@@ -639,8 +639,16 @@ section {
 .feature-section {
   background-color: #ecf3ff;
   padding: 3em 0em 6em 0em;
-
 }
+
+@media (max-width: 575.98px) {
+  .feature-section .container .row {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+}
+
+
 
 .feature-container {
   border-bottom: 2px solid #383c47;
@@ -1095,7 +1103,8 @@ img.tall {
 
 /* || TEXT BUTTON, TIGHT (for stacking inside cards) */
 .btn-text-tight {
-  display: flex;      /* was inline-flex via .btn — block removes it from the inline/line-box formatting context */
+  display: flex;
+  /* was inline-flex via .btn — block removes it from the inline/line-box formatting context */
   margin-top: 0;
   padding: 0;
 }
@@ -1159,7 +1168,8 @@ PORTFOLIO GALLERY
 }
 
 .portfolio-card-image {
-  overflow: hidden; /* needed since the img now handles its own scale/hover */
+  overflow: hidden;
+  /* needed since the img now handles its own scale/hover */
   aspect-ratio: 3 / 2;
 }
 

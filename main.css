@@ -1056,9 +1056,6 @@ img.tall {
 
 
 
-
-
-
 /* || TEXT BUTTON (no border, no uppercase) */
 .btn-text {
   align-items: center;
@@ -1173,7 +1170,7 @@ PORTFOLIO GALLERY
   aspect-ratio: 3 / 2;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 575.98px) {
   .portfolio-card-image {
     height: 150px;
   }
@@ -1192,8 +1189,13 @@ PORTFOLIO GALLERY
   transform-origin: 50% 50%;
 }
 
-.card-body {
-  padding-top: 1em;
-  padding-bottom: 3em;
-  margin-right: 1em;
+.portfolio-card,
+.portfolio-card:hover,
+.portfolio-card:visited {
+  color: inherit;
+  /* or a specific color like #383c47 */
+}
+
+.portfolio-card:hover .arrow-right {
+  /* whatever transform/translate the arrow used on hover before */
 }

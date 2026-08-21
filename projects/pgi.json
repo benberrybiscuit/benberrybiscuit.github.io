@@ -2,8 +2,8 @@
   "slug": "pgi",
   "order": 3,
   "title": "PGI, Inc.",
-  "hero": "../images/portfolioPGI_hero2.webp",
-  "thumbnail": "../images/portfolioPGI_hero.webp",
+  "hero": "../images/portfolioPGI_hero.webp",
+  "thumbnail": "../images/portfolioPGI_thumb.webp",
   "industry": "PPE & Safety Apparel Manufacturing",
   "scope": [
     "Marketing Campaign",

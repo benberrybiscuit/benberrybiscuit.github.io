@@ -26,18 +26,17 @@
       "blocks": [
         {
           "type": "media",
-          "layout": "two-tall",
+          "layout": "wide",
           "images": [
-            "../images/portfolioPGI01.jpg",
-            "../images/portfolioPGI02.jpg"
+            "../images/portfolioPGI01.jpg"
           ]
         },
         {
           "type": "media",
           "layout": "two-tall",
           "images": [
-            "../images/portfolioPGI03.jpg",
-            "../images/portfolioPGI04.jpg"
+            "../images/portfolioPGI02.jpg",
+            "../images/portfolioPGI03.jpg"
           ]
         }
       ]
@@ -46,14 +45,14 @@
       "heading": "Marketing Campaign",
       "text": [
         "Advertising and promotional materials built around the refined system."
-            ],
+      ],
       "blocks": [
         {
           "type": "media",
           "layout": "two-tall",
           "images": [
-            "../images/portfolioPGI05.jpg",
-            "../images/portfolioPGI06.jpg"
+            "../images/portfolioPGI04.jpg",
+            "../images/portfolioPGI05.jpg"
           ]
         }
       ]
@@ -62,7 +61,7 @@
       "heading": "Product & Sales Materials",
       "text": [
         "Sales sheets and spec materials balancing product presentation with technical information."
-            ],
+      ],
       "blocks": [
         {
           "type": "media",
@@ -93,7 +92,7 @@
       "heading": "Website",
       "text": [
         "Translating the system into a cohesive digital experience."
-            ],
+      ],
       "blocks": [
         {
           "type": "media",
@@ -122,7 +121,7 @@
       "heading": "Product Photography",
       "text": [
         "Retouching and standardizing product photography to create a consistent visual presentation across applications."
-                  ],
+      ],
       "blocks": [
         {
           "type": "media",

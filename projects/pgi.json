@@ -97,10 +97,8 @@
       "blocks": [
         {
           "type": "media",
-          "layout": "wide",
-          "images": [
-            "../images/portfolioPGI07.jpg"
-          ]
+          "layout": "video",
+          "video": "../images/portfolioPGI_banners-ba.mp4"
         },
         {
           "type": "media",

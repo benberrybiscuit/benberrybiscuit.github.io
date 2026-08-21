@@ -19,9 +19,9 @@
   "approach": "The existing visual language was refined and expanded into a more cohesive marketing system. Consistent typography, composition, color, imagery, and product presentation established a recognizable foundation across applications, while flexible layouts allowed each brand and product line to retain its own character. The system was carried through advertising, web design, sales and specification materials, and product photography.",
   "sections": [
     {
-      "heading": "Visual Identity",
+      "heading": "Campaign Development",
       "text": [
-        "Refinement of the existing BarriAire visual language and establishment of a more consistent foundation for future marketing."
+        "Advertising and promotional materials built around the refined system."
       ],
       "blocks": [
         {
@@ -42,7 +42,7 @@
       ]
     },
     {
-      "heading": "Marketing Campaign",
+      "heading": "Print & Digital",
       "text": [
         "Advertising and promotional materials built around the refined system."
       ],
@@ -53,37 +53,6 @@
           "images": [
             "../images/portfolioPGI04.jpg",
             "../images/portfolioPGI05.jpg"
-          ]
-        }
-      ]
-    },
-    {
-      "heading": "Product & Sales Materials",
-      "text": [
-        "Sales sheets and spec materials balancing product presentation with technical information."
-      ],
-      "blocks": [
-        {
-          "type": "media",
-          "layout": "wide",
-          "images": [
-            "../images/portfolioPGI07.jpg"
-          ]
-        },
-        {
-          "type": "media",
-          "layout": "two-tall",
-          "images": [
-            "../images/portfolioPGI08.jpg",
-            "../images/portfolioPGI09.jpg"
-          ]
-        },
-        {
-          "type": "media",
-          "layout": "two-tall",
-          "images": [
-            "../images/portfolioPGI10.jpg",
-            "../images/portfolioPGI11.jpg"
           ]
         }
       ]

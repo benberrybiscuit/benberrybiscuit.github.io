@@ -12,7 +12,7 @@
     "Social Media"
   ],
   "intro": {
-    "primary": "Ready Rack by Groves is the industry-standard open-air storage and maintenance system for firefighter PPE. Developed by Groves Incorporated, the original Ready Rack was created in 1984 to improve firefighter health, safety, and response times. Today, the brand has expanded into a comprehensive line of heavy-duty station equipment.",
+    "primary": "Developed by Groves Incorporated, the original Ready Rack was created in 1984 to improve firefighter health, safety, and response times. Today, the brand has expanded into a comprehensive line of heavy-duty station equipment.",
     "secondary": "As the Ready Rack product line continued to grow, the brand needed an advertising system capable of supporting an increasingly diverse range of products while maintaining a consistent and recognizable presence across channels."
   },
   "challenge": "The challenge was creating a campaign system flexible enough to accommodate an ever-changing product line without becoming visually inconsistent. With products ranging from PPE storage systems to heavy-duty station equipment, the campaign needed to communicate a wide variety of solutions while maintaining a clear, unified brand presence.",
@@ -25,6 +25,12 @@
       ],
       "blocks": [
         {
+          "type": "media",
+          "layout": "wide",
+          "images": [
+            "../images/portfolioReadyRack01-2.webp"
+          ]
+        },        {
           "type": "media",
           "layout": "two-tall",
           "images": [

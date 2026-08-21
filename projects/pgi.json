@@ -35,8 +35,8 @@
           "type": "media",
           "layout": "two-tall",
           "images": [
-            "../images/portfolioPGI02.jpg",
-            "../images/portfolioPGI03.jpg"
+            "../images/portfolioPGI02.webp",
+            "../images/portfolioPGI03.webp"
           ]
         }
       ]

@@ -882,7 +882,7 @@ ul.portfolio {
 .gallery-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 0.5rem;
+  grid-gap: 1.5em;
 }
 
 .gallery-img {

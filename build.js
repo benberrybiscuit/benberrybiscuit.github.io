@@ -124,7 +124,7 @@ function renderSections(project) {
 
             media,
 
-            spacing: "pt-2"
+            spacing: "pt-4"
 
         });
 

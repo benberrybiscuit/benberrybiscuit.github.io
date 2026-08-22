@@ -39,15 +39,7 @@
             "../images/portfolioPGI02.webp",
             "../images/portfolioPGI03.webp"
           ]
-        }
-      ]
-    },
-    {
-      "heading": "Print & Digital",
-      "text": [
-        "Advertising and promotional materials built around the refined system."
-      ],
-      "blocks": [
+        },
         {
           "type": "media",
           "layout": "two-tall",
@@ -73,37 +65,6 @@
           "type": "media",
           "layout": "video",
           "video": "../images/portfolioPGI_banners-flmm.mp4"
-        }
-      ]
-    },
-    {
-      "heading": "Product Photography",
-      "text": [
-        "Retouching and standardizing product photography to create a consistent visual presentation across applications."
-      ],
-      "blocks": [
-        {
-          "type": "media",
-          "layout": "wide",
-          "images": [
-            "../images/portfolioPGI07.jpg"
-          ]
-        },
-        {
-          "type": "media",
-          "layout": "two-tall",
-          "images": [
-            "../images/portfolioPGI08.jpg",
-            "../images/portfolioPGI09.jpg"
-          ]
-        },
-        {
-          "type": "media",
-          "layout": "two-tall",
-          "images": [
-            "../images/portfolioPGI10.jpg",
-            "../images/portfolioPGI11.jpg"
-          ]
         }
       ]
     }

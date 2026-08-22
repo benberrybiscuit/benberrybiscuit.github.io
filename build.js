@@ -283,17 +283,21 @@ function renderProjectNav(project, projects) {
 
     return fill(template, {
 
-        "previous-link":
-            previous ? `${previous.slug}.html` : "#",
+        previous:
+            previous
+                ? `<a class="btn btn-sm btn-left" href="${previous.slug}.html">
+                    <span class="btn-arrow"><span class="arrow arrow-left"></span></span>
+                    <span class="btn-link">${previous.title}</span>
+                </a>`
+                : "",
 
-        "previous-title":
-            previous ? previous.title : "",
-
-        "next-link":
-            next ? `${next.slug}.html` : "#",
-
-        "next-title":
-            next ? next.title : ""
+        next:
+            next
+                ? `<a class="btn btn-sm btn-right" href="${next.slug}.html">
+                    <span class="btn-link">${next.title}</span>
+                    <span class="btn-arrow"><span class="arrow arrow-right"></span></span>
+                </a>`
+                : ""
 
     });
 

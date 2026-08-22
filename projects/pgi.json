@@ -30,14 +30,6 @@
           "images": [
             "../images/portfolioPGI01.webp"
           ]
-        },
-        {
-          "type": "media",
-          "layout": "two-tall",
-          "images": [
-            "../images/portfolioPGI02.webp",
-            "../images/portfolioPGI03.webp"
-          ]
         }
       ]
     },
@@ -52,6 +44,14 @@
           "images": [
             "../images/portfolioPGI04.webp",
             "../images/portfolioPGI05.webp"
+          ]
+        },
+        {
+          "type": "media",
+          "layout": "two-tall",
+          "images": [
+            "../images/portfolioPGI02.webp",
+            "../images/portfolioPGI03.webp"
           ]
         }
       ]

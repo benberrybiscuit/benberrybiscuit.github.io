@@ -28,22 +28,7 @@
           "type": "media",
           "layout": "wide",
           "images": [
-            "../images/portfolioReadyRack01-2.webp"
-          ]
-        },        {
-          "type": "media",
-          "layout": "two-tall",
-          "images": [
-            "../images/portfolioReadyRack01.webp",
-            "../images/portfolioReadyRack02.webp"
-          ]
-        },
-        {
-          "type": "media",
-          "layout": "two-tall",
-          "images": [
-            "../images/portfolioReadyRack03.webp",
-            "../images/portfolioReadyRack04.webp"
+            "../images/portfolioReadyRack01.webp"
           ]
         }
       ]
@@ -58,8 +43,15 @@
           "type": "media",
           "layout": "two-tall",
           "images": [
-            "../images/portfolioReadyRack05.webp",
-            "../images/portfolioReadyRack06.webp"
+            "../images/portfolioReadyRack02.webp",
+            "../images/portfolioReadyRack03.webp"
+          ]
+        },
+        {
+          "type": "media",
+          "layout": "wide",
+          "images": [
+            "../images/portfolioReadyRack04.webp"
           ]
         }
       ]
@@ -74,23 +66,15 @@
           "type": "media",
           "layout": "wide",
           "images": [
+            "../images/portfolioReadyRack05.webp"
+          ]
+        },
+        {
+          "type": "media",
+          "layout": "two-tall",
+          "images": [
+            "../images/portfolioReadyRack06.webp",
             "../images/portfolioReadyRack07.webp"
-          ]
-        },
-        {
-          "type": "media",
-          "layout": "two-tall",
-          "images": [
-            "../images/portfolioReadyRack08.webp",
-            "../images/portfolioReadyRack09.webp"
-          ]
-        },
-        {
-          "type": "media",
-          "layout": "two-tall",
-          "images": [
-            "../images/portfolioReadyRack10.webp",
-            "../images/portfolioReadyRack11.webp"
           ]
         }
       ]

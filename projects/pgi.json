@@ -16,12 +16,13 @@
     "secondary": "As PGI’s product portfolio continued to evolve, its marketing materials had developed across a wide range of formats and applications. The challenge was to refine the existing visual language and establish a cohesive system that could create consistency across brands while allowing each product line to maintain its own identity."
   },
   "challenge": "PGI’s established brands had strong visual foundations, but their marketing materials lacked a consistent approach across advertising, digital, sales materials, and product presentation. The challenge was to create a flexible visual system that could work across BarriAire and FireLine MultiMission while accommodating different products, audiences, and communication needs.",
-  "approach": "The existing visual language was refined and expanded into a more cohesive marketing system. Consistent typography, composition, color, imagery, and product presentation established a recognizable foundation across applications, while flexible layouts allowed each brand and product line to retain its own character. The system was carried through advertising, web design, sales and specification materials, and product photography.",
+  "approach": "The existing visual language was refined and expanded into a more cohesive marketing system. Consistent typography, composition, color, imagery, and product presentation established a recognizable foundation across applications, while flexible layouts allowed each brand and product line to retain its own character.",
   "sections": [
     {
       "heading": "Campaign Development",
       "text": [
-        "Advertising and promotional materials built around the refined system."
+        "The refined visual system was translated into a flexible advertising campaign spanning BarriAire and FireLine MultiMission. Consistent typography, imagery, messaging, and composition created continuity across the two brands while allowing each product line to maintain its own visual character.",
+        "Print advertising became a primary application of the system, with layouts designed to balance strong product presentation with clear, accessible messaging. The modular approach allowed campaigns to adapt across different products and publications while maintaining a recognizable connection to the broader PGI portfolio."
       ],
       "blocks": [
         {
@@ -58,7 +59,7 @@
       ]
     },
     {
-      "heading": "Website",
+      "heading": "Digital Advertising",
       "text": [
         "Translating the system into a cohesive digital experience."
       ],
@@ -70,19 +71,8 @@
         },
         {
           "type": "media",
-          "layout": "two-tall",
-          "images": [
-            "../images/portfolioPGI08.jpg",
-            "../images/portfolioPGI09.jpg"
-          ]
-        },
-        {
-          "type": "media",
-          "layout": "two-tall",
-          "images": [
-            "../images/portfolioPGI10.jpg",
-            "../images/portfolioPGI11.jpg"
-          ]
+          "layout": "video",
+          "video": "../images/portfolioPGI_banners-flmm.mp4"
         }
       ]
     },

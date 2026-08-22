@@ -28,7 +28,7 @@
           "type": "media",
           "layout": "wide",
           "images": [
-            "../images/portfolioPGI01.jpg"
+            "../images/portfolioPGI01.webp"
           ]
         },
         {
@@ -51,8 +51,8 @@
           "type": "media",
           "layout": "two-tall",
           "images": [
-            "../images/portfolioPGI04.jpg",
-            "../images/portfolioPGI05.jpg"
+            "../images/portfolioPGI04.webp",
+            "../images/portfolioPGI05.webp"
           ]
         }
       ]

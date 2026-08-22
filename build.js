@@ -418,14 +418,16 @@ const projectFiles = fs
     );
 
 
-const projects = projectFiles.map(file =>
-    JSON.parse(
-        fs.readFileSync(
-            path.join("projects", file),
-            "utf8"
+const projects = projectFiles
+    .map(file =>
+        JSON.parse(
+            fs.readFileSync(
+                path.join("projects", file),
+                "utf8"
+            )
         )
     )
-);
+    .sort((a, b) => a.order - b.order);
 
 // Build portfolio index
 

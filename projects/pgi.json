@@ -21,8 +21,7 @@
     {
       "heading": "Campaign Development",
       "text": [
-        "The refined visual system was translated into a flexible advertising campaign spanning BarriAire and FireLine MultiMission. Consistent typography, imagery, messaging, and composition created continuity across the two brands while allowing each product line to maintain its own visual character.",
-        "Print advertising became a primary application of the system, with layouts designed to balance strong product presentation with clear, accessible messaging. The modular approach allowed campaigns to adapt across different products and publications while maintaining a recognizable connection to the broader PGI portfolio."
+        "The refined visual system was translated into a flexible advertising campaign spanning BarriAire and FireLine MultiMission. Consistent typography, imagery, messaging, and composition created continuity across the two brands while allowing each product line to maintain its own visual character."
       ],
       "blocks": [
         {
@@ -39,7 +38,14 @@
             "../images/portfolioPGI02.webp",
             "../images/portfolioPGI03.webp"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "text": [
+        "Print advertising became a primary application of the system, with layouts designed to balance strong product presentation with clear, accessible messaging. The modular approach allowed campaigns to adapt across different products and publications while maintaining a recognizable connection to the broader PGI portfolio."
+      ],
+      "blocks": [
         {
           "type": "media",
           "layout": "two-tall",

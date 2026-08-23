@@ -49,7 +49,7 @@
           "layout": "two-tall",
           "images": [
             "../images/portfolioSonlightFarms03.jpg",
-            "../images/portfolioSonlightFarms04.jpg"
+            "../images/portfolioSonlightFarms04.webp"
           ]
         },
         {
@@ -63,7 +63,7 @@
           "type": "media",
           "layout": "two-tall",
           "images": [
-            "../images/portfolioSonlightFarms06.jpg",
+            "../images/portfolioSonlightFarms06.webp",
             "../images/portfolioSonlightFarms07.jpg"
           ]
         }

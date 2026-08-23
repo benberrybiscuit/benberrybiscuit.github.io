@@ -2,8 +2,8 @@
   "slug": "sonlight-farms",
   "order": 4,
   "title": "Sonlight Farms",
-  "hero": "../images/portfolioSonlightFarms01.jpg",
-  "thumbnail": "../images/portfolioSonlightFarms01.jpg",
+  "hero": "../images/portfolioSonlightFarms_hero.webp",
+  "thumbnail": "../images/portfolioSonlightFarms_thumb.webp",
   "industry": "Agritourism",
   "scope": [
     "Logo Design"
@@ -25,7 +25,7 @@
           "type": "media",
           "layout": "wide",
           "images": [
-            "../images/portfolioSonlightFarms01.jpg"
+            "../images/portfolioSonlightFarms01.webp"
           ]
         }
       ]

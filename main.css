@@ -428,32 +428,37 @@ NAV MENU STYLING
 
 /* mobile menu */
 @media (max-width: 575.98px) {
-
   .navbar-nav {
-    padding-top: .5em;
-  }
-
+  position: relative;
+  padding-top: calc(1.5em + 2px); /* .5em above divider + 2px divider height + .5em below divider */
+  padding-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0em;
+}
+.navbar-nav:before {
+  position: absolute;
+  top: .5em;
+  left: 0;
+  width: 100%;
+}
   #nav-menu li {
-    padding-top: .5em;
+    padding-top: 0;
   }
-
   #nav-menu li:before {
     width: 0;
   }
-
   #nav-menu li:hover:before {
     width: 0;
   }
-
   #nav-menu li a {
     background-color: #b2cfff;
+    display: block;
   }
-
   #nav-menu li a:hover {
     background-color: #383c47;
     color: white;
   }
-
 }
 
 /* Custom hamburger icon */

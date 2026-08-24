@@ -430,7 +430,7 @@ NAV MENU STYLING
 @media (max-width: 575.98px) {
   .navbar-nav {
   position: relative;
-  padding-top: calc(1.5em + 2px); /* .5em above divider + 2px divider height + .5em below divider */
+  padding-top: calc(1.5em + 2px);
   padding-bottom: 0;
   display: flex;
   flex-direction: column;

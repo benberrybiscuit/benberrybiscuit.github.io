@@ -434,7 +434,6 @@ NAV MENU STYLING
   padding-bottom: 0;
   display: flex;
   flex-direction: column;
-  gap: 0em;
 }
 .navbar-nav:before {
   position: absolute;

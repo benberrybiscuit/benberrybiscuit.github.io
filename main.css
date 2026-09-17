@@ -429,31 +429,37 @@ NAV MENU STYLING
 /* mobile menu */
 @media (max-width: 575.98px) {
   .navbar-nav {
-  position: relative;
-  padding-top: calc(1.5em + 2px);
-  padding-bottom: 0;
-  display: flex;
-  flex-direction: column;
-}
-.navbar-nav:before {
-  position: absolute;
-  top: .5em;
-  left: 0;
-  width: 100%;
-}
+    position: relative;
+    padding-top: calc(1.5em + 2px);
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navbar-nav:before {
+    position: absolute;
+    top: .5em;
+    left: 0;
+    width: 100%;
+  }
+
   #nav-menu li {
     padding-top: 0;
   }
+
   #nav-menu li:before {
     width: 0;
   }
+
   #nav-menu li:hover:before {
     width: 0;
   }
+
   #nav-menu li a {
     background-color: #b2cfff;
     display: block;
   }
+
   #nav-menu li a:hover {
     background-color: #383c47;
     color: white;
@@ -872,9 +878,44 @@ ul.portfolio {
   padding-bottom: 6em;
 }
 
-.footer-container {
+/*.footer-container {
   padding-bottom: 6em;
 }
+*/
+
+.footer-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: white;
+  transition: color .4s cubic-bezier(.22, 1, .36, 1);
+  display: inline-block;
+}
+
+.footer-links a:hover {
+  color: #ff774e;
+}
+
+.footer-name span {
+  display: inline-block;
+  transition: all .4s cubic-bezier(.22, 1, .36, 1);
+  color:#ecf3ff;
+}
+
+.footer-name:hover span {
+  padding-left: 2px;
+  padding-right: 2px;
+  color: #ff774e;
+}
+
+
 
 
 
